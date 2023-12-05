@@ -1,0 +1,5 @@
+.backgroundImage {
+    background-image: url("background/finalBackground.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
