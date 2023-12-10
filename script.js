@@ -1,5 +1,11 @@
-function checkIngredients() {
-    if (document.getElementById('amountOfFlourForBananaBread').checked) {
-        document.getElementById('amountOfFlourForBananaBread').innerHTML.replace('All-Purpose Flour: 1 1/2 Cups', '<s>All-Purpose Flour: 1 1/2 Cups</s>')
-    }
+function recipes() {
+   location.href='recipes.html';
+}
+
+function homepage() {
+    location.href='index.html';
+}
+
+function gitHub() {
+    location.href='https://github.com/RushoBinnabi';
 }

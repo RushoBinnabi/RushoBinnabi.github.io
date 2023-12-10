@@ -9,12 +9,7 @@
     max-width: 100%;
 }
 
-.linksTo2Pages {
-    display: grid;
-    grid-template-columns: 0.2fr 2.5fr;
-}
-
-.linksTo3Pages {
-    display: grid;
-    grid-template-columns: 1.3fr 0.8fr 9fr;
+.buttons {
+    display: flex;
+    gap: 14px;
 }
