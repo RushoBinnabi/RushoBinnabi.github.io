@@ -9,44 +9,40 @@
 <body class="backgroundImage fullPage">
 <div>
     <h1>Breakfast Sandwich</h1>
-    <h3>Yields: 1</h3>
+    <h3>Yields: 1 sandwich</h3>
 </div>
 <div>
     <h3>Ingredients:</h3>
     <ul>
-        <li>2 slices of preferred bread, toasted</li>
-        <br><li>1 or 2 slices of tomato</li>
-        <br><li>1 sliced mushroom, sautéed</li>
-        <br><li>1 or 2 thin slices of onion</li>
-        <br><li>1/2 of an avocado, sliced</li>
-        <br><li>Pinch of salt</li>
-        <br><li>Pinch of pepper</li>
-        <br><li>Pinch of Cumin Powder (Optional)</li>
-        <br><li>1 egg, fried</li>
+        <li><input type="checkbox" id="breakfastSandwichBreadType" name="breakfastSandwichBreadType" value=""><label for="breakfastSandwichBreadType">2 slices of preferred bread, toasted</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichAmountOfTomatoes" name="breakfastSandwichAmountOfTomatoes" value=""><label for="breakfastSandwichAmountOfTomatoes">1 or 2 slices of tomato</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichMushrooms" name="breakfastSandwichMushrooms" value=""><label for="breakfastSandwichMushrooms">1 sliced mushroom, sautéed</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichOnions" name="breakfastSandwichOnions" value=""><label for="breakfastSandwichOnions">1 or 2 thin slices of onion</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichAvocados" name="breakfastSandwichAvocados" value=""><label for="breakfastSandwichAvocados">1/2 of an avocado, sliced</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichSalt" name="breakfastSandwichSalt" value=""><label for="breakfastSandwichSalt">Pinch of salt</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichBlackPepper" name="breakfastSandwichBlackPepper" value=""><label for="breakfastSandwichBlackPepper">Pinch of black pepper</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichCuminPowder" name="breakfastSandwichCuminPowder" value=""><label for="breakfastSandwichCuminPowder">Pinch of cumin powder (optional)</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichEgg" name="breakfastSandwichEgg" value=""><label for="breakfastSandwichEgg">1 egg, fried</label></li>
     </ul>
 </div>
 <div>
     <br><h3>Steps:</h3>
     <ol>
-        <li>Top the bottom half of the sandwich with the fried egg.</li>
-        <br><li>Put the sliced avocado on top of the egg, making sure to <br> put
-                the pinch of salt, pepper, and cumin on top of the avocado.</li>
-        <br><li>Put the sliced mushrooms on top of the avocado followed by slices <br>
-                of tomato and onion on top of the mushrooms and finish with the top <br>
-                half of the sandwich.</li>
+        <li><input type="checkbox" id="breakfastSandwichStep1" name="breakfastSandwichStep1" value=""><label for="breakfastSandwichStep1">Top the bottom half of the sandwich with the fried egg.</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichStep2" name="breakfastSandwichStep2" value=""><label for="breakfastSandwichStep2">
+        Put the sliced avocado on top of the egg, making sure to <br> put
+        the pinch of salt, pepper, and cumin on top of the avocado.</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichStep3" name="breakfastSandwichStep3" value=""><label for="breakfastSandwichStep3">
+        Put the sliced mushrooms on top of the avocado followed by slices <br>
+        of tomato and onion on top of the mushrooms and finish with the top <br>
+        half of the sandwich.</label></li>
     </ol>
 </div>
-<div>
-    <br><h3><a href="breakfastSandwichPictures.html">Pictures</a></h3>
+<div class="buttons">
+    <br><h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="breakfastSandwichPictures" onclick="breakfastSandwichPictures()">Breakfast Sandwich Pictures</button></h3>
+    <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToRecipes" onclick="recipes()">Back to Recipes</button></h3>
+    <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToHomepage" onclick="homepage()">Back to Homepage</button></h3>
+    <br>
 </div>
-<div class="linksTo2Pages">
-    <div>
-        <br><a href="recipes.html">Back To Recipes</a>
-    </div>
-    <div>
-        <br><a href="index.html">Back To Homepage</a>
-    </div>
-</div>
-<br>
 </body>
 </html>
