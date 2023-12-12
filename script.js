@@ -65,3 +65,19 @@ function chiliOilPictures() {
 function crispyChickenRamenPictures() {
     location.href='crispyChickenRamenPictures.html';
 }
+
+function omeletPictures() {
+    location.href='omeletPictures.html';
+}
+
+function potatoCakesPictures() {
+    location.href='potatoCakesPictures.html';
+}
+
+function stirFriedRicePictures() {
+    location.href='stir-FriedRicePictures.html';
+}
+
+function whiteBreadPictures() {
+    location.href='whiteBreadPictures.html';
+}

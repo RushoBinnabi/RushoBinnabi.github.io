@@ -9,65 +9,71 @@
 <body class="backgroundImage fullPage">
 <div>
     <h1>White Bread</h1>
-    <h3>Yields: 1</h3>
+    <h3>Yields: 1 Loaf</h3>
 </div>
 <div>
     <h3>Ingredients:</h3>
     <ul>
-        <li>All-Purpose or Bread Flour: 3 1/2 Cups</li>
-        <br><li>Salt: 1/2 tsp</li>
-        <br><li>Sugar: 1 tsp</li>
-        <br><li>Water or Milk: 1 Cup</li>
-        <br><li>Dry or Instant Yeast: 1 packet or 1 to 1 1/2 tsp</li>
-        <br><li>Eggs: 1</li>
-        <br><li>Egg Wash (Optional): 1 Egg and a Splash of Milk</li>
+        <li><input type="checkbox" id="whiteBreadFlour" name="whiteBreadFlour" value=""><label for="whiteBreadFlour">All-Purpose or Bread Flour: 2 1/2 Cups</label></li>
+        <br><li><input type="checkbox" id="whiteBreadSalt" name="whiteBreadSalt" value=""><label for="whiteBreadSalt">Salt: 1/4 tsp</label></li>
+        <br><li><input type="checkbox" id="whiteBreadSugar" name="whiteBreadSugar" value=""><label for="whiteBreadSugar">Sugar: 1 tsp</label></li>
+        <br><li><input type="checkbox" id="whiteBreadWaterOrMilk" name="whiteBreadWaterOrMilk" value=""><label for="whiteBreadWaterOrMilk">Water or Milk: 3/4 Cup</label></li>
+        <br><li><input type="checkbox" id="whiteBreadYeast" name="whiteBreadYeast" value=""><label for="whiteBreadYeast">Dry or Instant Yeast: 1 packet or 1 to 1 1/2 tsp</label></li>
+        <br><li><input type="checkbox" id="whiteBreadEgg" name="whiteBreadEgg" value=""><label for="whiteBreadEgg">Egg: 1</label></li>
+        <br><li><input type="checkbox" id="whiteBreadEggwash" name="whiteBreadEggwash" value=""><label for="whiteBreadEggwash">Egg Wash (Optional): 1 Egg and a Splash of Milk</label></li>
     </ul>
 </div>
 <div>
     <br><h3>Steps:</h3>
     <ol>
         <li>
-            Preheat oven to 350&deg;F (176&deg;C).
+            <input type="checkbox" id="whiteBreadStep1" name="whiteBreadStep1" value=""><label for="whiteBreadStep1">Preheat oven to 350&deg;F (176&deg;C).</label>
         </li>
         <br>
         <li>
-            Lightly grease and flour your preferred size bread pan.
+            <input type="checkbox" id="whiteBreadStep2" name="whiteBreadStep2" value=""><label for="whiteBreadStep2">Lightly grease and flour your preferred size bread pan.</label>
         </li>
         <br>
         <li>
+            <input type="checkbox" id="whiteBreadStep3" name="whiteBreadStep3" value=""><label for="whiteBreadStep3">
             If using dry yeast, put the yeast into a cup filled with 3/4 of the way
             with <br> either water or milk with a pinch of sugar and leave covered on
             the side for 10-15 <br> minutes and allow to bloom. After it has bloomed or
             if using instant yeast, combine <br> yeast, flour, salt, eggs, and milk or
-            water in a large bowl until the dough starts to come together.
+            water in a large bowl until the dough starts to come together.</label>
         </li>
         <br>
         <li>
+            <input type="checkbox" id="whiteBreadStep4" name="whiteBreadStep4" value=""><label for="whiteBreadStep4">
             Transfer the dough to a lightly floured surface and knead for 10 minutes or until
-            the dough <br> starts to form a smooth ball. Adjust with more milk or water as needed.
+            the dough <br> starts to form a smooth ball. Adjust with more milk or water as needed.</label>
         </li>
         <br>
         <li>
+            <input type="checkbox" id="whiteBreadStep5" name="whiteBreadStep5" value=""><label for="whiteBreadStep5">
             Put the kneaded dough into a bowl, making sure to brush the dough and the bowl
-            with 1-2 tbsp <br> of oil, cover, and leave to proof for an hour.
+            with 1-2 tbsp <br> of oil, cover, and leave to proof for an hour.</label>
         </li>
         <br>
         <li>
+            <input type="checkbox" id="whiteBreadStep6" name="whiteBreadStep6" value=""><label for="whiteBreadStep6">
             Transfer to a clean surface and start forming the dough into a log, making
             sure to close any gaps <br> in the dough and transfer into the prepared bread pan.
-            Cover and leave to proof for another hour.
+            Cover and leave to proof for another hour.</label>
         </li>
         <br>
         <li>
-            Brush with egg wash if desired and transfer to oven and bake for 30 minutes until the bread sounds <br> hollow in the middle.
+            <input type="checkbox" id="whiteBreadStep7" name="whiteBreadStep7" value=""><label for="whiteBreadStep7">
+            Brush with egg wash if desired and transfer to oven and bake for 30 minutes until the bread sounds <br>
+            hollow in the middle.</label>
         </li>
         <br>
         <li>
-            Brush with butter if desired and leave to cool for about 30 minutes before cutting and serving.
+            <input type="checkbox" id="whiteBreadStep8" name="whiteBreadStep8" value=""><label for="whiteBreadStep8">
+            Brush with butter if desired and leave to cool for about 30 minutes before cutting and serving.</label>
         </li>
     </ol>
 </div>
-<br>
 <div>
     <br><h3>Storage Tips:</h3>
     <ul>
@@ -76,17 +82,11 @@
         <br><li>Lasts for days if stored properly.</li>
     </ul>
 </div>
-<div>
-    <br><h3><a href="whiteBreadPictures.html">Pictures</a></h3>
+<div class="buttons">
+    <br><h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="whiteBreadPictures" onclick="whiteBreadPictures()">White Bread Pictures</button></h3>
+    <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToRecipes" onclick="recipes()">Back to Recipes</button></h3>
+    <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToHomepage" onclick="homepage()">Back to Homepage</button></h3>
+    <br>
 </div>
-<div class="linksTo2Pages">
-    <div>
-        <br><a href="recipes.html">Back To Recipes</a>
-    </div>
-    <div>
-        <br><a href="index.html">Back To Homepage</a>
-    </div>
-</div>
-<br>
 </body>
 </html>

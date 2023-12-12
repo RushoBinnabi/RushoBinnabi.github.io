@@ -9,50 +9,42 @@
 <body class="backgroundImage fullPage">
 <div>
     <h1>Omelet</h1>
-    <h3>Yields: 1</h3>
+    <h3>Yields: 1 Serving</h3>
 </div>
 <div>
     <h3>Ingredients:</h3>
     <ul>
-        <li>2 to 3 eggs.</li>
-        <br><li>1 small potato, diced</li>
-        <br><li>1 small tomato, diced</li>
-        <br><li>1 small onion, diced</li>
-        <br><li>2 mushrooms, diced</li>
-        <br><li>1/2 tsp of Salt</li>
-        <br><li>1/2 tsp of Pepper</li>
-        <br><li>1/4 tsp of Paprika</li>
-        <br><li>1/4 tsp of Garlic Powder</li>
-        <br><li>1/4 tsp of Cumin Powder</li>
-        <br><li>Cheese (Optional)</li>
-        <br><li>Small chunks of meat (Optional)</li>
-        <br><li>Oil, as needed</li>
+        <li><input type="checkbox" id="omeletEggs" name="omeletEggs" value=""><label for="omeletEggs">2 to 3 eggs.</label></li>
+        <br><li><input type="checkbox" id="omeletPotato" name="omeletPotato" value=""><label for="omeletPotato">1 small potato, diced</label> </li>
+        <br><li><input type="checkbox" id="omeletTomato" name="omeletTomato" value=""><label for="omeletTomato">1 small tomato, diced</label> </li>
+        <br><li><input type="checkbox" id="omeletOnion" name="omeletOnion" value=""><label for="omeletOnion">1 small onion, diced</label></li>
+        <br><li><input type="checkbox" id="omeletMushroom" name="omeletMushroom" value=""><label for="omeletMushroom">2 mushrooms, diced</label></li>
+        <br><li><input type="checkbox" id="omeletSalt" name="omeletSalt" value=""><label for="omeletSalt">1/2 tsp of salt</label></li>
+        <br><li><input type="checkbox" id="omeletBlackPepper" name="omeletBlackPepper" value=""><label for="omeletBlackPepper">1/2 tsp of black pepper</label></li>
+        <br><li><input type="checkbox" id="omeletPaprika" name="omeletPaprika" value=""><label for="omeletPaprika">1/4 tsp of paprika</label></li>
+        <br><li><input type="checkbox" id="omeletGarlicPowder" name="omeletGarlicPowder" value=""><label for="omeletGarlicPowder">1/4 tsp of garlic powder</label></li>
+        <br><li><input type="checkbox" id="omeletCuminPowder" name="omeletCuminPowder" value=""><label for="omeletCuminPowder">1/4 tsp of cumin powder</label></li>
+        <br><li><input type="checkbox" id="omeletCheese" name="omeletCheese" value=""><label for="omeletCheese">Cheese (Optional)</label></li>
+        <br><li><input type="checkbox" id="omeletMeat" name="omeletMeat" value=""><label for="omeletMeat">Small chunks of meat (Optional)</label></li>
+        <br><li><input type="checkbox" id="omeletOil" name="omeletOil" value=""><label for="omeletOil">Oil, as needed</label></li>
     </ul>
 </div>
 <div>
     <br><h3>Steps:</h3>
     <ol>
-        <li>Into a medium-ish bowl, crack the eggs.</li>
-        <br><li>Add the tomatoes, onion, potato, mushroom along <br>
-            with the seasonings, cheese and meat, if desired. <br>
-            Mix until combined.</li>
-        <br><li>Heat pan with some oil and toss in the combined egg mixture.</li>
-        <br><li>Cook on a low heat until the edges have set and the  <br> potatoes
-                have become soft and are cooked through.</li>
-        <br><li>Serve while warm.</li>
+        <li><input type="checkbox" id="omeletStep1" name="omeletStep1" value=""><label for="omeletStep1">Into a medium-ish bowl, crack the eggs.</label></li>
+        <br><li><input type="checkbox" id="omeletStep2" name="omeletStep2" value=""><label for="omeletStep2">Add the tomatoes, onion, potato, mushroom along
+        <br> with the seasonings, cheese and meat, if desired. Mix <br> until combined.</label></li>
+        <br><li><input type="checkbox" id="omeletStep3" name="omeletStep3" value=""><label for="omeletStep3">Heat pan with some oil and toss in the combined egg mixture.</label></li>
+        <br><li><input type="checkbox" id="omeletStep4" name="omeletStep4" value=""><label for="omeletStep4">Cook on a low heat until the edges have set and the <br> potatoes
+        have become soft and are cooked through. <br> Serve while warm.</label></li>
     </ol>
 </div>
-<div>
-    <br><h3><a href="omeletPictures.html">Pictures</a></h3>
+<div class="buttons">
+    <br><h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="omeletPictures" onclick="omeletPictures()">Omelet Pictures</button></h3>
+    <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToRecipes" onclick="recipes()">Back to Recipes</button></h3>
+    <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToHomepage" onclick="homepage()">Back to Homepage</button></h3>
+    <br>
 </div>
-<div class="linksTo2Pages">
-    <div>
-        <br><a href="recipes.html">Back To Recipes</a>
-    </div>
-    <div>
-        <br><a href="index.html">Back To Homepage</a>
-    </div>
-</div>
-<br>
 </body>
 </html>
