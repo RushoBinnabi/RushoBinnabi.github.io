@@ -1,7 +1,15 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 12/14/2023
+    Project: Website - Banana Bread Recipe
+-->
+
+<!-- this bananaBread html file contains the html for the banana bread recipe. -->
+
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- adds style using external css file. -->
     <meta charset="UTF-8">
     <title>Banana Bread</title>
     <link rel="icon" href="icons\icon.ico">
@@ -11,6 +19,11 @@
     <h1>Banana Bread</h1>
     <h3>Yields: 1 Loaf</h3>
 </div>
+
+<!--
+   this ingredients div container has checkboxes set up so that users can check off ingredients and their measurements as they have them.
+-->
+
 <div>
     <h3>Ingredients:</h3>
     <ul>
@@ -18,7 +31,8 @@
         <br><li><input type="checkbox" id="amountOfSaltForBananaBread" name="amountOfSaltForBananaBread" value=""><label for="amountOfSaltForBananaBread">Salt: 1/2 tsp</label></li>
         <br><li><input type="checkbox" id="amountOfSugarForBananaBread" name="amountOfSugarForBananaBread" value=""><label for="amountOfSugarForBananaBread">Sugar: 3/4 Cup</label></li>
         <br><li><input type="checkbox" id="amountOfEggsForBananaBread" name="amountOfEggsForBananaBread" value=""><label for="amountOfEggsForBananaBread">Eggs: 2</label></li>
-        <br><li><input type="checkbox" id="amountOfVanillaExtractForBananaBread" name="amountOfVanillaExtractForBananaBread" value=""> <label for="amountOfVanillaExtractForBananaBread">Vanilla Extract: 1 tsp</label></li>
+        <br><li><input type="checkbox" id="amountOfVanillaExtractForBananaBread" name="amountOfVanillaExtractForBananaBread" value=""> <label for="amountOfVanillaExtractForBananaBread">
+                Vanilla Extract: 1 tsp</label></li>
         <br><li><input type="checkbox" id="amountOfButterBananaBread" name="amountOfButterBananaBread" value=""><label for="amountOfButterBananaBread">
                 Softened Butter: 1 stick</label></li>
         <br><li><input type="checkbox" id="amountOfBakingSodaForBananaBread" name="amountOfBakingSodaForBananaBread" value=""><label for="amountOfBakingSodaForBananaBread">
@@ -29,6 +43,11 @@
                 Optional for topping: 1/2 cup of chocolate chips or nuts</label></li>
     </ul>
 </div>
+
+<!--
+   this steps div container has checkboxes set up so that users can check off the steps to making the recipe as they do them.
+-->
+
 <div>
     <br><h3>Steps:</h3>
     <ol>
@@ -45,6 +64,11 @@
         <br><li><input type="checkbox" id="bananaBreadStep7" name="bananaBreadStep7" value=""><label for="bananaBreadStep7">Leave to cool for 20 to 30 minutes before cutting and serving.</label></li>
     </ol>
 </div>
+
+<!--
+   this storage tips div container has some tips on how to keep the banana bread fresh.
+-->
+
 <div>
     <br><h3>Storage Tips:</h3>
     <ul>
@@ -53,6 +77,11 @@
             up to a full week if wrapped and kept in the fridge.</li>
     </ul>
 </div>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
+
 <div class="buttons">
     <br><h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="bananaBreadPictures" onclick="bananaBreadPictures()">Banana Bread Pictures</button></h3>
     <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToRecipes" onclick="recipes()">Back to Recipes</button></h3>

@@ -1,7 +1,15 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 12/14/2023
+    Project: Website - Omelet Recipe
+-->
+
+<!-- this omelet html file contains the html for the omelet recipe. -->
+
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- adds style using external css file. -->
     <meta charset="UTF-8">
     <title>Omelet</title>
     <link rel="icon" href="icons\icon.ico">
@@ -11,6 +19,11 @@
     <h1>Omelet</h1>
     <h3>Yields: 1 Serving</h3>
 </div>
+
+<!--
+   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+-->
+
 <div>
     <h3>Ingredients:</h3>
     <ul>
@@ -29,6 +42,11 @@
         <br><li><input type="checkbox" id="omeletOil" name="omeletOil" value=""><label for="omeletOil">Oil, as needed</label></li>
     </ul>
 </div>
+
+<!--
+   this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
+-->
+
 <div>
     <br><h3>Steps:</h3>
     <ol>
@@ -40,6 +58,11 @@
         have become soft and are cooked through. <br> Serve while warm.</label></li>
     </ol>
 </div>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
+
 <div class="buttons">
     <br><h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="omeletPictures" onclick="omeletPictures()">Omelet Pictures</button></h3>
     <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToRecipes" onclick="recipes()">Back to Recipes</button></h3>
