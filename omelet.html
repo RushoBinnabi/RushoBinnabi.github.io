@@ -15,6 +15,24 @@
     <link rel="icon" href="icons\icon.ico">
 </head>
 <body class="backgroundImage fullPage">
+
+<!--
+    this div container has the images for the recipe.
+-->
+
+<div class="images">
+    <div class="row">
+        <div class="column">
+            <img class="imageSpacing" src="pictures\20231130_222459.jpg" alt="No Pictures Available" width="350" height="330">
+            <img class="imageSpacing" src="pictures\20231130_222848.jpg" alt="No Pictures Available" width="350" height="330">
+        </div>
+    </div>
+</div>
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
 <div>
     <h1>Omelet</h1>
     <h3>Yields: 1 Serving</h3>
@@ -63,8 +81,7 @@
     this buttons div class handles all the javascript functionality for redirecting pages.
 -->
 
-<div class="buttons">
-    <br><h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="omeletPictures" onclick="omeletPictures()">Omelet Pictures</button></h3>
+<div class="buttons buttonPaddingOmelet">
     <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToRecipes" onclick="recipes()">Back to Recipes</button></h3>
     <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToHomepage" onclick="homepage()">Back to Homepage</button></h3>
     <br>

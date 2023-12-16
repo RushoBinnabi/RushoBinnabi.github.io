@@ -15,6 +15,30 @@
     <link rel="icon" href="icons\icon.ico">
 </head>
 <body class="backgroundImage fullPage">
+
+<!--
+    this images div container has the images of the recipe.
+-->
+
+<div class="images">
+    <div class="row">
+        <div class="column">
+            <img class="imageSpacing" src="pictures\20231107_093106.jpg" alt="No Pictures Available" width="350" height="330">
+            <img class="imageSpacing" src="pictures\20231104_130701.jpg" alt="No Pictures Available" width="350" height="330">
+            <img class="imageSpacing" src="pictures\20231211_135138.jpg" alt="No Pictures Available" width="350" height="330">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img class="imageSpacing" src="pictures\20231211_135148.jpg" alt="No Pictures Available" width="350" height="330">
+        </div>
+    </div>
+</div>
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
 <div>
     <h1>Breakfast Sandwich</h1>
     <h3>Yields: 1 sandwich</h3>
@@ -61,8 +85,7 @@
     this buttons div class handles all the javascript functionality for redirecting pages.
 -->
 
-<div class="buttons">
-    <br><h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="breakfastSandwichPictures" onclick="breakfastSandwichPictures()">Breakfast Sandwich Pictures</button></h3>
+<div class="buttons buttonPaddingBreakfastSandwich">
     <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToRecipes" onclick="recipes()">Back to Recipes</button></h3>
     <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToHomepage" onclick="homepage()">Back to Homepage</button></h3>
     <br>

@@ -13,3 +13,52 @@
     display: flex;
     gap: 14px;
 }
+
+.images {
+    float: right;
+}
+
+.imageSpacing {
+    padding-right: 7px;
+    padding-bottom: 7px;
+}
+
+.buttonPadding {
+    padding-bottom: 12px;
+    padding-left: 825px;
+}
+
+.buttonPaddingBreakfastSandwich {
+    padding-top: 145px;
+    padding-left: 825px;
+}
+
+.buttonPaddingChiliOil {
+    padding-top: 205px;
+    padding-left: 825px;
+}
+
+.buttonPaddingCrispyChickenRamen {
+    padding-top: 205px;
+    padding-left: 825px;
+}
+
+.buttonPaddingOmelet {
+    padding-top: 205px;
+    padding-left: 825px;
+}
+
+.buttonPaddingPotatoCakes {
+    padding-top: 205px;
+    padding-left: 825px;
+}
+
+.buttonPaddingStir-FriedRice {
+    padding-top: 205px;
+    padding-left: 825px;
+}
+
+.buttonPaddingWhiteBread {
+    padding-top: 205px;
+    padding-left: 825px;
+}

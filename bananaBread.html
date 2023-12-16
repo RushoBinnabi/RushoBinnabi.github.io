@@ -15,6 +15,39 @@
     <link rel="icon" href="icons\icon.ico">
 </head>
 <body class="backgroundImage fullPage">
+
+<!--
+    this images div container has the images of the recipe.
+-->
+
+<div class="images">
+    <div class="row">
+        <div class="column">
+            <img class="imageSpacing" src="pictures\20231027_082045.jpg" alt="No Pictures Available" width="350" height="330">
+            <img class="imageSpacing" src="pictures\20231027_082246.jpg" alt="No Pictures Available" width="350" height="330">
+            <img class="imageSpacing" src="pictures\20231027_083448.jpg" alt="No Pictures Available" width="350" height="330">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img class="imageSpacing" src="pictures\20231027_083550.jpg" alt="No Pictures Available" width="350" height="330">
+            <img class="imageSpacing" src="pictures\20231027_083854.jpg" alt="No Pictures Available" width="350" height="330">
+            <img class="imageSpacing" src="pictures\20231027_084004.jpg" alt="No Pictures Available" width="350" height="330">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img class="imageSpacing" src="pictures\20231027_093739.jpg" alt="No Pictures Available" width="350" height="330">
+            <img class="imageSpacing" src="pictures\20231027_105208.jpg" alt="No Pictures Available" width="350" height="330">
+            <img class="imageSpacing" src="pictures\20231027_105229.jpg" alt="No Pictures Available" width="350" height="330">
+        </div>
+    </div>
+</div>
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
 <div>
     <h1>Banana Bread</h1>
     <h3>Yields: 1 Loaf</h3>
@@ -60,7 +93,7 @@
         and using a plastic spatula, vanilla extract, and mix to combine. Add the <br>
         flour and baking soda mixture and continue mixing to combine. Stir in <br> the chocolate chips or nuts.</label></li>
         <br><li><input type="checkbox" id="bananaBreadStep6" name="bananaBreadStep6" value=""><label for="bananaBreadStep6">Mash the bananas with a fork.</label>
-        Transfer the prepared batter to the prepared bread pan and bake for <br> 50 to 60 minutes until a toothpick comes out clean.</li>
+        Transfer the prepared batter to the prepared <br> bread pan and bake for 50 to 60 minutes until a toothpick comes out clean.</li>
         <br><li><input type="checkbox" id="bananaBreadStep7" name="bananaBreadStep7" value=""><label for="bananaBreadStep7">Leave to cool for 20 to 30 minutes before cutting and serving.</label></li>
     </ol>
 </div>
@@ -82,8 +115,7 @@
     this buttons div class handles all the javascript functionality for redirecting pages.
 -->
 
-<div class="buttons">
-    <br><h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="bananaBreadPictures" onclick="bananaBreadPictures()">Banana Bread Pictures</button></h3>
+<div class="buttons buttonPadding">
     <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToRecipes" onclick="recipes()">Back to Recipes</button></h3>
     <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToHomepage" onclick="homepage()">Back to Homepage</button></h3>
     <br>

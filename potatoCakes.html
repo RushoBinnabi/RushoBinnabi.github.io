@@ -15,6 +15,23 @@
     <link rel="icon" href="icons\icon.ico">
 </head>
 <body class="backgroundImage fullPage">
+
+<!--
+    this div container has the images for the recipe.
+-->
+
+<div class="images">
+    <div class="row">
+        <div class="column">
+            <img class="imageSpacing" src="" alt="No Pictures Available" width="350" height="330">
+        </div>
+    </div>
+</div>
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
 <div>
     <h1>Potato Cakes</h1>
     <h3>Yields: 1 serving</h3>
@@ -49,12 +66,12 @@
         <li><input type="checkbox" id="potatoCakesStep1" name="potatoCakesStep1" value=""><label for="potatoCakesStep1">Fill up a large saucepan or pot with some water,
                     sprinkle with salt, and bring to a boil.</label></li>
         <br><li><input type="checkbox" id="potatoCakesStep2" name="potatoCakesStep2" value=""><label for="potatoCakesStep2">While the water comes to a boil, peel and cut
-        the potatoes into quarters and toss into the <br> pot of boiling water.</label></li>
+                    the potatoes into quarters and toss into the <br> pot of boiling water.</label></li>
         <br><li><input type="checkbox" id="potatoCakesStep3" name="potatoCakesStep3" value=""><label for="potatoCakesStep3">After the potatoes are fork tender, drain
                     and set aside, for now.</label></li>
         <br><li><input type="checkbox" id="potatoCakesStep4" name="potatoCakesStep4" value=""><label for="potatoCakesStep4">In a small bowl, beat the egg with the milk.</label></li>
         <br><li><input type="checkbox" id="potatoCakesStep5" name="potatoCakesStep5" value=""><label for="potatoCakesStep5">After the potatoes have cooled, using a potato ricer or
-        a masher, mash the potatoes into <br> a bowl. Add the seasonings with the potatoes and mix to combine.</label></li>
+                    a masher, mash the potatoes into <br> a bowl. Add the seasonings with the potatoes and mix to combine.</label></li>
         <br><li><input type="checkbox" id="potatoCakesStep6" name="potatoCakesStep6" value=""><label for="potatoCakesStep6">Coat the cakes in the egg and the bread crumbs until well
                     coated. Shake off any excess.</label></li>
         <br><li><input type="checkbox" id="potatoCakesStep7" name="potatoCakesStep7" value=""><label for="potatoCakesStep7">In a frying pan, heat some oil to 325-375&deg;F (163-190&deg;C)
@@ -67,8 +84,7 @@
     this buttons div class handles all the javascript functionality for redirecting pages.
 -->
 
-<div class="buttons">
-    <br><h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="potatoCakesPictures" onclick="potatoCakesPictures()">Potato Cakes Pictures</button></h3>
+<div class="buttons buttonPaddingPotatoCakes">
     <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToRecipes" onclick="recipes()">Back to Recipes</button></h3>
     <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToHomepage" onclick="homepage()">Back to Homepage</button></h3>
     <br>

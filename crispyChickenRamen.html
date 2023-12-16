@@ -15,6 +15,24 @@
     <link rel="icon" href="icons\icon.ico">
 </head>
 <body class="backgroundImage fullPage">
+
+<!--
+    this div container has the images for the recipe.
+-->
+
+<div class="images">
+    <div class="row">
+        <div class="column">
+            <img class="imageSpacing" src="pictures\20231010_224733.jpg" alt="No Pictures Available" width="350" height="330">
+            <img class="imageSpacing" src="pictures\20231019_232523.jpg" alt="No Pictures Available" width="350" height="330">
+        </div>
+    </div>
+</div>
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
 <div>
     <h1>Crispy Chicken Ramen</h1>
     <h3>Yields: 1 Serving</h3>
@@ -60,14 +78,15 @@
             with some oil and half of the seasonings until the tomatoes and onions are soft<br> and changed color,
             and the mushrooms are cooked through. Put them into <br> the bowl with the Ramen and set aside.</label></li>
         <br><li><input type="checkbox" id="crispyChickenRamenStep3" name="crispyChickenRamenStep3" value=""><label for="crispyChickenRamenStep3">
-        Beat one of the eggs with some milk and combine the bread crumbs with <br> the rest of the seasoning and the juice from the lemon.</label></li>
+            In a small bowl, beat one of the eggs with some milk and in another separate bowl, <br> combine the bread crumbs with the rest of the seasoning and the juice from
+            the lemon.</label></li>
         <br><li><input type="checkbox" id="crispyChickenRamenStep4" name="crispyChickenRamenStep4" value=""><label for="crispyChickenRamenStep4">Dip the chicken
             into the egg mixture until the chicken is well coated. Transfer to <br> bread crumbs and coat well.</label></li>
         <br><li><input type="checkbox" id="crispyChickenRamenStep5" name="crispyChickenRamenStep5" value=""><label for="crispyChickenRamenStep5">Fry until the chicken
             reaches 165&deg;F (74&deg;C). While the chicken cooks, fill the bowl <br> of Ramen with some boiling water until the Ramen is just about submerged and <br> leave covered.</label></li>
         <br><li><input type="checkbox" id="crispyChickenRamenStep6" name="crispyChickenRamenStep6" value=""><label for="crispyChickenRamenStep6">After the chicken is cooked,
             rest for 10 minutes. After it has cooled, cut against the grain.</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenStep7" name="crispyChickenRamenStep7" value=""><label for="crispyChickenRamenStep7">ake the remaining egg mixture
+        <br><li><input type="checkbox" id="crispyChickenRamenStep7" name="crispyChickenRamenStep7" value=""><label for="crispyChickenRamenStep7">Take the remaining egg mixture
             and quickly scramble in low heat with the leftover bread crumbs.</label></li>
         <br><li><input type="checkbox" id="crispyChickenRamenStep8" name="crispyChickenRamenStep8" value=""><label for="crispyChickenRamenStep8"></label>Place the chicken and
             the scrambled eggs into the Ramen, and enjoy.</li>
@@ -78,8 +97,7 @@
     this buttons div class handles all the javascript functionality for redirecting pages.
 -->
 
-<div class="buttons">
-    <br><h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="crispyChickenRamenPictures" onclick="crispyChickenRamenPictures()">Crispy Chicken Ramen Pictures</button></h3>
+<div class="buttons buttonPaddingCrispyChickenRamen">
     <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToRecipes" onclick="recipes()">Back to Recipes</button></h3>
     <h3><script language="JavaScript" type="text/javascript" src="script.js"></script><button id="backToHomepage" onclick="homepage()">Back to Homepage</button></h3>
     <br>
