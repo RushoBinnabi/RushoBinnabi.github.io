@@ -6,7 +6,7 @@
 
 .fullPage {
     height: auto;
-    width: 100%;
+    width: auto;
 }
 
 .buttons {
@@ -25,40 +25,40 @@
 
 .buttonPadding {
     padding-bottom: 12px;
-    padding-left: 800px;
+    padding-left: 160px;
 }
 
 .buttonPaddingBreakfastSandwich {
     padding-top: 145px;
-    padding-left: 800px;
+    padding-left: 160px;
 }
 
 .buttonPaddingChiliOil {
     padding-top: 205px;
-    padding-left: 800px;
+    padding-left: 160px;
 }
 
 .buttonPaddingCrispyChickenRamen {
     padding-top: 205px;
-    padding-left: 800px;
+    padding-left: 160px;
 }
 
 .buttonPaddingOmelet {
     padding-top: 205px;
-    padding-left: 800px;
+    padding-left: 160px;
 }
 
 .buttonPaddingPotatoCakes {
     padding-top: 205px;
-    padding-left: 800px;
+    padding-left: 160px;
 }
 
 .buttonPaddingStir-FriedRice {
     padding-top: 205px;
-    padding-left: 800px;
+    padding-left: 160px;
 }
 
 .buttonPaddingWhiteBread {
     padding-top: 205px;
-    padding-left: 800px;
+    padding-left: 160px;
 }
