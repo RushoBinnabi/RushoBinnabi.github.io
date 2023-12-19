@@ -15,11 +15,10 @@
 }
 
 .images {
-    float: right;
+    float: left;
 }
 
 .imageSpacing {
-    padding-right: 7px;
     padding-bottom: 7px;
 }
 
@@ -28,37 +27,47 @@
     padding-left: 140px;
 }
 
+.buttonPaddingBreakfastBurritos {
+    padding-top: 800px;
+    padding-left: 60px;
+}
+
 .buttonPaddingBreakfastSandwich {
-    padding-top: 145px;
-    padding-left: 160px;
+    padding-top: 800px;
+    padding-left: 60px;
 }
 
 .buttonPaddingChiliOil {
-    padding-top: 205px;
-    padding-left: 160px;
+    padding-top: 800px;
+    padding-left: 60px;
 }
 
 .buttonPaddingCrispyChickenRamen {
-    padding-top: 205px;
-    padding-left: 160px;
+    padding-top: 800px;
+    padding-left: 60px;
 }
 
 .buttonPaddingOmelet {
-    padding-top: 205px;
-    padding-left: 160px;
+    padding-top: 800px;
+    padding-left: 60px;
 }
 
 .buttonPaddingPotatoCakes {
-    padding-top: 205px;
-    padding-left: 160px;
+    padding-top: 800px;
+    padding-left: 60px;
 }
 
 .buttonPaddingStir-FriedRice {
-    padding-top: 205px;
-    padding-left: 160px;
+    padding-top: 800px;
+    padding-left: 60px;
 }
 
 .buttonPaddingWhiteBread {
-    padding-top: 205px;
-    padding-left: 160px;
+    padding-top: 800px;
+    padding-left: 60px;
+}
+
+.buttonPaddingBananaBread {
+    padding-top: 800px;
+    padding-left: 60px;
 }
