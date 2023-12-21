@@ -28,7 +28,7 @@ function gitHub() {
 }
 
 /*
-    this omeletRecipe() function redirects the webpage to the omeletRecipe html file when the appropriate button is clicked.
+    this omeletRecipe() function redirects the webpage to the omelet recipe html file when the appropriate button is clicked.
  */
 
 function omeletRecipe() {
@@ -36,7 +36,7 @@ function omeletRecipe() {
 }
 
 /*
-    this crispyChickenRamenRecipe() function redirects the webpage to the crispyChickenRamenRecipe html file when the appropriate button is clicked.
+    this crispyChickenRamenRecipe() function redirects the webpage to the crispyChickenRamen recipe html file when the appropriate button is clicked.
  */
 
 function crispyChickenRamenRecipe() {
@@ -44,7 +44,7 @@ function crispyChickenRamenRecipe() {
 }
 
 /*
-    this bananaBreadRecipe() function redirects the webpage to the bananaBreadRecipe html file when the appropriate button is clicked.
+    this bananaBreadRecipe() function redirects the webpage to the bananaBread recipe html file when the appropriate button is clicked.
  */
 
 function bananaBreadRecipe() {
@@ -52,7 +52,7 @@ function bananaBreadRecipe() {
 }
 
 /*
-    this whiteBreadRecipe() function redirects the webpage to the whiteBreadRecipe html file when the appropriate button is clicked.
+    this whiteBreadRecipe() function redirects the webpage to the whiteBread recipe html file when the appropriate button is clicked.
  */
 
 function whiteBreadRecipe() {
@@ -60,7 +60,7 @@ function whiteBreadRecipe() {
 }
 
 /*
-    this potatoCakesRecipe() function redirects the webpage to the potatoCakesRecipe html file when the appropriate button is clicked.
+    this potatoCakesRecipe() function redirects the webpage to the potatoCakes recipe html file when the appropriate button is clicked.
  */
 
 function potatoCakesRecipe() {
@@ -68,7 +68,7 @@ function potatoCakesRecipe() {
 }
 
 /*
-    this stirFriedRiceRecipe() function redirects the webpage to the stirFriedRiceRecipe html file when the appropriate button is clicked.
+    this stirFriedRiceRecipe() function redirects the webpage to the stirFriedRice recipe html file when the appropriate button is clicked.
  */
 
 function stirFriedRiceRecipe() {
@@ -76,7 +76,7 @@ function stirFriedRiceRecipe() {
 }
 
 /*
-    this breakfastSandwichRecipe() function redirects the webpage to the breakfastSandwichRecipe html file when the appropriate button is clicked.
+    this breakfastSandwichRecipe() function redirects the webpage to the breakfastSandwich recipe html file when the appropriate button is clicked.
  */
 
 function breakfastSandwichRecipe() {
@@ -84,7 +84,7 @@ function breakfastSandwichRecipe() {
 }
 
 /*
-    this chiliOilRecipe() function redirects the webpage to the chiliOilRecipe html file when the appropriate button is clicked.
+    this chiliOilRecipe() function redirects the webpage to the chiliOil recipe html file when the appropriate button is clicked.
  */
 
 function chiliOilRecipe() {
@@ -92,9 +92,17 @@ function chiliOilRecipe() {
 }
 
 /*
-    this breakfastBurritosRecipe() function redirects the webpage to the breakfastBurritosRecipe html file when the appropriate button is clicked.
+    this breakfastBurritosRecipe() function redirects the webpage to the breakfastBurritos recipe html file when the appropriate button is clicked.
  */
 
 function breakfastBurritosRecipe() {
     location.href='breakfastBurritos.html';
+}
+
+/*
+    this sugarCookiesRecipe() function redirects the webpage to the sugarCookies recipe html file when the appropriate button is clicked.
+ */
+
+function sugarCookiesRecipe() {
+    location.href='sugarCookies.html';
 }
