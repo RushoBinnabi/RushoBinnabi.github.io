@@ -106,3 +106,27 @@ function breakfastBurritosRecipe() {
 function sugarCookiesRecipe() {
     location.href='sugarCookies.html';
 }
+
+/*
+    this bananaBreadRecipe() function redirects the webpage to the pictures of the banana bread recipe.
+ */
+
+function bananaBreadPictures() {
+    location.href='bananaBreadPictures.html';
+}
+
+/*
+    this breakfastBurritosPictures() function redirects the webpage to the pictures of the breakfast burritos recipe.
+ */
+
+function breakfastBurritosPictures() {
+    location.href='breakfastBurritosPictures.html';
+}
+
+/*
+    this breakfastSandwichPictures() function redirects the webpage to the pictures of the breakfast sandwich recipe.
+ */
+
+function breakfastSandwichPictures() {
+    location.href='breakfastSandwichPictures.html';
+}

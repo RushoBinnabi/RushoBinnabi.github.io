@@ -13,7 +13,7 @@
     <meta charset="UTF-8">
     <title>Breakfast Burritos</title>
     <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
-    <meta name="viewport" content="width=device-width, height=device-height,initial-scale=0.6,maximum-scale=1,user-scalable=yes"/>
+    <meta name="viewport" content="width=device-width, height=device-height,initial-scale=0.6,maximum-scale=1,minimum-scale=0.3,user-scalable=yes"/>
 </head>
 <body class="backgroundImage fullPage">
 
@@ -110,32 +110,12 @@
 </div>
 
 <!--
-    this images div container has the images of the recipe.
--->
-
-<div class="images">
-    <h3>Pictures:</h3>
-    <div class="row">
-        <div class="column">
-            <img class="imageSpacing" src="pictures\20231206_083525.jpg" alt="No Pictures Available" width="250" height="220">
-            <img class="imageSpacing" src="pictures\20231206_084405.jpg" alt="No Pictures Available" width="250" height="220">
-            <img class="imageSpacing" src="pictures\20231206_091131.jpg" alt="No Pictures Available" width="250" height="220">
-        </div>
-    </div>
-    <div class="row">
-        <div class="column">
-            <img class="imageSpacing" src="pictures\20231206_092810.jpg" alt="No Pictures Available" width="250" height="220">
-            <img class="imageSpacing" src="pictures\20231206_103803.jpg" alt="No Pictures Available" width="250" height="220">
-        </div>
-    </div>
-</div>
-
-<!--
     this buttons div class handles all the javascript functionality for redirecting pages.
 -->
 
 <div class="buttons buttonPaddingBreakfastBurritos">
     <br>
+    <h3><script type="text/javascript" src="script.js"></script><button id="breakfastBurritosPictures" onclick="breakfastBurritosPictures()">Breakfast Burritos Pictures</button></h3>
     <h3><script type="text/javascript" src="script.js"></script><button id="backToRecipes" onclick="recipes()">Back to Recipes</button></h3>
     <h3><script type="text/javascript" src="script.js"></script><button id="backToHomepage" onclick="homepage()">Back to Homepage</button></h3>
     <br>
