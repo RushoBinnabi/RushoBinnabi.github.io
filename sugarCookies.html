@@ -1,18 +1,34 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 12/23/2023
+    Project: Website - Sugar Cookies Recipe
+-->
+
+<!-- this sugarCookies html file contains the html for the sugar cookies recipe. -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="fullPage">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- adds style using external css file. -->
     <meta charset="UTF-8">
     <title>Sugar Cookies</title>
-    <link rel="icon" href="icons\icon.ico">
+    <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
     <meta name="viewport" content="width=device-width,height=device-height,initial-scale=0.6,maximum-scale=1,user-scalable=yes"/>
 </head>
 <body class="backgroundImage fullPage">
+
+<!--
+    this div container contains the heading for the recipe.
+-->
 
 <div>
     <h1>Sugar Cookies</h1>
     <h3>Yields: 23 cookies (46 if using both halves of the dough)</h3>
 </div>
+
+<!--
+   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+-->
 
 <div>
     <br><h3>Ingredients:</h3>
@@ -42,26 +58,83 @@
         <li><input type="checkbox" id="amountOfSaltForSugarCookies" name="amountOfSaltForSugarCookies" value="">
             <label for="amountOfSaltForSugarCookies">Salt: 1 tsp</label></li>
     </ul>
+    <br>
+    <h3>For the glaze:</h3>
+    <ul>
+        <li><input type="checkbox" id="amountOfPowderedSugarForSugarCookiesGlaze" name="amountOfPowderedSugarForSugarCookiesGlaze" value="">
+            <label for="amountOfPowderedSugarForSugarCookiesGlaze">Powdered Sugar: 2 cups (more in small amounts if the glaze is too thin)</label></li>
+        <br>
+        <li><input type="checkbox" id="amountOfSaltForSugarCookiesGlaze" name="amountOfSaltForSugarCookiesGlaze" value="">
+            <label for="amountOfSaltForSugarCookiesGlaze">Salt: 1/2 tsp</label></li>
+        <br>
+        <li><input type="checkbox" id="amountOfWaterForSugarCookiesGlaze" name="amountOfWaterForSugarCookiesGlaze" value="">
+            <label for="amountOfWaterForSugarCookiesGlaze">Water: as needed</label></li>
+        <br>
+        <li><input type="checkbox" id="amountOfEggWhitesForSugarCookiesGlaze" name="amountOfEggWhitesForSugarCookiesGlaze" value="">
+            <label for="amountOfEggWhitesForSugarCookiesGlaze">Egg Whites: 1/4 cup</label></li>
+        <br>
+        <li><input type="checkbox" id="amountOfVanillaExtractForSugarCookiesGlaze" name="amountOfVanillaExtractForSugarCookiesGlaze" value="">
+            <label for="amountOfVanillaExtractForSugarCookiesGlaze">Vanilla Extract: 1 tsp</label></li>
+        <br>
+        <li><input type="checkbox" id="amountOfFoodColoringForSugarCookiesGlaze" name="amountOfFoodColoringForSugarCookiesGlaze" value="">
+            <label for="amountOfFoodColoringForSugarCookiesGlaze">Food Coloring of your choice</label></li>
+    </ul>
 </div>
+
+<!--
+   this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
+-->
 
 <div>
     <br><h3>Steps:</h3>
     <ol>
         <li><input type="checkbox" id="sugarCookiesStep1" name="sugarCookiesStep1" value=""><label for="sugarCookiesStep1">
+            Preheat oven to 350&deg;F (176&deg;C).
+        </label> </li>
+        <br>
+        <li><input type="checkbox" id="sugarCookiesStep2" name="sugarCookiesStep2" value=""><label for="sugarCookiesStep2">
             In a large bowl, cream together the softened butter, sugar and cream cheese until smooth, <br> making sure
             to scrap down the bowl as needed.</label></li>
         <br>
-        <li><input type="checkbox" id="sugarCookiesStep2" name="sugarCookiesStep2" value=""><label for="sugarCookiesStep2">
+        <li><input type="checkbox" id="sugarCookiesStep3" name="sugarCookiesStep3" value=""><label for="sugarCookiesStep3">
             Add in the vanilla extract, eggs, cream of tartar (or lemon juice) and mix to combine.</label></li>
         <br>
-        <li><input type="checkbox" id="sugarCookiesStep3" name="sugarCookiesStep3" value=""><label for="sugarCookiesStep3">
+        <li><input type="checkbox" id="sugarCookiesStep4" name="sugarCookiesStep4" value=""><label for="sugarCookiesStep4">
             Sift in the flour, baking powder, and salt into the mixture and beat until everything has been <br>
             incorporated and a smooth, slightly sticky ball of dough forms.</label></li>
         <br>
-        <li><input type="checkbox" id="sugarCookiesStep4" name="sugarCookiesStep4" value=""><label for="sugarCookiesStep4">
+        <li><input type="checkbox" id="sugarCookiesStep5" name="sugarCookiesStep5" value=""><label for="sugarCookiesStep5">
             Cover the dough in plastic wrap and leave it in the fridge for 1 hour to set.</label></li>
+        <br>
+        <li><input type="checkbox" id="sugarCookiesStep6" name="sugarCookiesStep6" value=""><label for="sugarCookiesStep6">
+            Take the dough out of the fridge and begin rolling it out until it's a 1/4 inch thick on a well floured <br>
+            surface. Using your choice of cookie cutters, cut out the dough and place onto a floured sheet pan. <br>
+            Feel free to re-roll any leftover dough or left it in the fridge for later.
+        </label></li>
+        <br>
+        <li><input type="checkbox" id="sugarCookiesStep7" name="sugarCookiesStep7" value=""><label for="sugarCookiesStep7">
+            Bake for 8-10 minutes or until edges are golden brown. Leave to cool completely.
+        </label></li>
+        <br>
+        <li><input type="checkbox" id="sugarCookiesStep8" name="sugarCookiesStep8" value=""><label for="sugarCookiesStep8">
+            In a separate bowl, sift the powdered sugar and salt. In a corner of the bowl, pour in  the <br>
+            vanilla extract and egg whites. Start to whisk everything together and incorporate more of <br>
+            the powdered sugar until no lumps remain and the glaze is a smooth, white paste.
+        </label> </li>
+        <br>
+        <li><input type="checkbox" id="sugarCookiesStep9" name="sugarCookiesStep9" value=""><label for="sugarCookiesStep9">
+            Decorate as desired. Make sure to chill the cookies in the freezer for the glaze to set if needed.
+        </label> </li>
+        <br>
+        <li><input type="checkbox" id="sugarCookiesStep10" name="sugarCookiesStep10" value=""><label for="sugarCookiesStep10">
+            Enjoy.
+        </label></li>
     </ol>
 </div>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
 
 <div class="buttons">
     <br>
