@@ -13,7 +13,7 @@
     <meta charset="UTF-8">
     <title>Crispy Chicken Ramen</title>
     <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
-    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=0.6,maximum-scale=1,user-scalable=yes"/>
+    <meta name="viewport" content="width=device-width,height=device-height,initial-scale=0.6,maximum-scale=1,minimum-scale=0.0,user-scalable=yes"/>
 </head>
 <body class="backgroundImage fullPage">
 
@@ -82,25 +82,12 @@
 </div>
 
 <!--
-    this div container has the images for the recipe.
--->
-
-<div class="images">
-    <h3>Pictures:</h3>
-    <div class="row">
-        <div class="column">
-            <img class="imageSpacing" src="pictures\20231010_224733.jpg" alt="No Pictures Available" width="250" height="220">
-            <img class="imageSpacing" src="pictures\20231019_232523.jpg" alt="No Pictures Available" width="250" height="220">
-        </div>
-    </div>
-</div>
-
-<!--
     this buttons div class handles all the javascript functionality for redirecting pages.
 -->
 
 <div class="buttons buttonPaddingCrispyChickenRamen">
     <br>
+    <h3><script type="text/javascript" src="script.js"></script><button id="crispyChickenRamenPictures" onclick="crispyChickenRamenPictures()">Crispy Chicken Ramen Pictures</button></h3>
     <h3><script type="text/javascript" src="script.js"></script><button id="backToRecipes" onclick="recipes()">Back to Recipes</button></h3>
     <h3><script type="text/javascript" src="script.js"></script><button id="backToHomepage" onclick="homepage()">Back to Homepage</button></h3>
     <br>

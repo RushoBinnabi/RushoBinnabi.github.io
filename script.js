@@ -130,3 +130,27 @@ function breakfastBurritosPictures() {
 function breakfastSandwichPictures() {
     location.href='breakfastSandwichPictures.html';
 }
+
+/*
+    this chiliOilPictures() function redirects the webpage to the pictures of the chili oil recipe.
+ */
+
+function chiliOilPictures() {
+    location.href='chiliOilPictures.html';
+}
+
+/*
+    this crispyChickenRamenPictures() function redirects the webpage to the pictures of the crispy chicken ramen recipe.
+ */
+
+function crispyChickenRamenPictures() {
+    location.href='crispyChickenRamenPictures.html';
+}
+
+/*
+    this omeletPictures() function redirects the webpage to the pictures of the omelet recipe.
+ */
+
+function omeletPictures() {
+    location.href='omeletPictures.html';
+}
