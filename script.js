@@ -154,3 +154,27 @@ function crispyChickenRamenPictures() {
 function omeletPictures() {
     location.href='omeletPictures.html';
 }
+
+/*
+    this stirFriedRicePictures() function redirects the webpage to the pictures of the stir-fried rice recipe.
+ */
+
+function stirFriedRicePictures() {
+    location.href='stir-FriedRicePictures.html';
+}
+
+/*
+    this sugarCookiePictures() function redirects the webpage to the pictures of the sugar cookie recipe.
+ */
+
+function sugarCookiePictures() {
+    location.href='sugarCookiePictures.html';
+}
+
+/*
+    this whiteBreadPictures() function redirects the webpage to the pictures of the white bread recipe.
+ */
+
+function whiteBreadPictures() {
+    location.href='whiteBreadPictures.html';
+}
