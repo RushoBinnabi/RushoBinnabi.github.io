@@ -12,11 +12,6 @@
 .buttons {
     display: inline-flex;
     gap: 14px;
-    padding-bottom: 12px;
-    padding-left: 725px;
-    padding-top: 14px;
-    float: left;
-    position: absolute;
 }
 
 .images {
