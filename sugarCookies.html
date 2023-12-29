@@ -10,6 +10,7 @@
 <html lang="en" class="fullPage">
 <head>
     <link rel="stylesheet" href="styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
     <meta charset="UTF-8">
     <title>Sugar Cookies</title>
     <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
@@ -24,7 +25,9 @@
 <div>
     <h1>Sugar Cookies</h1>
     <h3>Yields: 23 cookies (46 if using both halves of the dough)</h3>
+    <button type="button" onclick="printPage()">Download Recipe</button>
 </div>
+<br>
 
 <!--
    this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.

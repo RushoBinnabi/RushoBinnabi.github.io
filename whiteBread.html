@@ -10,6 +10,7 @@
 <html lang="en" class="fullPage">
 <head>
     <link rel="stylesheet" href="styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
     <meta charset="UTF-8">
     <title>White Bread</title>
     <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
@@ -24,7 +25,9 @@
 <div>
     <h1>White Bread</h1>
     <h3>Yields: 1 Loaf</h3>
+    <button type="button" onclick="printPage()">Download Recipe</button>
 </div>
+<br>
 
 <!--
    this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
@@ -33,7 +36,7 @@
 <div>
     <h3>Ingredients:</h3>
     <ul>
-        <li><input type="checkbox" id="whiteBreadFlour" name="whiteBreadFlour" value=""><label for="whiteBreadFlour">All-Purpose or Bread Flour: 2 1/2 Cups</label></li>
+        <li><input type="checkbox" id="whiteBreadFlour" name="whiteBreadFlour" value=""><label for="whiteBreadFlour">All-Purpose or Bread Flour: 3 1/2 Cups</label></li>
         <br><li><input type="checkbox" id="whiteBreadSalt" name="whiteBreadSalt" value=""><label for="whiteBreadSalt">Salt: 1/4 tsp</label></li>
         <br><li><input type="checkbox" id="whiteBreadSugar" name="whiteBreadSugar" value=""><label for="whiteBreadSugar">Sugar: 1 tsp</label></li>
         <br><li><input type="checkbox" id="whiteBreadWaterOrMilk" name="whiteBreadWaterOrMilk" value=""><label for="whiteBreadWaterOrMilk">Water or Milk: 3/4 Cup</label></li>
@@ -88,7 +91,7 @@
         <br>
         <li>
             <input type="checkbox" id="whiteBreadStep7" name="whiteBreadStep7" value=""><label for="whiteBreadStep7">
-            Brush with egg wash if desired and transfer to oven and bake for 30 minutes until the bread sounds <br>
+            Brush with egg wash if desired and transfer to oven and bake for 50 minutes until the bread sounds <br>
             hollow in the middle.</label>
         </li>
         <br>
@@ -106,8 +109,7 @@
 <div>
     <br><h3>Storage Tips:</h3>
     <ul>
-        <li>Do not store in the fridge as it will stale fast.</li>
-        <br><li>Keep in a cool area and lightly covered.</li>
+        <li>Keep in a cool area and lightly covered.</li>
         <br><li>Lasts for days if stored properly.</li>
     </ul>
 </div>

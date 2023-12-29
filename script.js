@@ -178,3 +178,11 @@ function sugarCookiePictures() {
 function whiteBreadPictures() {
     location.href='whiteBreadPictures.html';
 }
+
+/*
+    this printPage() function either prints or shows a prompt to save the file.
+ */
+
+function printPage() {
+    window.print();
+}

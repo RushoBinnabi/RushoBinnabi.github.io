@@ -10,6 +10,7 @@
 <html lang="en" class="fullPage">
 <head>
     <link rel="stylesheet" href="styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
     <meta charset="UTF-8">
     <title>Banana Bread</title>
     <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
@@ -24,6 +25,8 @@
 <div>
     <h1>Banana Bread</h1>
     <h3>Yields: 1 Loaf</h3>
+    <button type="button" onclick="printPage()">Download Recipe</button>
+    <br>
 </div>
 
 <!--
@@ -46,7 +49,7 @@
         <br><li><input type="checkbox" id="numberOfBananasForBananaBread" name="numberOfBananasForBananaBread" value=""><label for="numberOfBananasForBananaBread">
                 Ripe Bananas: 3</label></li>
         <br><li><input type="checkbox" id="toppingBananaBread" name="toppingBananaBread" value=""><label for="toppingBananaBread">
-                Optional for topping: 1/2 cup of chocolate chips or nuts</label></li>
+                Optional for topping: Feel free to add your own topping</label></li>
     </ul>
 </div>
 
@@ -59,14 +62,13 @@
     <ol>
         <li><input type="checkbox" id="bananaBreadStep1" name="bananaBreadStep1" value=""><label for="bananaBreadStep1">Preheat oven to 350&deg;F (176&deg;C).</label></li>
         <br><li><input type="checkbox" id="bananaBreadStep2" name="bananaBreadStep2" value=""><label for="bananaBreadStep2">Butter an 8 x 3 inch (20 x 8 cm) bread pan.</label></li>
-        <br><li><input type="checkbox" id="bananaBreadStep3" name="bananaBreadStep3" value=""><label for="bananaBreadStep3">Mash the bananas with a fork.</label></li>
+        <br><li><input type="checkbox" id="bananaBreadStep3" name="bananaBreadStep3" value=""><label for="bananaBreadStep3">Mash the bananas with a fork in a bowl.</label></li>
         <br><li><input type="checkbox" id="bananaBreadStep4" name="bananaBreadStep4" value=""><label for="bananaBreadStep4">In a small bowl, mix together the flour and baking soda and set aside.</label></li>
         <br><li><input type="checkbox" id="bananaBreadStep5" name="bananaBreadStep5" value=""><label for="bananaBreadStep5">In a large mixing bowl, cream together the softened butter, <br>
-        salt, and sugar until well combined. Add in the eggs, mashed bananas <br>
-        and using a plastic spatula, vanilla extract, and mix to combine. Add the <br>
-        flour and baking soda mixture and continue mixing to combine. Stir in <br> the chocolate chips or nuts.</label></li>
-        <br><li><input type="checkbox" id="bananaBreadStep6" name="bananaBreadStep6" value=""><label for="bananaBreadStep6">Mash the bananas with a fork.</label>
-        Transfer the prepared batter to the prepared <br> bread pan and bake for 50 to 60 minutes until a toothpick comes out clean.</li>
+        salt, and sugar until well combined. Add in the eggs, mashed bananas <br> and using a plastic spatula, vanilla extract, and mix to combine. Add the <br> flour and baking soda mixture
+        and continue mixing to combine. Stir in <br> the topping.</label></li>
+        <br><li><input type="checkbox" id="bananaBreadStep6" name="bananaBreadStep6" value=""><label for="bananaBreadStep6">
+        Transfer the prepared batter to the prepared bread pan and bake for <br> 50 to 60 minutes until a toothpick comes out clean.</label></li>
         <br><li><input type="checkbox" id="bananaBreadStep7" name="bananaBreadStep7" value=""><label for="bananaBreadStep7">Leave to cool for 20 to 30 minutes before cutting and serving.</label></li>
     </ol>
 </div>
