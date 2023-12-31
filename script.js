@@ -108,7 +108,7 @@ function sugarCookiesRecipe() {
 }
 
 /*
-    this bananaBreadRecipe() function redirects the webpage to the pictures of the banana bread recipe.
+    this bananaBreadPictures() function redirects the webpage to the pictures of the banana bread recipe.
  */
 
 function bananaBreadPictures() {

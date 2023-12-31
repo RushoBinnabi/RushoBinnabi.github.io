@@ -1,0 +1,172 @@
+<mxfile host="app.diagrams.net" modified="2023-12-31T14:28:29.203Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 OPR/105.0.0.0" etag="AhNhoV0VBG-i88aSHXzV" version="22.1.16" type="device" pages="2">
+  <diagram name="Homepage" id="dBFkymIcIPs2Aqt194l7">
+    <mxGraphModel dx="1393" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="60xYymBmRnDGhh05Ybv2-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="60xYymBmRnDGhh05Ybv2-2" target="60xYymBmRnDGhh05Ybv2-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="60xYymBmRnDGhh05Ybv2-2" value="Start" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="393" y="40" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="60xYymBmRnDGhh05Ybv2-3" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="150" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="60xYymBmRnDGhh05Ybv2-5" value="Recipes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="140" y="430" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="60xYymBmRnDGhh05Ybv2-8" value="if the user selects the recipes button, &lt;br&gt;then the recipes() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="200" y="310" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="60xYymBmRnDGhh05Ybv2-9" value="GitHub Repositories" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="620" y="430" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="60xYymBmRnDGhh05Ybv2-11" value="if the user selects the github repositories &lt;br&gt;button, then the gitHub() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="425" y="310" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="0KQRZE8nR5JDIuF4_i_4-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="60xYymBmRnDGhh05Ybv2-3" target="0KQRZE8nR5JDIuF4_i_4-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="200" as="sourcePoint" />
+            <mxPoint x="205" y="430" as="targetPoint" />
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0KQRZE8nR5JDIuF4_i_4-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0KQRZE8nR5JDIuF4_i_4-1" target="60xYymBmRnDGhh05Ybv2-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="360" />
+              <mxPoint x="680" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0KQRZE8nR5JDIuF4_i_4-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="0KQRZE8nR5JDIuF4_i_4-1" target="60xYymBmRnDGhh05Ybv2-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="425" y="360" />
+              <mxPoint x="195" y="360" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0KQRZE8nR5JDIuF4_i_4-1" value="" style="rhombus;" parent="1" vertex="1">
+          <mxGeometry x="395" y="230" width="60" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6-2S3GVmOmoGDDAzoifj" name="Recipes">
+    <mxGraphModel dx="1393" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xHuGKmGO2HQTpj2fdXlS-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="w9UdXSJX9tO6pY8ARMe3-1" target="xHuGKmGO2HQTpj2fdXlS-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="426" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="w9UdXSJX9tO6pY8ARMe3-1" value="Start" style="ellipse;shape=doubleEllipse;html=1;dashed=0;whiteSpace=wrap;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="393" y="40" width="65" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="xHuGKmGO2HQTpj2fdXlS-2" target="mmJxlRUDqQefRmFDknqe-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xHuGKmGO2HQTpj2fdXlS-2" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="369.5" y="160" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xHuGKmGO2HQTpj2fdXlS-5" value="if the user selects the banana bread button, &lt;br&gt;then the bananaBreadRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="118" y="290" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xHuGKmGO2HQTpj2fdXlS-8" value="if the user selects the white bread button, &lt;br&gt;then the whiteBreadRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="128" y="390" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xHuGKmGO2HQTpj2fdXlS-12" value="if the user selects the sugar cookies button, &lt;br&gt;then the sugarCookiesRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="125" y="490" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eH0nJ2XQURjz3zcglLdn-1" value="Back to Homepage" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="700" y="160" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eH0nJ2XQURjz3zcglLdn-3" value="if the user selects the homepage button,&amp;nbsp;&lt;br&gt;then the backToHomepage() button gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="470" y="230" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eH0nJ2XQURjz3zcglLdn-6" value="if the user selects the crispy chicken ramen, &lt;br&gt;then the crispyChickenRamenRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="118" y="590" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eH0nJ2XQURjz3zcglLdn-10" value="if the user selects the breakfast burritos button,&lt;br&gt;then the breakfastBurritosRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="130" y="690" width="310" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eH0nJ2XQURjz3zcglLdn-13" value="if the user selects the breakfast sandwich button,&lt;br&gt;then the breakfastSandwichRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="130" y="790" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eH0nJ2XQURjz3zcglLdn-16" value="if the user selects the omelet button,&lt;br&gt;then the omeletRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="130" y="890" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mmJxlRUDqQefRmFDknqe-4" target="xHuGKmGO2HQTpj2fdXlS-3" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mmJxlRUDqQefRmFDknqe-4" target="xHuGKmGO2HQTpj2fdXlS-6" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mmJxlRUDqQefRmFDknqe-4" target="xHuGKmGO2HQTpj2fdXlS-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mmJxlRUDqQefRmFDknqe-4" target="eH0nJ2XQURjz3zcglLdn-4" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="mmJxlRUDqQefRmFDknqe-4" target="eH0nJ2XQURjz3zcglLdn-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mmJxlRUDqQefRmFDknqe-4" target="eH0nJ2XQURjz3zcglLdn-8" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mmJxlRUDqQefRmFDknqe-4" target="eH0nJ2XQURjz3zcglLdn-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mmJxlRUDqQefRmFDknqe-4" target="eH0nJ2XQURjz3zcglLdn-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mmJxlRUDqQefRmFDknqe-4" target="mmJxlRUDqQefRmFDknqe-18" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="mmJxlRUDqQefRmFDknqe-4" target="mmJxlRUDqQefRmFDknqe-22" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-4" value="" style="rhombus;" parent="1" vertex="1">
+          <mxGeometry x="395" y="250" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xHuGKmGO2HQTpj2fdXlS-3" value="Banana Bread" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="64" y="340" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xHuGKmGO2HQTpj2fdXlS-6" value="White Bread" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="64" y="440" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xHuGKmGO2HQTpj2fdXlS-10" value="Sugar Cookies" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="64" y="540" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eH0nJ2XQURjz3zcglLdn-4" value="Crispy Chicken Ramen" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="64" y="640" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eH0nJ2XQURjz3zcglLdn-8" value="Breakfast Burritos" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="64" y="740" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-18" value="Stir-Fried Rice" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="1040" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-20" value="if the user selects the stir-fried rice button,&lt;br&gt;then the stir-FriedRiceRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="123" y="990" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eH0nJ2XQURjz3zcglLdn-14" value="Omelet" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="940" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-22" value="Potato Cakes" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="481.5" y="360" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mmJxlRUDqQefRmFDknqe-26" value="if the user selects the potato cakes button,&amp;nbsp;&lt;br&gt;then the potatoCakesRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="540" y="300" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eH0nJ2XQURjz3zcglLdn-11" value="Breakfast Sandwich" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="840" width="120" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
