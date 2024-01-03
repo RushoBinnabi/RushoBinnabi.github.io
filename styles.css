@@ -23,3 +23,19 @@
 .imageSpacing {
     padding-bottom: 7px;
 }
+
+.footer {
+    height: 0;
+    max-width: 100%;
+    border-top: #bbbbbb 50px;
+    border-bottom: #bbbbbb 50px;
+    position: absolute;
+    bottom: 0;
+    padding-bottom: 170px;
+    padding-left: 10px;
+}
+
+.contact {
+    padding-top: 20px;
+    padding-left: 10px;
+}

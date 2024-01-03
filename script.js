@@ -186,3 +186,11 @@ function whiteBreadPictures() {
 function printPage() {
     window.print();
 }
+
+/*
+    this contact() function redirects the page to the webpage that has the contact information for the website.
+ */
+
+function contact() {
+    location.href='contact.html';
+}
