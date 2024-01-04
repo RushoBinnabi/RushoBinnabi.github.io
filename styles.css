@@ -9,10 +9,29 @@
     max-width: 100%;
 }
 
+.homepageImage {
+    background-image: url("background/ivory-off-white-paper-texture.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .buttons {
     display: inline-flex;
     gap: 14px;
     margin: 10px auto 0;
+}
+
+.mainMenuButtonLayout {
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+}
+
+.mainButtonBorder {
+    border-radius: 5px;
+    width: auto;
+    height: auto;
+    background-image: url("background/ivory-off-white-paper-texture.jpg");
 }
 
 .images {
