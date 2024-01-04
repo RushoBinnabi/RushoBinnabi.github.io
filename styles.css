@@ -12,16 +12,19 @@
 .buttons {
     display: inline-flex;
     gap: 14px;
+    margin: 10px auto 0;
 }
 
 .images {
     float: left;
     height: auto;
     max-width: 100%;
+    margin: 10px auto 0;
 }
 
 .imageSpacing {
     padding-bottom: 7px;
+    margin: 10px auto 0;
 }
 
 .footer {
@@ -33,9 +36,5 @@
     bottom: 0;
     padding-bottom: 170px;
     padding-left: 10px;
-}
-
-.contact {
-    padding-top: 20px;
-    padding-left: 10px;
+    margin: 10px auto 0;
 }
