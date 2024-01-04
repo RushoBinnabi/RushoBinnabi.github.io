@@ -1,7 +1,7 @@
 .backgroundImage {
     background-image: url("background/finalBackground.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    object-fit: cover;
 }
 
 .fullPage {
@@ -12,7 +12,7 @@
 .homepageImage {
     background-image: url("background/ivory-off-white-paper-texture.jpg");
     background-repeat: no-repeat;
-    background-size: cover;
+    object-fit: cover;
 }
 
 .buttons {
