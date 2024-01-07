@@ -57,3 +57,27 @@
     padding-left: 10px;
     margin: 10px auto 0;
 }
+
+.boxPreview {
+    display: none;
+    width: 100%;
+}
+
+a:hover + .boxPreview,.boxPreview:hover{
+    display: block;
+    position: relative;
+    z-index: 100;
+}
+
+.previewBorders {
+    border-color: black;
+    border-style: groove;
+}
+
+.middleButtons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 65%;
+    padding-top: 350px;
+}

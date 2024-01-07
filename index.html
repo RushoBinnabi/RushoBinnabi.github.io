@@ -17,16 +17,28 @@
 </head>
 <body class="fullPage homepageImage">
 <h1>Homepage</h1>
+<h4>Last Updated: 1/7/2024</h4>
 
 <!--
-    this buttons div class handles all the javascript functionality for redirecting pages.
+    this buttons div class handles all the functionality for redirecting pages.
 -->
 
 <div class="buttons">
     <ul>
-        <li><script type="text/javascript" src="script.js"></script><button class="mainMenuButtonLayout" onclick="recipes()">Recipes</button></li>
+        <a href="recipes.html">Recipes</a>
+        <div class="boxPreview">
+            <iframe src="recipes.html" class="previewBorders" width = "750px" height = "500px">
+            </iframe>
+        </div>
+
         <br>
-        <li><script type="text/javascript" src="script.js"></script><button class="mainMenuButtonLayout" onclick="gitHub()">GitHub</button></li>
+        <br>
+
+        <a href="https://github.com/RushoBinnabi">GitHub</a>
+        <div class="boxPreview">
+            <iframe src="https://github.com/RushoBinnabi" class="previewBorders" width = "750px" height = "500px">
+            </iframe>
+        </div>
     </ul>
 </div>
 

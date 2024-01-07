@@ -21,13 +21,6 @@ function homepage() {
 }
 
 /*
-    this gitHub() function redirects the webpage to the gitHub html file when the appropriate button is clicked.
- */
-function gitHub() {
-    location.href='https://github.com/RushoBinnabi';
-}
-
-/*
     this omeletRecipe() function redirects the webpage to the omelet recipe html file when the appropriate button is clicked.
  */
 
@@ -57,14 +50,6 @@ function bananaBreadRecipe() {
 
 function whiteBreadRecipe() {
     location.href='whiteBread.html';
-}
-
-/*
-    this potatoCakesRecipe() function redirects the webpage to the potatoCakes recipe html file when the appropriate button is clicked.
- */
-
-function potatoCakesRecipe() {
-    location.href='potatoCakes.html';
 }
 
 /*
@@ -185,12 +170,4 @@ function whiteBreadPictures() {
 
 function printPage() {
     window.print();
-}
-
-/*
-    this contact() function redirects the page to the webpage that has the contact information for the website.
- */
-
-function contact() {
-    location.href='contact.html';
 }
