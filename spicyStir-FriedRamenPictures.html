@@ -1,0 +1,53 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 1/8/2024
+    Project: Website - Spicy Stir-Fried Ramen Recipe
+-->
+
+<!-- this spicyStir-FriedRamenPictures html file contains the html for the pictures of the spicy stir-fried ramen recipe. -->
+
+<!DOCTYPE html>
+<html lang="en" class="fullPage">
+<head>
+    <meta charset="UTF-8">
+    <title>Spicy Stir-Fried Ramen Pictures</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="icons\icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=0.6">
+</head>
+<body class="backgroundImage fullPage">
+
+<!--
+    this div container has the images for the recipe.
+-->
+
+<div>
+    <div class="row">
+        <div class="column">
+            <img class="imageSpacing" src="pictures\20240105_215103.jpg" alt="No Pictures Available" width="250" height="220">
+            <img class="imageSpacing" src="pictures\20240105_215636.jpg" alt="No Pictures Available" width="250" height="220">
+            <img class="imageSpacing" src="pictures\20240105_220228.jpg" alt="No Pictures Available" width="250" height="220">
+        </div>
+    </div>
+    <div class="row">
+        <div class="column">
+            <img class="imageSpacing" src="pictures\20240105_220907.jpg" alt="No Pictures Available" width="250" height="220">
+            <img class="imageSpacing" src="pictures\20240105_221428.jpg" alt="No Pictures Available" width="250" height="220">
+            <img class="imageSpacing" src="pictures\20240105_221448.jpg" alt="No Pictures Available" width="250" height="220">
+        </div>
+    </div>
+</div>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
+
+<div class="buttons middleButtons">
+    <br>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToSpicyStir-FriedRamenRecipe" onclick="spicyStirFriedRamenRecipe()"><b>Back to Recipe</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToRecipes" onclick="recipes()"><b>Back to Recipes</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToHomepage" onclick="homepage()"><b>Back to Homepage</b></button></h3>
+    <br>
+</div>
+</body>
+</html>

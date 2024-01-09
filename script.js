@@ -171,3 +171,19 @@ function whiteBreadPictures() {
 function printPage() {
     window.print();
 }
+
+/*
+    this spicyStirFriedRamenPictures() function redirects the webpage to the pictures of the spicy stir-fried ramen recipe.
+ */
+
+function spicyStirFriedRamenPictures() {
+    location.href='spicyStir-FriedRamenPictures.html';
+}
+
+/*
+    this spicyStirFriedRamenRecipe() function redirects the webpage to the spicyStir-FriedRamen recipe html file when the appropriate button is clicked.
+ */
+
+function spicyStirFriedRamenRecipe() {
+    location.href='spicyStir-FriedRamen.html';
+}
