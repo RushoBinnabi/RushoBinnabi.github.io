@@ -187,3 +187,19 @@ function spicyStirFriedRamenPictures() {
 function spicyStirFriedRamenRecipe() {
     location.href='spicyStir-FriedRamen.html';
 }
+
+/*
+    this potatoBreadPictures() function redirects the webpage to the pictures of the potato bread recipe html file when the appropriate button is clicked.
+ */
+
+function potatoBreadPictures() {
+    location.href='potatoBreadPictures.html';
+}
+
+/*
+    this potatoBreadRecipe() function redirects the webpage to the potato bread recipe html file when the appropriate button is clicked.
+ */
+
+function potatoBreadRecipe() {
+    location.href='potatoBread.html';
+}

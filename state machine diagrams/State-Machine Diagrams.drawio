@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-31T22:49:42.019Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 OPR/105.0.0.0" etag="Z55O2rpVTezTQ15t4oub" version="22.1.16" type="device" pages="18">
+<mxfile host="app.diagrams.net" modified="2024-01-10T14:26:46.796Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/119.0.0.0 Safari/537.36 OPR/105.0.0.0" etag="-HrWL6eoh9SeRL3XKOD3" version="22.1.16" type="device" pages="21">
   <diagram name="homepage" id="dBFkymIcIPs2Aqt194l7">
     <mxGraphModel dx="1393" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -576,53 +576,105 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram name="whiteBread" id="K49ujsO3XI_V4rZzlVqg">
+  <diagram name="potatoBread" id="K49ujsO3XI_V4rZzlVqg">
     <mxGraphModel dx="1393" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="JxuKfE-auO5U42OMocdQ-0" />
         <mxCell id="JxuKfE-auO5U42OMocdQ-1" parent="JxuKfE-auO5U42OMocdQ-0" />
-        <mxCell id="JxuKfE-auO5U42OMocdQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="JxuKfE-auO5U42OMocdQ-1" source="JxuKfE-auO5U42OMocdQ-3" target="JxuKfE-auO5U42OMocdQ-5">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="JxuKfE-auO5U42OMocdQ-1" source="JxuKfE-auO5U42OMocdQ-3" target="JxuKfE-auO5U42OMocdQ-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="JxuKfE-auO5U42OMocdQ-1">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="JxuKfE-auO5U42OMocdQ-1" vertex="1">
           <mxGeometry x="370" y="60" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="JxuKfE-auO5U42OMocdQ-1" source="JxuKfE-auO5U42OMocdQ-5" target="JxuKfE-auO5U42OMocdQ-9">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="JxuKfE-auO5U42OMocdQ-1" source="JxuKfE-auO5U42OMocdQ-5" target="JxuKfE-auO5U42OMocdQ-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-5" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JxuKfE-auO5U42OMocdQ-1">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-5" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" parent="JxuKfE-auO5U42OMocdQ-1" vertex="1">
           <mxGeometry x="345" y="180" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="JxuKfE-auO5U42OMocdQ-1" source="JxuKfE-auO5U42OMocdQ-9" target="JxuKfE-auO5U42OMocdQ-11">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="JxuKfE-auO5U42OMocdQ-1" source="JxuKfE-auO5U42OMocdQ-9" target="JxuKfE-auO5U42OMocdQ-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="JxuKfE-auO5U42OMocdQ-1" source="JxuKfE-auO5U42OMocdQ-9" target="JxuKfE-auO5U42OMocdQ-12">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="JxuKfE-auO5U42OMocdQ-1" source="JxuKfE-auO5U42OMocdQ-9" target="JxuKfE-auO5U42OMocdQ-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="JxuKfE-auO5U42OMocdQ-1" source="JxuKfE-auO5U42OMocdQ-9" target="JxuKfE-auO5U42OMocdQ-14">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="JxuKfE-auO5U42OMocdQ-1" source="JxuKfE-auO5U42OMocdQ-9" target="JxuKfE-auO5U42OMocdQ-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-9" value="" style="rhombus;" vertex="1" parent="JxuKfE-auO5U42OMocdQ-1">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-9" value="" style="rhombus;" parent="JxuKfE-auO5U42OMocdQ-1" vertex="1">
           <mxGeometry x="370" y="280" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-10" value="if the user selects the homepage button,&amp;nbsp;&lt;br&gt;then the backToHomepage() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JxuKfE-auO5U42OMocdQ-1">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-10" value="if the user selects the homepage button,&amp;nbsp;&lt;br&gt;then the backToHomepage() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="JxuKfE-auO5U42OMocdQ-1" vertex="1">
           <mxGeometry x="435" y="260" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-11" value="Back to Homepage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JxuKfE-auO5U42OMocdQ-1">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-11" value="Back to Homepage" style="rounded=1;whiteSpace=wrap;html=1;" parent="JxuKfE-auO5U42OMocdQ-1" vertex="1">
           <mxGeometry x="660" y="160" width="112" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-12" value="Pictures" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JxuKfE-auO5U42OMocdQ-1">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-12" value="Pictures" style="rounded=1;whiteSpace=wrap;html=1;" parent="JxuKfE-auO5U42OMocdQ-1" vertex="1">
           <mxGeometry x="10" y="340" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-13" value="if the user selects the pictures button,&amp;nbsp;&lt;br&gt;then the whiteBreadPictures() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JxuKfE-auO5U42OMocdQ-1">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-13" value="if the user selects the pictures button,&amp;nbsp;&lt;br&gt;then the potatoBreadPictures() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="JxuKfE-auO5U42OMocdQ-1" vertex="1">
           <mxGeometry x="65" y="260" width="290" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-14" value="Back to Recipes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="JxuKfE-auO5U42OMocdQ-1">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-14" value="Back to Recipes" style="rounded=1;whiteSpace=wrap;html=1;" parent="JxuKfE-auO5U42OMocdQ-1" vertex="1">
           <mxGeometry x="350" y="460" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="JxuKfE-auO5U42OMocdQ-15" value="if the user selects the back to recipes button,&amp;nbsp;&lt;br&gt;then the backToRecipes() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="JxuKfE-auO5U42OMocdQ-1">
+        <mxCell id="JxuKfE-auO5U42OMocdQ-15" value="if the user selects the back to recipes button,&amp;nbsp;&lt;br&gt;then the backToRecipes() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="JxuKfE-auO5U42OMocdQ-1" vertex="1">
+          <mxGeometry x="405" y="380" width="270" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="spicyStir-FriedRamen" id="pDLQI1uxx80OkNyIFg0i">
+    <mxGraphModel dx="1393" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-0" />
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-1" parent="i0bUEIeQbZoeWegZm_pw-0" />
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i0bUEIeQbZoeWegZm_pw-1" source="i0bUEIeQbZoeWegZm_pw-3" target="i0bUEIeQbZoeWegZm_pw-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="i0bUEIeQbZoeWegZm_pw-1">
+          <mxGeometry x="370" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i0bUEIeQbZoeWegZm_pw-1" source="i0bUEIeQbZoeWegZm_pw-5" target="i0bUEIeQbZoeWegZm_pw-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-5" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0bUEIeQbZoeWegZm_pw-1">
+          <mxGeometry x="345" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="i0bUEIeQbZoeWegZm_pw-1" source="i0bUEIeQbZoeWegZm_pw-9" target="i0bUEIeQbZoeWegZm_pw-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i0bUEIeQbZoeWegZm_pw-1" source="i0bUEIeQbZoeWegZm_pw-9" target="i0bUEIeQbZoeWegZm_pw-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="i0bUEIeQbZoeWegZm_pw-1" source="i0bUEIeQbZoeWegZm_pw-9" target="i0bUEIeQbZoeWegZm_pw-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-9" value="" style="rhombus;" vertex="1" parent="i0bUEIeQbZoeWegZm_pw-1">
+          <mxGeometry x="370" y="280" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-10" value="if the user selects the homepage button,&amp;nbsp;&lt;br&gt;then the backToHomepage() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="i0bUEIeQbZoeWegZm_pw-1">
+          <mxGeometry x="435" y="260" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-11" value="Back to Homepage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0bUEIeQbZoeWegZm_pw-1">
+          <mxGeometry x="660" y="160" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-12" value="Pictures" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0bUEIeQbZoeWegZm_pw-1">
+          <mxGeometry x="10" y="340" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-13" value="if the user selects the pictures button,&amp;nbsp;&lt;br&gt;then the spicyStir-FriedRamenPictures() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="i0bUEIeQbZoeWegZm_pw-1">
+          <mxGeometry x="30" y="260" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-14" value="Back to Recipes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="i0bUEIeQbZoeWegZm_pw-1">
+          <mxGeometry x="350" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i0bUEIeQbZoeWegZm_pw-15" value="if the user selects the back to recipes button,&amp;nbsp;&lt;br&gt;then the backToRecipes() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="i0bUEIeQbZoeWegZm_pw-1">
           <mxGeometry x="405" y="380" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
@@ -633,48 +685,100 @@
       <root>
         <mxCell id="RBzaieRnIXl10GHlUv8c-0" />
         <mxCell id="RBzaieRnIXl10GHlUv8c-1" parent="RBzaieRnIXl10GHlUv8c-0" />
-        <mxCell id="RBzaieRnIXl10GHlUv8c-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RBzaieRnIXl10GHlUv8c-1" source="RBzaieRnIXl10GHlUv8c-3" target="RBzaieRnIXl10GHlUv8c-5">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="RBzaieRnIXl10GHlUv8c-1" source="RBzaieRnIXl10GHlUv8c-3" target="RBzaieRnIXl10GHlUv8c-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="RBzaieRnIXl10GHlUv8c-1">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="RBzaieRnIXl10GHlUv8c-1" vertex="1">
           <mxGeometry x="370" y="60" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RBzaieRnIXl10GHlUv8c-1" source="RBzaieRnIXl10GHlUv8c-5" target="RBzaieRnIXl10GHlUv8c-9">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="RBzaieRnIXl10GHlUv8c-1" source="RBzaieRnIXl10GHlUv8c-5" target="RBzaieRnIXl10GHlUv8c-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-5" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RBzaieRnIXl10GHlUv8c-1">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-5" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" parent="RBzaieRnIXl10GHlUv8c-1" vertex="1">
           <mxGeometry x="345" y="180" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="RBzaieRnIXl10GHlUv8c-1" source="RBzaieRnIXl10GHlUv8c-9" target="RBzaieRnIXl10GHlUv8c-11">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="RBzaieRnIXl10GHlUv8c-1" source="RBzaieRnIXl10GHlUv8c-9" target="RBzaieRnIXl10GHlUv8c-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RBzaieRnIXl10GHlUv8c-1" source="RBzaieRnIXl10GHlUv8c-9" target="RBzaieRnIXl10GHlUv8c-12">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="RBzaieRnIXl10GHlUv8c-1" source="RBzaieRnIXl10GHlUv8c-9" target="RBzaieRnIXl10GHlUv8c-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="RBzaieRnIXl10GHlUv8c-1" source="RBzaieRnIXl10GHlUv8c-9" target="RBzaieRnIXl10GHlUv8c-14">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="RBzaieRnIXl10GHlUv8c-1" source="RBzaieRnIXl10GHlUv8c-9" target="RBzaieRnIXl10GHlUv8c-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-9" value="" style="rhombus;" vertex="1" parent="RBzaieRnIXl10GHlUv8c-1">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-9" value="" style="rhombus;" parent="RBzaieRnIXl10GHlUv8c-1" vertex="1">
           <mxGeometry x="370" y="280" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-10" value="if the user selects the homepage button,&amp;nbsp;&lt;br&gt;then the backToHomepage() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="RBzaieRnIXl10GHlUv8c-1">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-10" value="if the user selects the homepage button,&amp;nbsp;&lt;br&gt;then the backToHomepage() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="RBzaieRnIXl10GHlUv8c-1" vertex="1">
           <mxGeometry x="435" y="260" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-11" value="Back to Homepage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RBzaieRnIXl10GHlUv8c-1">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-11" value="Back to Homepage" style="rounded=1;whiteSpace=wrap;html=1;" parent="RBzaieRnIXl10GHlUv8c-1" vertex="1">
           <mxGeometry x="660" y="160" width="112" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-12" value="Breakfast Sandwich" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RBzaieRnIXl10GHlUv8c-1">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-12" value="Breakfast Sandwich" style="rounded=1;whiteSpace=wrap;html=1;" parent="RBzaieRnIXl10GHlUv8c-1" vertex="1">
           <mxGeometry x="10" y="340" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-13" value="if the user selects the back to recipe button,&amp;nbsp;&lt;br&gt;then the breakfastSandwichRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="RBzaieRnIXl10GHlUv8c-1">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-13" value="if the user selects the back to recipe button,&amp;nbsp;&lt;br&gt;then the breakfastSandwichRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="RBzaieRnIXl10GHlUv8c-1" vertex="1">
           <mxGeometry x="60" y="260" width="320" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-14" value="Back to Recipes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="RBzaieRnIXl10GHlUv8c-1">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-14" value="Back to Recipes" style="rounded=1;whiteSpace=wrap;html=1;" parent="RBzaieRnIXl10GHlUv8c-1" vertex="1">
           <mxGeometry x="350" y="460" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="RBzaieRnIXl10GHlUv8c-15" value="if the user selects the back to recipes button,&amp;nbsp;&lt;br&gt;then the backToRecipes() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="RBzaieRnIXl10GHlUv8c-1">
+        <mxCell id="RBzaieRnIXl10GHlUv8c-15" value="if the user selects the back to recipes button,&amp;nbsp;&lt;br&gt;then the backToRecipes() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="RBzaieRnIXl10GHlUv8c-1" vertex="1">
+          <mxGeometry x="405" y="380" width="270" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="potatoBreadPictures" id="2MUo58U9ojozmFgnfaPz">
+    <mxGraphModel dx="1393" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-0" />
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-1" parent="pZ8ZrDvkKz_tT0pmV25M-0" />
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pZ8ZrDvkKz_tT0pmV25M-1" source="pZ8ZrDvkKz_tT0pmV25M-3" target="pZ8ZrDvkKz_tT0pmV25M-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="pZ8ZrDvkKz_tT0pmV25M-1">
+          <mxGeometry x="370" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pZ8ZrDvkKz_tT0pmV25M-1" source="pZ8ZrDvkKz_tT0pmV25M-5" target="pZ8ZrDvkKz_tT0pmV25M-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-5" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pZ8ZrDvkKz_tT0pmV25M-1">
+          <mxGeometry x="345" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="pZ8ZrDvkKz_tT0pmV25M-1" source="pZ8ZrDvkKz_tT0pmV25M-9" target="pZ8ZrDvkKz_tT0pmV25M-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pZ8ZrDvkKz_tT0pmV25M-1" source="pZ8ZrDvkKz_tT0pmV25M-9" target="pZ8ZrDvkKz_tT0pmV25M-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="pZ8ZrDvkKz_tT0pmV25M-1" source="pZ8ZrDvkKz_tT0pmV25M-9" target="pZ8ZrDvkKz_tT0pmV25M-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-9" value="" style="rhombus;" vertex="1" parent="pZ8ZrDvkKz_tT0pmV25M-1">
+          <mxGeometry x="370" y="280" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-10" value="if the user selects the homepage button,&amp;nbsp;&lt;br&gt;then the backToHomepage() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pZ8ZrDvkKz_tT0pmV25M-1">
+          <mxGeometry x="435" y="260" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-11" value="Back to Homepage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pZ8ZrDvkKz_tT0pmV25M-1">
+          <mxGeometry x="660" y="160" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-12" value="Spicy Stir-Fried Ramen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pZ8ZrDvkKz_tT0pmV25M-1">
+          <mxGeometry x="10" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-13" value="if the user selects the back to recipe button,&amp;nbsp;&lt;br&gt;then the spicyStir-FriedRamenRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pZ8ZrDvkKz_tT0pmV25M-1">
+          <mxGeometry x="40" y="260" width="340" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-14" value="Back to Recipes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="pZ8ZrDvkKz_tT0pmV25M-1">
+          <mxGeometry x="350" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="pZ8ZrDvkKz_tT0pmV25M-15" value="if the user selects the back to recipes button,&amp;nbsp;&lt;br&gt;then the backToRecipes() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="pZ8ZrDvkKz_tT0pmV25M-1">
           <mxGeometry x="405" y="380" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
@@ -893,48 +997,48 @@
       <root>
         <mxCell id="qSqZ3MQid0QppxarvAAt-0" />
         <mxCell id="qSqZ3MQid0QppxarvAAt-1" parent="qSqZ3MQid0QppxarvAAt-0" />
-        <mxCell id="qSqZ3MQid0QppxarvAAt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qSqZ3MQid0QppxarvAAt-1" source="qSqZ3MQid0QppxarvAAt-3" target="qSqZ3MQid0QppxarvAAt-5">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qSqZ3MQid0QppxarvAAt-1" source="qSqZ3MQid0QppxarvAAt-3" target="qSqZ3MQid0QppxarvAAt-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="qSqZ3MQid0QppxarvAAt-1">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="qSqZ3MQid0QppxarvAAt-1" vertex="1">
           <mxGeometry x="370" y="60" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qSqZ3MQid0QppxarvAAt-1" source="qSqZ3MQid0QppxarvAAt-5" target="qSqZ3MQid0QppxarvAAt-9">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qSqZ3MQid0QppxarvAAt-1" source="qSqZ3MQid0QppxarvAAt-5" target="qSqZ3MQid0QppxarvAAt-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-5" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qSqZ3MQid0QppxarvAAt-1">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-5" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" parent="qSqZ3MQid0QppxarvAAt-1" vertex="1">
           <mxGeometry x="345" y="180" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="qSqZ3MQid0QppxarvAAt-1" source="qSqZ3MQid0QppxarvAAt-9" target="qSqZ3MQid0QppxarvAAt-11">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="qSqZ3MQid0QppxarvAAt-1" source="qSqZ3MQid0QppxarvAAt-9" target="qSqZ3MQid0QppxarvAAt-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qSqZ3MQid0QppxarvAAt-1" source="qSqZ3MQid0QppxarvAAt-9" target="qSqZ3MQid0QppxarvAAt-12">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qSqZ3MQid0QppxarvAAt-1" source="qSqZ3MQid0QppxarvAAt-9" target="qSqZ3MQid0QppxarvAAt-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="qSqZ3MQid0QppxarvAAt-1" source="qSqZ3MQid0QppxarvAAt-9" target="qSqZ3MQid0QppxarvAAt-14">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="qSqZ3MQid0QppxarvAAt-1" source="qSqZ3MQid0QppxarvAAt-9" target="qSqZ3MQid0QppxarvAAt-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-9" value="" style="rhombus;" vertex="1" parent="qSqZ3MQid0QppxarvAAt-1">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-9" value="" style="rhombus;" parent="qSqZ3MQid0QppxarvAAt-1" vertex="1">
           <mxGeometry x="370" y="280" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-10" value="if the user selects the homepage button,&amp;nbsp;&lt;br&gt;then the backToHomepage() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qSqZ3MQid0QppxarvAAt-1">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-10" value="if the user selects the homepage button,&amp;nbsp;&lt;br&gt;then the backToHomepage() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qSqZ3MQid0QppxarvAAt-1" vertex="1">
           <mxGeometry x="435" y="260" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-11" value="Back to Homepage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qSqZ3MQid0QppxarvAAt-1">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-11" value="Back to Homepage" style="rounded=1;whiteSpace=wrap;html=1;" parent="qSqZ3MQid0QppxarvAAt-1" vertex="1">
           <mxGeometry x="660" y="160" width="112" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-12" value="Crispy Chicken Ramen" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qSqZ3MQid0QppxarvAAt-1">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-12" value="Crispy Chicken Ramen" style="rounded=1;whiteSpace=wrap;html=1;" parent="qSqZ3MQid0QppxarvAAt-1" vertex="1">
           <mxGeometry x="10" y="340" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-13" value="if the user selects the back to recipe button,&amp;nbsp;&lt;br&gt;then the crispyChickenRamenRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qSqZ3MQid0QppxarvAAt-1">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-13" value="if the user selects the back to recipe button,&amp;nbsp;&lt;br&gt;then the crispyChickenRamenRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qSqZ3MQid0QppxarvAAt-1" vertex="1">
           <mxGeometry x="50" y="260" width="340" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-14" value="Back to Recipes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="qSqZ3MQid0QppxarvAAt-1">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-14" value="Back to Recipes" style="rounded=1;whiteSpace=wrap;html=1;" parent="qSqZ3MQid0QppxarvAAt-1" vertex="1">
           <mxGeometry x="350" y="460" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="qSqZ3MQid0QppxarvAAt-15" value="if the user selects the back to recipes button,&amp;nbsp;&lt;br&gt;then the backToRecipes() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="qSqZ3MQid0QppxarvAAt-1">
+        <mxCell id="qSqZ3MQid0QppxarvAAt-15" value="if the user selects the back to recipes button,&amp;nbsp;&lt;br&gt;then the backToRecipes() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="qSqZ3MQid0QppxarvAAt-1" vertex="1">
           <mxGeometry x="405" y="380" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
@@ -945,48 +1049,100 @@
       <root>
         <mxCell id="gX2hrvwwEMKPb1yd0rwo-0" />
         <mxCell id="gX2hrvwwEMKPb1yd0rwo-1" parent="gX2hrvwwEMKPb1yd0rwo-0" />
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gX2hrvwwEMKPb1yd0rwo-1" source="gX2hrvwwEMKPb1yd0rwo-3" target="gX2hrvwwEMKPb1yd0rwo-5">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="gX2hrvwwEMKPb1yd0rwo-1" source="gX2hrvwwEMKPb1yd0rwo-3" target="gX2hrvwwEMKPb1yd0rwo-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="gX2hrvwwEMKPb1yd0rwo-1">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" parent="gX2hrvwwEMKPb1yd0rwo-1" vertex="1">
           <mxGeometry x="370" y="60" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gX2hrvwwEMKPb1yd0rwo-1" source="gX2hrvwwEMKPb1yd0rwo-5" target="gX2hrvwwEMKPb1yd0rwo-9">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="gX2hrvwwEMKPb1yd0rwo-1" source="gX2hrvwwEMKPb1yd0rwo-5" target="gX2hrvwwEMKPb1yd0rwo-9" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-5" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gX2hrvwwEMKPb1yd0rwo-1">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-5" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" parent="gX2hrvwwEMKPb1yd0rwo-1" vertex="1">
           <mxGeometry x="345" y="180" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="gX2hrvwwEMKPb1yd0rwo-1" source="gX2hrvwwEMKPb1yd0rwo-9" target="gX2hrvwwEMKPb1yd0rwo-11">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="gX2hrvwwEMKPb1yd0rwo-1" source="gX2hrvwwEMKPb1yd0rwo-9" target="gX2hrvwwEMKPb1yd0rwo-11" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="600" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gX2hrvwwEMKPb1yd0rwo-1" source="gX2hrvwwEMKPb1yd0rwo-9" target="gX2hrvwwEMKPb1yd0rwo-12">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="gX2hrvwwEMKPb1yd0rwo-1" source="gX2hrvwwEMKPb1yd0rwo-9" target="gX2hrvwwEMKPb1yd0rwo-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="gX2hrvwwEMKPb1yd0rwo-1" source="gX2hrvwwEMKPb1yd0rwo-9" target="gX2hrvwwEMKPb1yd0rwo-14">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="gX2hrvwwEMKPb1yd0rwo-1" source="gX2hrvwwEMKPb1yd0rwo-9" target="gX2hrvwwEMKPb1yd0rwo-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-9" value="" style="rhombus;" vertex="1" parent="gX2hrvwwEMKPb1yd0rwo-1">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-9" value="" style="rhombus;" parent="gX2hrvwwEMKPb1yd0rwo-1" vertex="1">
           <mxGeometry x="370" y="280" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-10" value="if the user selects the homepage button,&amp;nbsp;&lt;br&gt;then the backToHomepage() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gX2hrvwwEMKPb1yd0rwo-1">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-10" value="if the user selects the homepage button,&amp;nbsp;&lt;br&gt;then the backToHomepage() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="gX2hrvwwEMKPb1yd0rwo-1" vertex="1">
           <mxGeometry x="435" y="260" width="280" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-11" value="Back to Homepage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gX2hrvwwEMKPb1yd0rwo-1">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-11" value="Back to Homepage" style="rounded=1;whiteSpace=wrap;html=1;" parent="gX2hrvwwEMKPb1yd0rwo-1" vertex="1">
           <mxGeometry x="660" y="160" width="112" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-12" value="Omelet" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gX2hrvwwEMKPb1yd0rwo-1">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-12" value="Omelet" style="rounded=1;whiteSpace=wrap;html=1;" parent="gX2hrvwwEMKPb1yd0rwo-1" vertex="1">
           <mxGeometry x="20" y="340" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-13" value="if the user selects the back to recipe button,&amp;nbsp;&lt;br&gt;then the omeletRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gX2hrvwwEMKPb1yd0rwo-1">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-13" value="if the user selects the back to recipe button,&amp;nbsp;&lt;br&gt;then the omeletRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="gX2hrvwwEMKPb1yd0rwo-1" vertex="1">
           <mxGeometry x="90" y="260" width="260" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-14" value="Back to Recipes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="gX2hrvwwEMKPb1yd0rwo-1">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-14" value="Back to Recipes" style="rounded=1;whiteSpace=wrap;html=1;" parent="gX2hrvwwEMKPb1yd0rwo-1" vertex="1">
           <mxGeometry x="350" y="460" width="100" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="gX2hrvwwEMKPb1yd0rwo-15" value="if the user selects the back to recipes button,&amp;nbsp;&lt;br&gt;then the backToRecipes() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="gX2hrvwwEMKPb1yd0rwo-1">
+        <mxCell id="gX2hrvwwEMKPb1yd0rwo-15" value="if the user selects the back to recipes button,&amp;nbsp;&lt;br&gt;then the backToRecipes() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="gX2hrvwwEMKPb1yd0rwo-1" vertex="1">
+          <mxGeometry x="405" y="380" width="270" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="PotatoBreadPictures" id="Ia_gRdzjI5V5Oe3m4i6x">
+    <mxGraphModel dx="1393" dy="758" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-0" />
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-1" parent="DDPJj_f1RJQ5ojBzFpsf-0" />
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DDPJj_f1RJQ5ojBzFpsf-1" source="DDPJj_f1RJQ5ojBzFpsf-3" target="DDPJj_f1RJQ5ojBzFpsf-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-3" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_2;whiteSpace=wrap;" vertex="1" parent="DDPJj_f1RJQ5ojBzFpsf-1">
+          <mxGeometry x="370" y="60" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DDPJj_f1RJQ5ojBzFpsf-1" source="DDPJj_f1RJQ5ojBzFpsf-5" target="DDPJj_f1RJQ5ojBzFpsf-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-5" value="Button Select" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DDPJj_f1RJQ5ojBzFpsf-1">
+          <mxGeometry x="345" y="180" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="DDPJj_f1RJQ5ojBzFpsf-1" source="DDPJj_f1RJQ5ojBzFpsf-9" target="DDPJj_f1RJQ5ojBzFpsf-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DDPJj_f1RJQ5ojBzFpsf-1" source="DDPJj_f1RJQ5ojBzFpsf-9" target="DDPJj_f1RJQ5ojBzFpsf-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="DDPJj_f1RJQ5ojBzFpsf-1" source="DDPJj_f1RJQ5ojBzFpsf-9" target="DDPJj_f1RJQ5ojBzFpsf-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-9" value="" style="rhombus;" vertex="1" parent="DDPJj_f1RJQ5ojBzFpsf-1">
+          <mxGeometry x="370" y="280" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-10" value="if the user selects the homepage button,&amp;nbsp;&lt;br&gt;then the backToHomepage() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DDPJj_f1RJQ5ojBzFpsf-1">
+          <mxGeometry x="435" y="260" width="280" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-11" value="Back to Homepage" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DDPJj_f1RJQ5ojBzFpsf-1">
+          <mxGeometry x="660" y="160" width="112" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-12" value="Potato Bread" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DDPJj_f1RJQ5ojBzFpsf-1">
+          <mxGeometry x="20" y="340" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-13" value="if the user selects the back to recipe button,&amp;nbsp;&lt;br&gt;then the potatoBreadRecipe() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DDPJj_f1RJQ5ojBzFpsf-1">
+          <mxGeometry x="75" y="260" width="290" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-14" value="Back to Recipes" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="DDPJj_f1RJQ5ojBzFpsf-1">
+          <mxGeometry x="350" y="460" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="DDPJj_f1RJQ5ojBzFpsf-15" value="if the user selects the back to recipes button,&amp;nbsp;&lt;br&gt;then the backToRecipes() function gets called" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="DDPJj_f1RJQ5ojBzFpsf-1">
           <mxGeometry x="405" y="380" width="270" height="40" as="geometry" />
         </mxCell>
       </root>
