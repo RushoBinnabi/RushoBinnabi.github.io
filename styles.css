@@ -46,16 +46,17 @@
     margin: 10px auto 0;
 }
 
-.footer {
+.aboutMyInformation {
     height: 0;
     max-width: 100%;
-    border-top: #bbbbbb 50px;
-    border-bottom: #bbbbbb 50px;
+    border-top: #bbbbbb 30px;
+    border-bottom: #bbbbbb 30px;
     position: absolute;
-    bottom: 0;
-    padding-bottom: 170px;
-    padding-left: 10px;
-    margin: 10px auto 0;
+    right: 0;
+    left: 0;
+    padding-left: 170px;
+    padding-top: 35px;
+    margin: 12px auto 0;
 }
 
 .boxPreview {
@@ -80,4 +81,20 @@ a:hover + .boxPreview,.boxPreview:hover{
     justify-content: center;
     bottom: 65%;
     padding-top: 350px;
+}
+
+.informationPadding {
+    padding-left: 20px;
+}
+
+.aboutPageTitle {
+    top: 0;
+    text-align: center;
+    padding-top: 14px;
+}
+
+.solidBackground {
+    background: rgba(185, 153, 118, 0.8);
+    width: 1550px;
+    height: fit-content;
 }
