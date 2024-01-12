@@ -54,7 +54,7 @@
     position: absolute;
     right: 0;
     left: 0;
-    padding-left: 170px;
+    padding-left: 70px;
     padding-top: 35px;
     margin: 12px auto 0;
 }
@@ -95,6 +95,14 @@ a:hover + .boxPreview,.boxPreview:hover{
 
 .solidBackground {
     background: rgba(185, 153, 118, 0.8);
-    width: 1550px;
-    height: fit-content;
+    max-width: fit-content;
+    max-height: fit-content;
+}
+
+.quoteFontSize {
+    font-size: 18px;
+}
+
+.bottomOfAboutPage {
+    bottom: 0;
 }
