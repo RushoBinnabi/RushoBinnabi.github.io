@@ -106,3 +106,7 @@ a:hover + .boxPreview,.boxPreview:hover{
 .bottomOfAboutPage {
     bottom: 0;
 }
+
+.listOfRecipes {
+    font-size: 18px;
+}
