@@ -203,3 +203,11 @@ function potatoBreadPictures() {
 function potatoBreadRecipe() {
     location.href='potatoBread.html';
 }
+
+/*
+    this pastaSaladRecipe() function redirects the webpage to the pasta salad recipe html file when the appropriate button is clicked.
+ */
+
+function pastaSaladRecipe() {
+    location.href='pastaSalad.html';
+}
