@@ -110,3 +110,7 @@ a:hover + .boxPreview,.boxPreview:hover{
 .listOfRecipes {
     font-size: 18px;
 }
+
+.textAlignment {
+    text-align: justify-all;
+}

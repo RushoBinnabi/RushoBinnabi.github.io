@@ -1,14 +1,26 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 2/2/2024
+    Project: Website - Pasta Salad Recipe
+-->
+
+<!-- this pastaSalad html file contains the html for the pasta salad recipe for the website. -->
+
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
 <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="hideButtons.css" media="print">
     <meta charset="UTF-8">
     <title>Pasta Salad</title>
-    <link rel="icon" href="icons\icon.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=0.5">
+    <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
+    <meta name="viewport" content="width=device-width, initial-scale=0.5"> <!-- fits the webpage to the screen. -->
 </head>
 <body class="backgroundImage fullPage">
+
+<!--
+    this div has the heading for the recipe.
+-->
 
 <div>
     <h1>Pasta Salad</h1>
@@ -17,6 +29,10 @@
     <br>
     <br>
 </div>
+
+<!--
+   this ingredients div has checkboxes set up so that users can check off ingredients and their measurements as they have them.
+-->
 
 <div>
     <h3>Ingredients:</h3>
@@ -71,18 +87,40 @@
 </div>
 <br>
 
+<!--
+   this steps div has checkboxes set up so that users can check off the steps to making the recipe as they do them.
+-->
+
 <div>
     <h3>
         Steps:
     </h3>
-    <ol>
+    <ol class="textAlignment">
         <li><input type="checkbox" id="pastaSaladStep1" name="pastaSaladStep1" value="">
             <label for="pastaSaladStep1">Boil the pasta in some heavily salted water for 8-10 minutes. <br>
                     Strain and set to cool completely.</label></li>
         <br>
-        <!-- continue here. -->
+        <li><input type="checkbox" id="pastaSaladStep2" name="pastaSaladStep2" value="">
+            <label for="pastaSaladStep2">Slice the olives and dice the other vegetables and put each of them <br>
+                    in a separate bowl and set aside.</label></li>
+        <br>
+        <li><input type="checkbox" id="pastaSaladStep3" name="pastaSaladStep3" value="">
+            <label for="pastaSaladStep3">Mix together the vinaigrette and set aside.</label></li>
+        <br>
+        <li><input type="checkbox" id="pastaSaladStep4" name="pastaSaladStep4" value="">
+            <label for="pastaSaladStep4">Toss the vegetables with the pasta and the vinaigrette until well combined.</label></li>
+        <br>
+        <li><input type="checkbox" id="pastaSaladStep5" name="pastaSaladStep5" value="">
+            <label for="pastaSaladStep5">Cover with plastic wrap and chill it in the refrigerator for 2-3 hours.</label></li>
+        <br>
+        <li><input type="checkbox" id="pastaSaladStep6" name="pastaSaladStep6" value="">
+            <label for="pastaSaladStep6">Serve.</label></li>
     </ol>
 </div>
+
+<!--
+    this div handles all the javascript functionality for redirecting pages.
+-->
 
 <div class="buttons middleButtons">
     <br>
