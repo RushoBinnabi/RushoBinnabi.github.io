@@ -112,5 +112,6 @@ a:hover + .boxPreview,.boxPreview:hover{
 }
 
 .textAlignment {
-    text-align: justify-all;
+    text-align: justify;
+    text-justify: inter-word;
 }
