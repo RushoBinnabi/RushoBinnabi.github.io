@@ -115,3 +115,7 @@ a:hover + .boxPreview,.boxPreview:hover{
     text-align: justify;
     text-justify: inter-word;
 }
+
+.aboutPageButton {
+    bottom: 65%;
+}
