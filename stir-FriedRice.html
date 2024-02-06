@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <title>Stir-Fried Rice</title>
     <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
-    <meta name="viewport" content="width=device-width, initial-scale=0.5"> <!-- fits the webpage to the screen. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
 </head>
 <body class="backgroundImage fullPage">
 
@@ -22,10 +22,10 @@
     this div container has the heading for the recipe.
 -->
 
-<div>
+<div class="textSize">
     <h1>Stir-Fried Rice</h1>
     <h3>Yields: 1 Serving</h3>
-    <script type="text/javascript" src="script.js"></script><button type="button" class="mainButtonBorder" onclick="printPage()"><b>Download Recipe</b></button>
+    <script type="text/javascript" src="script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
     <br>
     <br>
 </div>
@@ -34,25 +34,25 @@
    this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
 -->
 
-<div>
+<div class="textSize">
     <h3>Ingredients:</h3>
     <ul>
-        <li><input type="checkbox" id="stirFriedRiceRice" name="stirFriedRiceRice" value=""><label for="stirFriedRiceRice">3 cups of fridge cold rice</label></li>
-        <br><li><input type="checkbox" id="stirFriedTomato" name="stirFriedTomato" value=""><label for="stirFriedTomato">1 tomato, diced</label></li>
-        <br><li><input type="checkbox" id="stirFriedOnion" name="stirFriedOnion" value=""><label for="stirFriedOnion">1/4 onion, diced</label></li>
-        <br><li><input type="checkbox" id="stirFriedRiceEgg" name="stirFriedRiceEgg" value=""><label for="stirFriedRiceEgg">1 egg</label></li>
-        <br><li><input type="checkbox" id="stirFriedRiceSoySauce" name="stirFriedRiceSoySauce" value=""><label for="stirFriedRiceSoySauce">2 tbsp of soy sauce</label></li>
-        <br><li><input type="checkbox" id="stirFriedRiceSalt" name="stirFriedRiceSalt" value=""><label for="stirFriedRiceSalt">1/4 tsp of salt, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="stirFriedRiceBlackPepper" name="stirFriedRiceBlackPepper" value=""><label for="stirFriedRiceBlackPepper">1 tsp of pepper, adjust
-                as needed</label></li>
-        <br><li><input type="checkbox" id="stirFriedRiceCuminPowder" name="stirFriedRiceCuminPowder" value=""><label for="stirFriedRiceCuminPowder">1/2 tsp of cumin powder,
-                adjust as needed</label></li>
-        <br><li><input type="checkbox" id="stirFriedRicePaprika" name="stirFriedRiceCuminPowder" value=""><label for="stirFriedRicePaprika">1/2 tsp of paprika, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="stirFriedRiceGarlicPowder" name="stirFriedRiceGarlicPowder" value=""><label for="stirFriedRiceGarlicPowder">1/2 tsp of garlic powder, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="stirFriedRiceMeatOrSeafood" name="stirFriedRiceMeatOrSeafood" value=""><label for="stirFriedRiceMeatOrSeafood">1/4 pound of preferred choice of meat and or seafood</label></li>
-        <br><li><input type="checkbox" id="stirFriedRiceCilantroAndGreenOnion" name="stirFriedRiceCilantroAndGreenOnion" value=""><label for="stirFriedRiceCilantroAndGreenOnion">Some cilantro and green onions
-                for garnishing</label></li>
-        <br><li><input type="checkbox" id="stirFriedRiceOil" name="stirFriedRiceOil" value=""><label for="stirFriedRiceOil">Oil, as needed</label></li>
+        <li><input type="checkbox" id="stirFriedRiceRice" name="stirFriedRiceRice" value=""><label for="stirFriedRiceRice" class="strikethrough">3 cups of fridge cold rice</label></li>
+        <br><li><input type="checkbox" id="stirFriedTomato" name="stirFriedTomato" value=""><label for="stirFriedTomato" class="strikethrough">1 tomato, diced</label></li>
+        <br><li><input type="checkbox" id="stirFriedOnion" name="stirFriedOnion" value=""><label for="stirFriedOnion" class="strikethrough">1/4 onion, diced</label></li>
+        <br><li><input type="checkbox" id="stirFriedRiceEgg" name="stirFriedRiceEgg" value=""><label for="stirFriedRiceEgg" class="strikethrough">1 egg</label></li>
+        <br><li><input type="checkbox" id="stirFriedRiceSoySauce" name="stirFriedRiceSoySauce" value=""><label for="stirFriedRiceSoySauce" class="strikethrough">2 tbsp of soy sauce</label></li>
+        <br><li><input type="checkbox" id="stirFriedRiceSalt" name="stirFriedRiceSalt" value=""><label for="stirFriedRiceSalt" class="strikethrough">1/4 tsp of salt, adjust as needed</label></li>
+        <br><li><input type="checkbox" id="stirFriedRiceBlackPepper" name="stirFriedRiceBlackPepper" value=""><label for="stirFriedRiceBlackPepper" class="strikethrough">
+                1 tsp of pepper, adjust as needed</label></li>
+        <br><li><input type="checkbox" id="stirFriedRiceCuminPowder" name="stirFriedRiceCuminPowder" value=""><label for="stirFriedRiceCuminPowder" class="strikethrough">
+                1/2 tsp of cumin powder, adjust as needed</label></li>
+        <br><li><input type="checkbox" id="stirFriedRicePaprika" name="stirFriedRiceCuminPowder" value=""><label for="stirFriedRicePaprika" class="strikethrough">1/2 tsp of paprika, adjust as needed</label></li>
+        <br><li><input type="checkbox" id="stirFriedRiceGarlicPowder" name="stirFriedRiceGarlicPowder" value=""><label for="stirFriedRiceGarlicPowder" class="strikethrough">1/2 tsp of garlic powder, adjust as needed</label></li>
+        <br><li><input type="checkbox" id="stirFriedRiceMeatOrSeafood" name="stirFriedRiceMeatOrSeafood" value=""><label for="stirFriedRiceMeatOrSeafood" class="strikethrough">1/4 pound of preferred choice of meat and or seafood</label></li>
+        <br><li><input type="checkbox" id="stirFriedRiceCilantroAndGreenOnion" name="stirFriedRiceCilantroAndGreenOnion" value=""><label for="stirFriedRiceCilantroAndGreenOnion" class="strikethrough">
+                Some cilantro and green onions for garnishing</label></li>
+        <br><li><input type="checkbox" id="stirFriedRiceOil" name="stirFriedRiceOil" value=""><label for="stirFriedRiceOil" class="strikethrough">Oil, as needed</label></li>
     </ul>
 </div>
 
@@ -60,16 +60,15 @@
    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
 -->
 
-<div>
+<div class="textSize">
     <br><h3>Steps:</h3>
     <ol class="textAlignment">
-       <li><input type="checkbox" id="stirFriedRiceStep1" name="stirFriedRiceStep1" value=""><label for="stirFriedRiceStep1">In a large pan, put some oil and sauté the tomato and onion, with some salt <br>
+       <li><input type="checkbox" id="stirFriedRiceStep1" name="stirFriedRiceStep1" value=""><label for="stirFriedRiceStep1" class="strikethrough">In a large pan, put some oil and sauté the tomato and onion, with some salt <br>
                 and pepper, for a few minutes until they become soft and the onions start to <br> change color.</label></li>
-        <br><li><input type="checkbox" id="stirFriedRiceStep2" name="stirFriedRiceStep2" value=""><label for="stirFriedRiceStep2">Add the meat and or seafood into the pan and fry for about 5 minutes.</label></li>
-        <br><li><input type="checkbox" id="stirFriedRiceStep3" name="stirFriedRiceStep3" value=""><label for="stirFriedRiceStep3">In a small bowl, beat the egg and toss it into the pan along with the rice <br>
-                and the rest of the seasonings and the soy sauce and fry for 10 minutes or so, <br> making sure to break up the rice so there are no clumps. Add more oil <br> as necessary to make sure the rice
-                doesn't stick to the pan.</label></li>
-        <br><li><input type="checkbox" id="stirFriedRiceStep4" name="stirFriedRiceStep4" value=""><label for="stirFriedRiceStep4">Top with the cilantro and green onion and serve while warm.</label></li>
+        <br><li><input type="checkbox" id="stirFriedRiceStep2" name="stirFriedRiceStep2" value=""><label for="stirFriedRiceStep2" class="strikethrough">Add the meat and or seafood into the pan and fry for about 5 minutes.</label></li>
+        <br><li><input type="checkbox" id="stirFriedRiceStep3" name="stirFriedRiceStep3" value=""><label for="stirFriedRiceStep3" class="strikethrough">In a small bowl, beat the egg and toss it into the pan along with the rice <br>
+                and the rest of the seasonings and the soy sauce and fry for 10 minutes or so, <br> making sure to break up the rice so there are no clumps. Add more oil <br> as necessary to make sure the rice doesn't stick to the pan.</label></li>
+        <br><li><input type="checkbox" id="stirFriedRiceStep4" name="stirFriedRiceStep4" value=""><label for="stirFriedRiceStep4" class="strikethrough">Top with the cilantro and green onion and serve while warm.</label></li>
     </ol>
 </div>
 
@@ -79,9 +78,9 @@
 
 <div class="buttons middleButtons">
     <br>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="stirFriedRicePictures" onclick="stirFriedRicePictures()"><b>Pictures</b></button></h3>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToRecipes" onclick="recipes()"><b>Back to Recipes</b></button></h3>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToHomepage" onclick="homepage()"><b>Back to Homepage</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="stirFriedRicePictures" onclick="stirFriedRicePictures()"><b>Pictures</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Back to Recipes</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Back to Homepage</b></button></h3>
     <br>
 </div>
 </body>

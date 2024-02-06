@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <title>Breakfast Sandwich</title>
     <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
-    <meta name="viewport" content="width=device-width, initial-scale=0.5"> <!-- fits the webpage to the screen. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
 </head>
 <body class="backgroundImage fullPage">
 
@@ -22,10 +22,10 @@
     this div container has the heading for the recipe.
 -->
 
-<div>
+<div class="textSize">
     <h1>Breakfast Sandwich</h1>
     <h3>Yields: 1 sandwich</h3>
-    <script type="text/javascript" src="script.js"></script><button type="button" class="mainButtonBorder" onclick="printPage()"><b>Download Recipe</b></button>
+    <script type="text/javascript" src="script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
     <br>
     <br>
 </div>
@@ -35,18 +35,18 @@
    this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
 -->
 
-<div>
+<div class="textSize">
     <h3>Ingredients:</h3>
     <ul>
-        <li><input type="checkbox" id="breakfastSandwichBreadType" name="breakfastSandwichBreadType" value=""><label for="breakfastSandwichBreadType">2 slices of preferred bread, toasted</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichAmountOfTomatoes" name="breakfastSandwichAmountOfTomatoes" value=""><label for="breakfastSandwichAmountOfTomatoes">1 or 2 slices of tomato</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichMushrooms" name="breakfastSandwichMushrooms" value=""><label for="breakfastSandwichMushrooms">1 sliced mushroom, sautéed</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichOnions" name="breakfastSandwichOnions" value=""><label for="breakfastSandwichOnions">1 or 2 thin slices of onion</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichAvocados" name="breakfastSandwichAvocados" value=""><label for="breakfastSandwichAvocados">1/2 of an avocado, sliced</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichSalt" name="breakfastSandwichSalt" value=""><label for="breakfastSandwichSalt">Pinch of salt</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichBlackPepper" name="breakfastSandwichBlackPepper" value=""><label for="breakfastSandwichBlackPepper">Pinch of black pepper</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichCuminPowder" name="breakfastSandwichCuminPowder" value=""><label for="breakfastSandwichCuminPowder">Pinch of cumin powder (optional)</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichEgg" name="breakfastSandwichEgg" value=""><label for="breakfastSandwichEgg">1 egg, fried</label></li>
+        <li><input type="checkbox" id="breakfastSandwichBreadType" name="breakfastSandwichBreadType" value=""><label for="breakfastSandwichBreadType" class="strikethrough">2 slices of preferred bread, toasted</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichAmountOfTomatoes" name="breakfastSandwichAmountOfTomatoes" value=""><label for="breakfastSandwichAmountOfTomatoes" class="strikethrough">1 or 2 slices of tomato</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichMushrooms" name="breakfastSandwichMushrooms" value=""><label for="breakfastSandwichMushrooms" class="strikethrough">1 sliced mushroom, sautéed</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichOnions" name="breakfastSandwichOnions" value=""><label for="breakfastSandwichOnions" class="strikethrough">1 or 2 thin slices of onion</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichAvocados" name="breakfastSandwichAvocados" value=""><label for="breakfastSandwichAvocados" class="strikethrough">1/2 of an avocado, sliced</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichSalt" name="breakfastSandwichSalt" value=""><label for="breakfastSandwichSalt" class="strikethrough">Pinch of salt</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichBlackPepper" name="breakfastSandwichBlackPepper" value=""><label for="breakfastSandwichBlackPepper" class="strikethrough">Pinch of black pepper</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichCuminPowder" name="breakfastSandwichCuminPowder" value=""><label for="breakfastSandwichCuminPowder" class="strikethrough">Pinch of cumin powder (optional)</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichEgg" name="breakfastSandwichEgg" value=""><label for="breakfastSandwichEgg" class="strikethrough">1 egg, fried</label></li>
     </ul>
 </div>
 
@@ -54,17 +54,14 @@
    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
 -->
 
-<div>
+<div class="textSize">
     <br><h3>Steps:</h3>
     <ol class="textAlignment">
-        <li><input type="checkbox" id="breakfastSandwichStep1" name="breakfastSandwichStep1" value=""><label for="breakfastSandwichStep1">Top the bottom half of the sandwich with the fried egg.</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichStep2" name="breakfastSandwichStep2" value=""><label for="breakfastSandwichStep2">
-        Put the sliced avocado on top of the egg, making sure to <br> put
-        the pinch of salt, pepper, and cumin on top of the avocado.</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichStep3" name="breakfastSandwichStep3" value=""><label for="breakfastSandwichStep3">
-        Put the sliced mushrooms on top of the avocado followed by slices <br>
-        of tomato and onion on top of the mushrooms and finish with the top <br>
-        half of the sandwich.</label></li>
+        <li><input type="checkbox" id="breakfastSandwichStep1" name="breakfastSandwichStep1" value=""><label for="breakfastSandwichStep1" class="strikethrough">Top the bottom half of the sandwich with the fried egg.</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichStep2" name="breakfastSandwichStep2" value=""><label for="breakfastSandwichStep2" class="strikethrough">
+        Put the sliced avocado on top of the egg, making sure to <br> put the pinch of salt, pepper, and cumin on top of the avocado.</label></li>
+        <br><li><input type="checkbox" id="breakfastSandwichStep3" name="breakfastSandwichStep3" value=""><label for="breakfastSandwichStep3" class="strikethrough">
+        Put the sliced mushrooms on top of the avocado followed by slices <br> of tomato and onion on top of the mushrooms and finish with the top <br> half of the sandwich.</label></li>
     </ol>
 </div>
 
@@ -74,9 +71,9 @@
 
 <div class="buttons middleButtons">
     <br>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="breakfastSandwichPictures" onclick="breakfastSandwichPictures()"><b>Pictures</b></button></h3>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToRecipes" onclick="recipes()"><b>Back to Recipes</b></button></h3>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToHomepage" onclick="homepage()"><b>Back to Homepage</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="breakfastSandwichPictures" onclick="breakfastSandwichPictures()"><b>Pictures</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Back to Recipes</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Back to Homepage</b></button></h3>
     <br>
 </div>
 </body>

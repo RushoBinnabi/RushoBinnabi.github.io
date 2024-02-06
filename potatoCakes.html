@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <title>Potato Cakes</title>
     <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
-    <meta name="viewport" content="width=device-width, initial-scale=0.5"> <!-- fits the webpage to the screen. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
 </head>
 <body class="backgroundImage fullPage">
 
@@ -22,10 +22,10 @@
     this div container has the heading for the recipe.
 -->
 
-<div>
+<div class="textSize">
     <h1>Potato Cakes</h1>
     <h3>Yields: 1 serving</h3>
-    <script type="text/javascript" src="script.js"></script><button type="button" class="mainButtonBorder" onclick="printPage()"><b>Download Recipe</b></button>
+    <script type="text/javascript" src="script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
     <br>
     <br>
 </div>
@@ -34,18 +34,18 @@
    this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
 -->
 
-<div>
+<div class="textSize">
     <h3>Ingredients:</h3>
     <ul>
-        <li><input type="checkbox" id="potatoCakesPotatoes" name="potatoCakesPotatoes" value=""><label for="potatoCakesPotatoes">2 to 3 large potatoes</label></li>
-        <br><li><input type="checkbox" id="potatoCakesBreadCrumbs" name="potatoCakesBreadCrumbs" value=""><label for="potatoCakesBreadCrumbs">1/2 cup of bread crumbs</label></li>
-        <br><li><input type="checkbox" id="potatoCakesEggs" name="potatoCakesEggs" value=""><label for="potatoCakesEggs">2 eggs</label></li>
-        <br><li><input type="checkbox" id="potatoCakesMilk" name="potatoCakesMilk" value=""><label for="potatoCakesMilk">A few tablespoons of milk</label></li>
-        <br><li><input type="checkbox" id="potatoCakesSalt" name="potatoCakesSalt" value=""><label for="potatoCakesSalt">1/2 tsp of salt</label></li>
-        <br><li><input type="checkbox" id="potatoCakesBlackPepper" name="potatoCakesBlackPepper" value=""><label for="potatoCakesBlackPepper">1 tsp of black pepper</label></li>
-        <br><li><input type="checkbox" id="potatoCakesGarlicPowder" name="potatoCakesGarlicPowder" value=""><label for="potatoCakesGarlicPowder">1/2 tsp of garlic powder</label></li>
-        <br><li><input type="checkbox" id="potatoCakesOil" name="potatoCakesOil" value=""><label for="potatoCakesOil">Oil, as needed</label></li>
-        <br><li><input type="checkbox" id="potatoCakesCilantro" name="potatoCakesCilantro" value=""><label for="potatoCakesCilantro">Cilantro, for garnishing</label></li>
+        <li><input type="checkbox" id="potatoCakesPotatoes" name="potatoCakesPotatoes" value=""><label for="potatoCakesPotatoes" class="strikethrough">2 to 3 large potatoes</label></li>
+        <br><li><input type="checkbox" id="potatoCakesBreadCrumbs" name="potatoCakesBreadCrumbs" value=""><label for="potatoCakesBreadCrumbs" class="strikethrough">1/2 cup of bread crumbs</label></li>
+        <br><li><input type="checkbox" id="potatoCakesEggs" name="potatoCakesEggs" value=""><label for="potatoCakesEggs" class="strikethrough">2 eggs</label></li>
+        <br><li><input type="checkbox" id="potatoCakesMilk" name="potatoCakesMilk" value=""><label for="potatoCakesMilk" class="strikethrough">A few tablespoons of milk</label></li>
+        <br><li><input type="checkbox" id="potatoCakesSalt" name="potatoCakesSalt" value=""><label for="potatoCakesSalt" class="strikethrough">1/2 tsp of salt</label></li>
+        <br><li><input type="checkbox" id="potatoCakesBlackPepper" name="potatoCakesBlackPepper" value=""><label for="potatoCakesBlackPepper" class="strikethrough">1 tsp of black pepper</label></li>
+        <br><li><input type="checkbox" id="potatoCakesGarlicPowder" name="potatoCakesGarlicPowder" value=""><label for="potatoCakesGarlicPowder" class="strikethrough">1/2 tsp of garlic powder</label></li>
+        <br><li><input type="checkbox" id="potatoCakesOil" name="potatoCakesOil" value=""><label for="potatoCakesOil" class="strikethrough">Oil, as needed</label></li>
+        <br><li><input type="checkbox" id="potatoCakesCilantro" name="potatoCakesCilantro" value=""><label for="potatoCakesCilantro" class="strikethrough">Cilantro, for garnishing</label></li>
     </ul>
 </div>
 
@@ -53,23 +53,23 @@
    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
 -->
 
-<div>
+<div class="textSize">
     <br><h3>Steps:</h3>
     <ol class="textAlignment">
-        <li><input type="checkbox" id="potatoCakesStep1" name="potatoCakesStep1" value=""><label for="potatoCakesStep1">Fill up a large saucepan or pot with some water,
+        <li><input type="checkbox" id="potatoCakesStep1" name="potatoCakesStep1" value=""><label for="potatoCakesStep1" class="strikethrough">Fill up a large saucepan or pot with some water,
                     sprinkle with salt, and bring to a boil.</label></li>
-        <br><li><input type="checkbox" id="potatoCakesStep2" name="potatoCakesStep2" value=""><label for="potatoCakesStep2">While the water comes to a boil, peel and cut
+        <br><li><input type="checkbox" id="potatoCakesStep2" name="potatoCakesStep2" value=""><label for="potatoCakesStep2" class="strikethrough">While the water comes to a boil, peel and cut
                     the potatoes into quarters and toss into the <br> pot of boiling water.</label></li>
-        <br><li><input type="checkbox" id="potatoCakesStep3" name="potatoCakesStep3" value=""><label for="potatoCakesStep3">After the potatoes are fork tender, drain
+        <br><li><input type="checkbox" id="potatoCakesStep3" name="potatoCakesStep3" value=""><label for="potatoCakesStep3" class="strikethrough">After the potatoes are fork tender, drain
                     and set aside, for now.</label></li>
-        <br><li><input type="checkbox" id="potatoCakesStep4" name="potatoCakesStep4" value=""><label for="potatoCakesStep4">In a small bowl, beat the egg with the milk.</label></li>
-        <br><li><input type="checkbox" id="potatoCakesStep5" name="potatoCakesStep5" value=""><label for="potatoCakesStep5">After the potatoes have cooled, using a potato ricer or
+        <br><li><input type="checkbox" id="potatoCakesStep4" name="potatoCakesStep4" value=""><label for="potatoCakesStep4" class="strikethrough">In a small bowl, beat the egg with the milk.</label></li>
+        <br><li><input type="checkbox" id="potatoCakesStep5" name="potatoCakesStep5" value=""><label for="potatoCakesStep5" class="strikethrough">After the potatoes have cooled, using a potato ricer or
                     a masher, mash the potatoes into <br> a bowl. Add the seasonings with the potatoes and mix to combine.</label></li>
-        <br><li><input type="checkbox" id="potatoCakesStep6" name="potatoCakesStep6" value=""><label for="potatoCakesStep6">Coat the cakes in the egg and the bread crumbs until well
+        <br><li><input type="checkbox" id="potatoCakesStep6" name="potatoCakesStep6" value=""><label for="potatoCakesStep6" class="strikethrough">Coat the cakes in the egg and the bread crumbs until well
                     coated. Shake off any excess.</label></li>
-        <br><li><input type="checkbox" id="potatoCakesStep7" name="potatoCakesStep7" value=""><label for="potatoCakesStep7">In a frying pan, heat some oil to 325-375&deg;F (163-190&deg;C)
+        <br><li><input type="checkbox" id="potatoCakesStep7" name="potatoCakesStep7" value=""><label for="potatoCakesStep7" class="strikethrough">In a frying pan, heat some oil to 325-375&deg;F (163-190&deg;C)
                     and fry until golden brown.</label></li>
-        <br><li><input type="checkbox" id="potatoCakesStep8" name="potatoCakesStep8" value=""><label for="potatoCakesStep8">Top with the cilantro and serve with your preferred sauce.</label></li>
+        <br><li><input type="checkbox" id="potatoCakesStep8" name="potatoCakesStep8" value=""><label for="potatoCakesStep8" class="strikethrough">Top with the cilantro and serve with your preferred sauce.</label></li>
     </ol>
 </div>
 
@@ -79,8 +79,8 @@
 
 <div class="buttons middleButtons">
     <br>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToRecipes" onclick="recipes()"><b>Back to Recipes</b></button></h3>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToHomepage" onclick="homepage()"><b>Back to Homepage</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Back to Recipes</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Back to Homepage</b></button></h3>
     <br>
 </div>
 </body>

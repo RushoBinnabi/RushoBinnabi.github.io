@@ -116,6 +116,10 @@ a:hover + .boxPreview,.boxPreview:hover{
     text-justify: inter-word;
 }
 
-.aboutPageButton {
-    bottom: 65%;
+input[type=checkbox]:checked + label.strikethrough {
+    text-decoration: line-through;
+}
+
+.buttonPadding {
+    padding: 5px;
 }

@@ -14,7 +14,7 @@
     <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
     <link rel="stylesheet" href="styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
-    <meta name="viewport" content="width=device-width, initial-scale=0.5"> <!-- fits the webpage to the screen. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
 </head>
 <body class="backgroundImage fullPage">
 
@@ -22,10 +22,10 @@
     this div container has the heading for the recipe.
 -->
 
-<div>
+<div class="textSize">
     <h1>Potato Bread</h1>
     <h3>Yields: 1 loaf</h3>
-    <script type="text/javascript" src="script.js"></script><button type="button" class="mainButtonBorder" onclick="printPage()"><b>Download Recipe</b></button>
+    <script type="text/javascript" src="script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
     <br>
     <br>
 </div>
@@ -34,72 +34,74 @@
    this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
 -->
 
-<div>
+<div class="textSize">
     <h3>Ingredients:</h3>
     <ul>
         <input type="checkbox" id="potatoBreadFlour" name="potatoBreadFlour" value="">
-        <label for="potatoBreadFlour">All-Purpose or Bread Flour: 3 Cups</label>
+        <label for="potatoBreadFlour" class="strikethrough">All-Purpose or Bread Flour: 3 Cups</label>
 
         <br>
         <br>
 
         <input type="checkbox" id="potatoBreadSugar" name="potatoBreadSugar" value="">
-        <label for="potatoBreadSugar">Sugar: 3/4 Cups</label>
+        <label for="potatoBreadSugar" class="strikethrough">Sugar: 3/4 Cups</label>
 
         <br>
         <br>
 
         <input type="checkbox" id="potatoBreadSalt" name="potatoBreadSalt" value="">
-        <label for="potatoBreadSalt">Salt: 1 tsp</label>
+        <label for="potatoBreadSalt" class="strikethrough">Salt: 1 tsp</label>
 
         <br>
         <br>
 
         <input type="checkbox" id="potatoBreadPotato" name="potatoBreadPotato" value="">
-        <label for="potatoBreadPotato">Potatoes: 2-3 large potatoes, mashed</label>
+        <label for="potatoBreadPotato" class="strikethrough">Potatoes: 2-3 large potatoes, mashed</label>
 
         <br>
         <br>
 
         <input type="checkbox" id="potatoBreadYeast" name="potatoBreadYeast" value="">
-        <label for="potatoBreadYeast">Dry or Instant Yeast: 1 tsp</label>
+        <label for="potatoBreadYeast" class="strikethrough">Dry or Instant Yeast: 1 tsp</label>
 
         <br>
         <br>
 
         <input type="checkbox" id="potatoBreadWaterOrMilk" name="potatoBreadWaterOrMilk" value="">
-        <label for="potatoBreadWaterOrMilk">Water or Milk: 1 Cup</label>
+        <label for="potatoBreadWaterOrMilk" class="strikethrough">Water or Milk: 1 Cup</label>
 
         <br>
         <br>
 
         <input type="checkbox" id="potatoBreadEgg" name="potatoBreadEgg" value="">
-        <label for="potatoBreadEgg">Eggs: 1</label>
+        <label for="potatoBreadEgg" class="strikethrough">Eggs: 1</label>
 
         <br>
         <br>
 
         <input type="checkbox" id="potatoBreadButter" name="potatoBreadButter" value="">
-        <label for="potatoBreadButter">Butter: 6 tbsp, softened</label>
+        <label for="potatoBreadButter" class="strikethrough">Butter: 6 tbsp, softened</label>
 
         <br>
         <br>
 
         <input type="checkbox" id="potatoBreadEggwash" name="potatoBreadEggwash" value="">
-        <label for="potatoBreadEggwash">Eggwash (Optional): 1 Beaten Egg with a Splash of Milk</label>
+        <label for="potatoBreadEggwash" class="strikethrough">Eggwash (Optional): 1 Beaten Egg with a Splash of Milk</label>
     </ul>
 
     <br>
+</div>
 
     <!--
         this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
     -->
 
+<div class="textSize">
     <h3>Steps:</h3>
     <ol class="textAlignment">
         <li>
             <input type="checkbox" id="potatoBreadStep1" name="potatoBreadStep1" value="">
-            <label for="potatoBreadStep1">Mix the yeast with the warm water or milk and leave covered for 10-15 <br>
+            <label for="potatoBreadStep1" class="strikethrough">Mix the yeast with the warm water or milk and leave covered for 10-15 <br>
                 minutes to bloom.</label>
         </li>
 
@@ -107,7 +109,7 @@
 
         <li>
             <input type="checkbox" id="potatoBreadStep2" name="potatoBreadStep2" value="">
-            <label for="potatoBreadStep2">In a large bowl, combine all the ingredients and knead for 10 minutes or until <br>
+            <label for="potatoBreadStep2" class="strikethrough">In a large bowl, combine all the ingredients and knead for 10 minutes or until <br>
                 a smooth ball of dough forms.</label>
         </li>
 
@@ -115,14 +117,14 @@
 
         <li>
             <input type="checkbox" id="potatoBreadStep3" name="potatoBreadStep3" value="">
-            <label for="potatoBreadStep3">Brush some oil on the dough ball and bowl. Cover and leave to proof for 1 hour.</label>
+            <label for="potatoBreadStep3" class="strikethrough">Brush some oil on the dough ball and bowl. Cover and leave to proof for 1 hour.</label>
         </li>
 
         <br>
 
         <li>
             <input type="checkbox" id="potatoBreadStep4" name="potatoBreadStep4" value="">
-            <label for="potatoBreadStep4">Preheat oven to 350&deg;F (176&deg;C) and lightly grease your preferred bread loaf pan <br>
+            <label for="potatoBreadStep4" class="strikethrough">Preheat oven to 350&deg;F (176&deg;C) and lightly grease your preferred bread loaf pan <br>
                 with some oil.</label>
         </li>
 
@@ -130,7 +132,7 @@
 
         <li>
             <input type="checkbox" id="potatoBreadStep5" name="potatoBreadStep5" value="">
-            <label for="potatoBreadStep5">Dust a clean work surface with some flour and start shaping the dough into a log <br>
+            <label for="potatoBreadStep5" class="strikethrough">Dust a clean work surface with some flour and start shaping the dough into a log <br>
                 that fits into the loaf pan. Use more flour if needed.</label>
         </li>
 
@@ -138,20 +140,20 @@
 
         <li>
             <input type="checkbox" id="potatoBreadStep6" name="potatoBreadStep6" value="">
-            <label for="potatoBreadStep6">Brush the top of the loaf with the eggwash, if desired. Bake for 50-60 minutes.</label>
+            <label for="potatoBreadStep6" class="strikethrough">Brush the top of the loaf with the eggwash, if desired. Bake for 50-60 minutes.</label>
         </li>
 
         <br>
 
         <li>
             <input type="checkbox" id="potatoBreadStep7" name="potatoBreadStep7" value="">
-            <label for="potatoBreadStep7">Brush the top of the loaf with butter and leave to cool completely before cutting <br>
+            <label for="potatoBreadStep7" class="strikethrough">Brush the top of the loaf with butter and leave to cool completely before cutting <br>
                 and serving.</label>
         </li>
     </ol>
 </div>
 
-<div>
+<div class="textSize">
     <br><h3>Storage Tips:</h3>
     <ul>
         <li>Keep in a cool area and lightly covered.</li>
@@ -165,9 +167,9 @@
 
 <div class="buttons middleButtons">
     <br>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="potatoBreadPictures" onclick="potatoBreadPictures()"><b>Pictures</b></button></h3>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToRecipes" onclick="recipes()"><b>Back to Recipes</b></button></h3>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToHomepage" onclick="homepage()"><b>Back to Homepage</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="potatoBreadPictures" onclick="potatoBreadPictures()"><b>Pictures</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Back to Recipes</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Back to Homepage</b></button></h3>
     <br>
 </div>
 

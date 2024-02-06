@@ -14,7 +14,7 @@
     <meta charset="UTF-8">
     <title>Crispy Chicken Ramen</title>
     <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
-    <meta name="viewport" content="width=device-width, initial-scale=0.5"> <!-- fits the webpage to the screen. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
 </head>
 <body class="backgroundImage fullPage">
 
@@ -22,10 +22,10 @@
     this div container has the heading for the recipe.
 -->
 
-<div>
+<div class="textSize">
     <h1>Crispy Chicken Ramen</h1>
     <h3>Yields: 1 Serving</h3>
-    <script type="text/javascript" src="script.js"></script><button type="button" class="mainButtonBorder" onclick="printPage()"><b>Download Recipe</b></button>
+    <script type="text/javascript" src="script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
     <br>
     <br>
 </div>
@@ -35,32 +35,25 @@
    this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
 -->
 
-<div>
+<div class="textSize">
     <h3>Ingredients:</h3>
     <ul>
-        <li><input type="checkbox" id="crispyChickenRamenChickenBreast" name="crispyChickenRamenChickenBreast" value=""><label for="crispyChickenRamenChickenBreast">1 chicken breast</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenTomato" name="crispyChickenRamenTomato" value=""><label for="crispyChickenRamenTomato">1/2 tomato, diced</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenOnion" name="crispyChickenRamenOnion" value=""><label for="crispyChickenRamenOnion">1/4 onion, thinly sliced</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenMushrooms" name="crispyChickenRamenMushrooms" value=""><label for="crispyChickenRamenMushrooms">2 mushrooms, sliced</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenEggs" name="crispyChickenRamenEggs" value=""><label for="crispyChickenRamenEggs">2 eggs</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenRamen" name="crispyChickenRamenRamen" value=""><label for="crispyChickenRamenRamen">
-
+        <li><input type="checkbox" id="crispyChickenRamenChickenBreast" name="crispyChickenRamenChickenBreast" value=""><label for="crispyChickenRamenChickenBreast" class="strikethrough">1 chicken breast</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenTomato" name="crispyChickenRamenTomato" value=""><label for="crispyChickenRamenTomato" class="strikethrough">1/2 tomato, diced</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenOnion" name="crispyChickenRamenOnion" value=""><label for="crispyChickenRamenOnion" class="strikethrough">1/4 onion, thinly sliced</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenMushrooms" name="crispyChickenRamenMushrooms" value=""><label for="crispyChickenRamenMushrooms" class="strikethrough">2 mushrooms, sliced</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenEggs" name="crispyChickenRamenEggs" value=""><label for="crispyChickenRamenEggs" class="strikethrough">2 eggs</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenRamen" name="crispyChickenRamenRamen" value=""><label for="crispyChickenRamenRamen" class="strikethrough">
         <a href="https://www.doordash.com/browse/merchants/884272/products/299366?business_id=884272&dd_sic=urpc_3d248bf7-7aac-463d-9a4f-96522b953a03&gad_source=1&gclid=EAIaIQobChMIh5Lpt7PfggMV8GJHAR0tzQGyEAQYAyABEgK1nPD_BwE&gclsrc=aw.ds&kclickid=_k_EAIaIQobChMIh5Lpt7PfggMV8GJHAR0tzQGyEAQYAyABEgK1nPD_BwE_k_&ms_id=299366&o_d_id=dx_60a35b7c115f42cfb2a95d9d5d96ee23&region_id=2830558&store_id=2830558&utm_adgroup_id=&utm_campaign=CX_US_SE_LP_GO_NVT_CUSXXX_20560041960_CRSSCT_%20PL_TOT_GROCY_BAKEPANTRYSSX_EVG_ROAS_XXX_COUSA_EN_EN_X_DOOR_GO_SE_TXT_SmartShopx&utm_content=&utm_creative_id=&utm_keyword_id=&utm_medium=PLA&utm_source=Google&utm_term=">
-        1 bowl of Nissin Hot & Spicy Ramen or any kind of Ramen</a>
-        <div class="boxPreview">
-            <iframe src="https://www.doordash.com/browse/merchants/884272/products/299366?business_id=884272&dd_sic=urpc_3d248bf7-7aac-463d-9a4f-96522b953a03&gad_source=1&gclid=EAIaIQobChMIh5Lpt7PfggMV8GJHAR0tzQGyEAQYAyABEgK1nPD_BwE&gclsrc=aw.ds&kclickid=_k_EAIaIQobChMIh5Lpt7PfggMV8GJHAR0tzQGyEAQYAyABEgK1nPD_BwE_k_&ms_id=299366&o_d_id=dx_60a35b7c115f42cfb2a95d9d5d96ee23&region_id=2830558&store_id=2830558&utm_adgroup_id=&utm_campaign=CX_US_SE_LP_GO_NVT_CUSXXX_20560041960_CRSSCT_%20PL_TOT_GROCY_BAKEPANTRYSSX_EVG_ROAS_XXX_COUSA_EN_EN_X_DOOR_GO_SE_TXT_SmartShopx&utm_content=&utm_creative_id=&utm_keyword_id=&utm_medium=PLA&utm_source=Google&utm_term=" class="previewBorders" width = "750px" height = "500px">
-            </iframe>
-        </div>
-
-        </label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenSalt" name="crispyChickenRamenSalt" value=""><label for="crispyChickenRamenSalt">1/4 tsp of salt, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenBlackPepper" name="crispyChickenRamenBlackPepper" value=""><label for="crispyChickenRamenBlackPepper">1/4 tsp of black pepper, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenCuminPowder" name="crispyChickenRamenCuminPowder" value=""><label for="crispyChickenRamenCuminPowder">1/4 tsp of cumin powder, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenPaprika" name="crispyChickenRamenPaprika" value=""><label for="crispyChickenRamenPaprika">1/4 tsp of Paprika, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenGarlicPowder" name="crispyChickenRamenGarlicPowder" value=""><label for="crispyChickenRamenGarlicPowder">1/4 tsp of garlic powder, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenBreadCrumbs" name="crispyChickenRamenBreadCrumbs" value=""><label for="crispyChickenRamenBreadCrumbs">1/2 cups of bread crumbs, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenLemon" name="crispyChickenRamenLemon" value=""><label for="crispyChickenRamenLemon">1/4 lemon</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenOil" name="crispyChickenRamenOil" value=""><label for="crispyChickenRamenOil">Oil, as needed</label></li>
+            1 bowl of Nissin Hot & Spicy Ramen or any kind of Ramen</a></label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenSalt" name="crispyChickenRamenSalt" value=""><label for="crispyChickenRamenSalt" class="strikethrough">1/4 tsp of salt, adjust as needed</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenBlackPepper" name="crispyChickenRamenBlackPepper" value=""><label for="crispyChickenRamenBlackPepper" class="strikethrough">1/4 tsp of black pepper, adjust as needed</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenCuminPowder" name="crispyChickenRamenCuminPowder" value=""><label for="crispyChickenRamenCuminPowder" class="strikethrough">1/4 tsp of cumin powder, adjust as needed</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenPaprika" name="crispyChickenRamenPaprika" value=""><label for="crispyChickenRamenPaprika" class="strikethrough">1/4 tsp of Paprika, adjust as needed</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenGarlicPowder" name="crispyChickenRamenGarlicPowder" value=""><label for="crispyChickenRamenGarlicPowder" class="strikethrough">1/4 tsp of garlic powder, adjust as needed</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenBreadCrumbs" name="crispyChickenRamenBreadCrumbs" value=""><label for="crispyChickenRamenBreadCrumbs" class="strikethrough">1/2 cups of bread crumbs, adjust as needed</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenLemon" name="crispyChickenRamenLemon" value=""><label for="crispyChickenRamenLemon" class="strikethrough">1/4 lemon</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenOil" name="crispyChickenRamenOil" value=""><label for="crispyChickenRamenOil" class="strikethrough">Oil, as needed</label></li>
     </ul>
 </div>
 
@@ -68,28 +61,28 @@
    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
 -->
 
-<div>
+<div class="textSize">
     <br><h3>Steps:</h3>
     <ol class="textAlignment">
-        <li><input type="checkbox" id="crispyChickenRamenStep1" name="crispyChickenRamenStep1" value=""><label for="crispyChickenRamenStep1">In a bowl,
+        <li><input type="checkbox" id="crispyChickenRamenStep1" name="crispyChickenRamenStep1" value=""><label for="crispyChickenRamenStep1" class="strikethrough">In a bowl,
             place the pack of Ramen along with its flavor packets.</label></li>
         <br><li><input type="checkbox" id="crispyChickenRamenStep2" name="crispyChickenRamenStep2" value="">
-        <label for="crispyChickenRamenStep2">Sauté together the diced onion, tomato, and sliced mushrooms along <br>
+        <label for="crispyChickenRamenStep2" class="strikethrough">Sauté together the diced onion, tomato, and sliced mushrooms along <br>
             with some oil and half of the seasonings until the tomatoes and onions are soft<br> and changed color,
             and the mushrooms are cooked through. Put them into the <br> bowl with the Ramen and set aside.</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenStep3" name="crispyChickenRamenStep3" value=""><label for="crispyChickenRamenStep3">
-            In a small bowl, beat one of the eggs with some milk and in another separate bowl, <br> combine the bread crumbs with the rest of the seasoning and the juice from
-            the lemon.</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenStep4" name="crispyChickenRamenStep4" value=""><label for="crispyChickenRamenStep4">Dip the chicken
-            into the egg mixture until the chicken is well coated. Transfer to <br> bread crumbs and coat well.</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenStep5" name="crispyChickenRamenStep5" value=""><label for="crispyChickenRamenStep5">Fry until the chicken
+        <br><li><input type="checkbox" id="crispyChickenRamenStep3" name="crispyChickenRamenStep3" value=""><label for="crispyChickenRamenStep3" class="strikethrough">
+            In a small bowl, beat one of the eggs with some milk and in another separate bowl,
+            <br> combine the bread crumbs with the rest of the seasoning and the juice from the lemon.</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenStep4" name="crispyChickenRamenStep4" value=""><label for="crispyChickenRamenStep4" class="strikethrough">
+            Dip the chicken into the egg mixture until the chicken is well coated. Transfer to <br> bread crumbs and coat well.</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenStep5" name="crispyChickenRamenStep5" value=""><label for="crispyChickenRamenStep5" class="strikethrough">Fry until the chicken
             reaches 165&deg;F (74&deg;C). While the chicken cooks, fill the bowl <br> of Ramen with some boiling water until the Ramen is just about submerged and leave covered.</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenStep6" name="crispyChickenRamenStep6" value=""><label for="crispyChickenRamenStep6">After the chicken is cooked,
-            rest for 10 minutes. After it has cooled, cut against the grain.</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenStep7" name="crispyChickenRamenStep7" value=""><label for="crispyChickenRamenStep7">Take the remaining egg mixture
-            and quickly scramble in low heat with the leftover bread crumbs.</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenStep8" name="crispyChickenRamenStep8" value=""><label for="crispyChickenRamenStep8"></label>Place the chicken and
-            the scrambled eggs into the Ramen, and enjoy.</li>
+        <br><li><input type="checkbox" id="crispyChickenRamenStep6" name="crispyChickenRamenStep6" value=""><label for="crispyChickenRamenStep6" class="strikethrough">
+            After the chicken is cooked, rest for 10 minutes. After it has cooled, cut against the grain.</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenStep7" name="crispyChickenRamenStep7" value=""><label for="crispyChickenRamenStep7" class="strikethrough">
+            Take the remaining egg mixture and quickly scramble in low heat with the leftover bread crumbs.</label></li>
+        <br><li><input type="checkbox" id="crispyChickenRamenStep8" name="crispyChickenRamenStep8" value=""><label for="crispyChickenRamenStep8" class="strikethrough">
+        Place the chicken and the scrambled eggs into the Ramen, and enjoy.</label></li>
     </ol>
 </div>
 
@@ -99,9 +92,9 @@
 
 <div class="buttons middleButtons">
     <br>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="crispyChickenRamenPictures" onclick="crispyChickenRamenPictures()"><b>Pictures</b></button></h3>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToRecipes" onclick="recipes()"><b>Back to Recipes</b></button></h3>
-    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder" id="backToHomepage" onclick="homepage()"><b>Back to Homepage</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="crispyChickenRamenPictures" onclick="crispyChickenRamenPictures()"><b>Pictures</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Back to Recipes</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Back to Homepage</b></button></h3>
     <br>
 </div>
 </body>
