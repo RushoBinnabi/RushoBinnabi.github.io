@@ -219,3 +219,35 @@ function pastaSaladRecipe() {
 function pastaSaladPictures() {
     location.href='pastaSaladPictures.html';
 }
+
+/*
+    this eggSaladSandwichPictures() function redirects the webpage to the pictures of the egg salad sandwich recipe html file when the appropriate button is clicked.
+ */
+
+function eggSaladSandwichPictures() {
+    location.href='eggSaladSandwichPictures.html';
+}
+
+/*
+    this eggSaladSandwichRecipe() function redirects the webpage to the egg salad sandwich recipe html file when the appropriate button is clicked.
+ */
+
+function eggSaladSandwichRecipe() {
+    location.href='eggSaladSandwich.html';
+}
+
+/*
+    this butteredNoodlePictures() function redirects the webpage to the pictures of the buttered noodles recipe html file when the appropriate button is clicked.
+ */
+
+function butteredNoodlePictures() {
+    location.href='butteredNoodlePictures.html';
+}
+
+/*
+    this butteredNoodlesRecipe() function redirects the webpage to the buttered noodles recipe html file when the appropriate button is clicked.
+ */
+
+function butteredNoodlesRecipe() {
+    location.href='butteredNoodles.html';
+}
