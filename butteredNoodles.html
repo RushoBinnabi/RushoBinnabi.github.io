@@ -1,14 +1,99 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 2/12/2024
+    Project: Website - Buttered Noodles Recipe
+-->
+
+<!-- this eggSaladSandwich html file contains the html for the egg salad sandwich recipe. -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Buttered Noodles</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="hideButtons.css" media="print">
-    <link rel="icon" href="icons\icon.ico">
+    <link rel="stylesheet" href="styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
+    <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
     <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes">
 </head>
 <body class="backgroundImage fullPage">
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
+<div class="textSize">
+    <h1>Buttered Noodles</h1>
+    <h3>Yields: 1 serving</h3>
+    <script type="text/javascript" src="script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
+    <br>
+    <br>
+</div>
+
+<!--
+   this ingredients div container has checkboxes set up so that users can check off ingredients and their measurements as they have them.
+-->
+
+<div class="textSize">
+    <h3>Ingredients:</h3>
+    <ul>
+        <li><input type="checkbox" id="butteredNoodlesPastaNoodles" name="butteredNoodlesPastaNoodles" value="">
+            <label for="butteredNoodlesPastaNoodles">Pasta noodles of desired type: 1 cup</label></li>
+        <br>
+        <li><input type="checkbox" id="butteredNoodlesButter" name="butteredNoodlesButter" value="">
+            <label for="butteredNoodlesButter"></label>Softened Butter: 1 tbsp</li>
+        <br>
+        <li><input type="checkbox" id="butteredNoodlesSalt" name="butteredNoodlesSalt" value="">
+            <label for="butteredNoodlesSalt"></label>Salt: 1 pinch, adjust as needed</li>
+        <br>
+        <li><input type="checkbox" id="butteredNoodlesBlackPepper" name="butteredNoodlesBlackPepper" value="">
+            <label for="butteredNoodlesBlackPepper"></label>Black Pepper: 1 pinch, adjust as needed</li>
+        <br>
+        <li><input type="checkbox" id="butteredNoodlesMeat" name="butteredNoodlesMeat" value="">
+            <label for="butteredNoodlesMeat">Choice of Meat (Optional), minced: 1/4 lbs</label></li>
+        <br>
+        <li><input type="checkbox" id="butteredNoodlesOil" name="butteredNoodlesOil" value="">
+            <label for="butteredNoodlesOil">Oil: as needed</label></li>
+    </ul>
+</div>
+<br>
+
+<!--
+   this steps div container has checkboxes set up so that users can check off the steps to making the recipe as they do them.
+-->
+
+<div class="textSize">
+    <h3>Steps:</h3>
+    <ol class="textAlignment">
+        <li><input type="checkbox" id="butteredNoodlesStep1" name="butteredNoodlesStep1" value="">
+            <label for="butteredNoodlesStep1">In a large saucepan, boil the pasta noodles in some salted water for 10 minutes <br>
+                    or until al dente. Strain and put back into the pan with the softened butter and the seasonings. <br>
+                    Mix until the butter is fully melted into the pasta noodles and everything is combined.</label></li>
+        <br>
+        <li><input type="checkbox" id="butteredNoodlesStep2" name="butteredNoodlesStep2" value="">
+            <label for="butteredNoodlesStep2">In a separate saucepan, sauté the meat with some of the seasoning until cooked through.</label></li>
+        <br>
+        <li><input type="checkbox" id="butteredNoodlesStep3" name="butteredNoodlesStep3" value="">
+            <label for="butteredNoodlesStep3">Add the sautéed meat into the saucepan with the noodles and mix until everything is <br>
+                    incorporated and adjust the seasoning as needed.</label></li>
+        <br>
+        <li><input type="checkbox" id="butteredNoodlesStep4" name="butteredNoodlesStep4" value="">
+            <label for="butteredNoodlesStep4">Serve and enjoy.</label></li>
+    </ol>
+</div>
+<br>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
+
+<div class="buttons middleButtons">
+    <br>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="butteredNoodlesPictures" onclick="butteredNoodlePictures()"><b>Pictures</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Back to Recipes</b></button></h3>
+    <h3><script type="text/javascript" src="script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Back to Homepage</b></button></h3>
+    <br>
+</div>
 
 </body>
 </html>

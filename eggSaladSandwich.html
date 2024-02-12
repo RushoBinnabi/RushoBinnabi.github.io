@@ -1,14 +1,26 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 2/12/2024
+    Project: Website - Egg Salad Sandwich Recipe
+-->
+
+<!-- this eggSaladSandwich html file contains the html for the egg salad sandwich recipe. -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Egg Salad Sandwich</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="hideButtons.css" media="print">
-    <link rel="icon" href="icons\icon.ico">
+    <link rel="stylesheet" href="styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
+    <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
     <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes">
 </head>
 <body class="backgroundImage fullPage">
+
+<!--
+    this div container has the heading for the recipe.
+-->
 
 <div class="textSize">
     <h1>Egg Salad Sandwich</h1>
@@ -17,6 +29,10 @@
     <br>
     <br>
 </div>
+
+<!--
+   this ingredients div container has checkboxes set up so that users can check off ingredients and their measurements as they have them.
+-->
 
 <div class="textSize">
     <h3>Ingredients:</h3>
@@ -38,9 +54,19 @@
         <br>
         <li><input type="checkbox" id="eggSaladSandwichBread" name="eggSaladSandwichBread" value="">
             <label for="eggSaladSandwichBread">Bread Slices (optionally toasted): 2</label></li>
+        <br>
+        <li><input type="checkbox" id="eggSaladSandwichCucumbers" name="eggSaladSandwichCucumbers" value="">
+            <label for="eggSaladSandwichCucumbers">1/4 cup of Cucumbers</label></li>
+        <br>
+        <li><input type="checkbox" id="eggSaladSandwichOnions" name="eggSaladSandwichOnions" value="">
+            <label for="eggSaladSandwichOnions">1/4 cup of Onions</label></li>
     </ul>
 </div>
 <br>
+
+<!--
+   this steps div container has checkboxes set up so that users can check off the steps to making the recipe as they do them.
+-->
 
 <div class="textSize">
     <h3>Steps:</h3>
@@ -51,10 +77,10 @@
         <br>
         <li><input type="checkbox" id="eggSaladSandwichStep2" name="eggSaladSandwichStep2" value="">
             <label for="eggSaladSandwichStep2">Mash the eggs or scoop out the yolks and chop up the whites until <br>
-                    slightly chunky.</label></li>
+                    slightly chunky. Dice the cucumbers and onions.</label></li>
         <br>
         <li><input type="checkbox" id="eggSaladSandwichStep3" name="eggSaladSandwichStep3" value="">
-            <label for="eggSaladSandwichStep3">Combine the eggs with the seasonings and the mayonnaise until <br>
+            <label for="eggSaladSandwichStep3">Combine everything with the seasonings and the mayonnaise until <br>
                     well combined.</label></li>
         <br>
         <li><input type="checkbox" id="eggSaladSandwichStep4" name="eggSaladSandwichStep4" value="">
@@ -71,6 +97,10 @@
     </ol>
 </div>
 <br>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
 
 <div class="buttons middleButtons">
     <br>
