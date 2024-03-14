@@ -123,3 +123,9 @@ input[type=checkbox]:checked + label.strikethrough {
 .buttonPadding {
     padding: 5px;
 }
+
+.centeredHeadings {
+    top: 0;
+    text-align: center;
+    padding-top: 14px;
+}
