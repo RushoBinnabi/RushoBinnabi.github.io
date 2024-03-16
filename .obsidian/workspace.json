@@ -1,43 +1,23 @@
 {
   "main": {
-    "id": "7d4e57aa0913d16d",
+    "id": "520744d9f16cd154",
     "type": "split",
     "children": [
       {
-        "id": "40228a5717037540",
+        "id": "68c0d4429140cd2d",
         "type": "tabs",
         "children": [
           {
-            "id": "b3adfdfa98de477e",
+            "id": "a6e66b46367394e7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Readme.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
-            },
-            "group": "150f29c491262ade"
-          }
-        ]
-      },
-      {
-        "id": "1bc9ec7e27523ed5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "1507d8ea900203e9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Readme.md",
-                "mode": "preview",
-                "source": false
-              }
-            },
-            "group": "150f29c491262ade"
+            }
           }
         ]
       }
@@ -45,15 +25,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "c7c190395fb0cacc",
+    "id": "7626865f2314f12e",
     "type": "split",
     "children": [
       {
-        "id": "cb6ec7100b62d957",
+        "id": "5f0ff10ae785c5a5",
         "type": "tabs",
         "children": [
           {
-            "id": "ce6dbf949dc7720f",
+            "id": "f5fd1c9a5378d691",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -63,7 +43,7 @@
             }
           },
           {
-            "id": "0b025042334346ca",
+            "id": "7128c1789840e6c4",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -78,7 +58,7 @@
             }
           },
           {
-            "id": "c8cc3c3c8af5c49d",
+            "id": "cd195a252dba89d0",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -89,23 +69,23 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 300
   },
   "right": {
-    "id": "530a993c16fd1d7d",
+    "id": "d597b581314efcd5",
     "type": "split",
     "children": [
       {
-        "id": "ad6cc70f536a19c0",
+        "id": "54968c330813219f",
         "type": "tabs",
         "children": [
           {
-            "id": "7ddca7b0e29f18e6",
+            "id": "f4ea48a94ef089b9",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Readme.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,19 +97,19 @@
             }
           },
           {
-            "id": "89afb879843aaed1",
+            "id": "f48312e5b714ca40",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Readme.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "7ccd4dd753c0a030",
+            "id": "7163dc443a30a4fb",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -140,12 +120,12 @@
             }
           },
           {
-            "id": "f3fed326f4c2b993",
+            "id": "12cb0a1bc56f0049",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Readme.md"
+                "file": "README.md"
               }
             }
           }
@@ -166,11 +146,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ce6dbf949dc7720f",
+  "active": "a6e66b46367394e7",
   "lastOpenFiles": [
-    "images",
-    "images/website_homepage.png",
-    "Readme.md",
-    "Pasted image 20240220135619.png"
+    "website_homepage.png"
   ]
 }
