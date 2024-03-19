@@ -56,7 +56,6 @@
     left: 0;
     padding-left: 70px;
     padding-top: 35px;
-    margin: 12px auto 0;
 }
 
 .boxPreview {
@@ -95,8 +94,8 @@ a:hover + .boxPreview,.boxPreview:hover{
 
 .solidBackground {
     background: rgba(185, 153, 118, 0.8);
-    max-width: fit-content;
-    max-height: fit-content;
+    width: fit-content;
+    height: fit-content;
 }
 
 .quoteFontSize {
@@ -130,14 +129,24 @@ input[type=checkbox]:checked + label.strikethrough {
     padding-top: 14px;
 }
 
-.navbar {
-    background-color: gray;
-    max-width: fit-content;
-    padding: 7px;
-    overflow: hidden;
+.navigateSize {
+    font-size: 22px;
 }
 
-.navbar a {
+.navbar-center {
+    float: none;
+    position: relative;
+    top: 50%;
+    left: 49.6%;
+    padding: 7px;
+    transform: translate(-50%, -50%);
+    background-color: gray;
+    max-width: fit-content;
+    overflow: hidden;
+    text-align: center;
+}
+
+.navbar-center a {
     color: black;
     text-align: center;
     padding-bottom: 14px;
@@ -145,11 +154,28 @@ input[type=checkbox]:checked + label.strikethrough {
     font-size: 18px;
 }
 
-.navbar a:hover {
+.navbar-center a:hover {
     background-color: #4790b5;
     color: black;
 }
 
-.navigateSize {
-    font-size: 22px;
+
+.navigate {
+    float: none;
+    position: relative;
+    top: 50%;
+    left: 49.6%;
+    padding: 7px;
+    transform: translate(-50%, -50%);
+    max-width: fit-content;
+    overflow: hidden;
+    text-align: center;
+}
+
+.aboutPage {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    padding-top: 740px;
 }
