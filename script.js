@@ -43,3 +43,12 @@ function homepage(event) {
 function printPage() {
     window.print();
 }
+
+/*
+    this homepage2() function redirects the webpage to the homepage html file when the appropriate button is clicked.
+    This is separate from the homepage() function because this function is used when the user wants to redirect to the
+    homepage from either the recipes or about html file.
+ */
+function homepage2() {
+    location.href='index.html';
+}
