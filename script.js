@@ -8,16 +8,32 @@
 
 /*
     this recipes() function redirects the webpage to the recipes html file when the appropriate button is pressed.
+    And when the page is being redirected, it asks the user to confirm their actions. If they say yes, it redirects the
+    webpage to the recipes html file and if they say no, it stays on the current page.
  */
-function recipes() {
-   location.href='recipes.html';
+function recipes(event) {
+    let change = confirm("Recipe checklist may not be saved. Continue?");
+    if (change) {
+        location.href='recipes.html';
+    }
+    else {
+        event.preventDefault();
+    }
 }
 
 /*
     this homepage() function redirects the webpage to the homepage html file when the appropriate button is clicked.
+    And when the page is being redirected, it asks the user to confirm their actions. If they say yes, it redirects the
+    webpage to the homepage html file and if they say no, it stays on the current page.
  */
-function homepage() {
-    location.href='index.html';
+function homepage(event) {
+    let change = confirm("Recipe checklist may not be saved. Continue?");
+    if (change) {
+        location.href='index.html';
+    }
+    else {
+        event.preventDefault();
+    }
 }
 
 /*
