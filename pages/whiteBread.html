@@ -1,0 +1,131 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 12/14/2023
+    Project: Website - White Bread Recipe
+-->
+
+<!-- this whiteBread html file contains the html for the white bread recipe. -->
+
+<!DOCTYPE html>
+<html lang="en" class="fullPage">
+<head>
+    <link rel="stylesheet" href="../styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
+    <meta charset="UTF-8">
+    <title>White Bread</title>
+    <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
+</head>
+<body class="backgroundImage fullPage">
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
+<div class="textSize">
+    <h1>White Bread</h1>
+    <h3>Yields: 1 Loaf</h3>
+    <script type="text/javascript" src="../script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
+    <br>
+    <br>
+</div>
+
+
+<!--
+   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+-->
+
+<div class="textSize">
+    <h3>Ingredients:</h3>
+    <ul>
+        <li><input type="checkbox" id="whiteBreadFlour" name="whiteBreadFlour" value=""><label for="whiteBreadFlour" class="strikethrough">All-Purpose or Bread Flour: 3 1/2 Cups</label></li>
+        <br><li><input type="checkbox" id="whiteBreadSalt" name="whiteBreadSalt" value=""><label for="whiteBreadSalt" class="strikethrough">Salt: 1/4 tsp</label></li>
+        <br><li><input type="checkbox" id="whiteBreadSugar" name="whiteBreadSugar" value=""><label for="whiteBreadSugar" class="strikethrough">Sugar: 1 tsp</label></li>
+        <br><li><input type="checkbox" id="whiteBreadWaterOrMilk" name="whiteBreadWaterOrMilk" value=""><label for="whiteBreadWaterOrMilk" class="strikethrough">Water or Milk: 3/4 Cup</label></li>
+        <br><li><input type="checkbox" id="whiteBreadYeast" name="whiteBreadYeast" value=""><label for="whiteBreadYeast" class="strikethrough">Dry or Instant Yeast: 1 packet or 1 to 1 1/2 tsp</label></li>
+        <br><li><input type="checkbox" id="whiteBreadEgg" name="whiteBreadEgg" value=""><label for="whiteBreadEgg" class="strikethrough">Egg: 1</label></li>
+        <br><li><input type="checkbox" id="whiteBreadEggwash" name="whiteBreadEggwash" value=""><label for="whiteBreadEggwash" class="strikethrough">Egg Wash (Optional): 1 Beaten Egg and a Splash of Milk</label></li>
+    </ul>
+</div>
+
+<!--
+   this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
+-->
+
+<div class="textSize">
+    <br><h3>Steps:</h3>
+    <ol class="textAlignment">
+        <li>
+            <input type="checkbox" id="whiteBreadStep1" name="whiteBreadStep1" value=""><label for="whiteBreadStep1" class="strikethrough">Preheat oven to 350&deg;F (176&deg;C).</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="whiteBreadStep2" name="whiteBreadStep2" value=""><label for="whiteBreadStep2" class="strikethrough">Lightly grease your preferred size bread pan.</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="whiteBreadStep3" name="whiteBreadStep3" value=""><label for="whiteBreadStep3" class="strikethrough">
+            If using dry yeast, put the yeast into a cup filled with 3/4 of the way
+            with <br> either warm water or milk with a pinch of sugar and leave covered on
+            the side for 10-15 <br> minutes and allow to bloom. After it has bloomed or
+            if using instant yeast, combine <br> yeast, flour, salt, eggs, and milk or
+            water in a large bowl until the dough starts to come together.</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="whiteBreadStep4" name="whiteBreadStep4" value=""><label for="whiteBreadStep4" class="strikethrough">
+            Transfer the dough to a lightly floured surface and knead for 10 minutes or until
+            the dough <br> starts to form a smooth ball. Adjust with more milk or water as needed.</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="whiteBreadStep5" name="whiteBreadStep5" value=""><label for="whiteBreadStep5" class="strikethrough">
+            Put the kneaded dough into a bowl, making sure to brush the dough and the bowl
+            with 1-2 tbsp <br> of oil, cover, and leave to proof for an hour.</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="whiteBreadStep6" name="whiteBreadStep6" value=""><label for="whiteBreadStep6" class="strikethrough">
+            Transfer to a clean surface and start forming the dough into a log, making
+            sure to close any gaps <br> in the dough and transfer into the prepared bread pan.
+            Cover and leave to proof for another hour.</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="whiteBreadStep7" name="whiteBreadStep7" value=""><label for="whiteBreadStep7" class="strikethrough">
+            Brush with egg wash if desired and transfer to oven and bake for 50 minutes until the bread sounds <br>
+            hollow in the middle.</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="whiteBreadStep8" name="whiteBreadStep8" value=""><label for="whiteBreadStep8" class="strikethrough">
+            Brush with butter if desired and leave to cool for about 30 minutes before cutting and serving.</label>
+        </li>
+    </ol>
+</div>
+
+<!--
+   this storage tips div container has some tips on how to keep the white bread fresh.
+-->
+
+<div class="textSize">
+    <br><h3>Storage Tips:</h3>
+    <ul>
+        <li>Keep in a cool area and lightly covered.</li>
+        <br><li>Lasts for days if stored properly.</li>
+    </ul>
+</div>
+<br>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
+
+<div class="buttons middleButtons">
+    <br>
+    <h3><script type="text/javascript" src="../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Home</b></button></h3>
+    <h3><script type="text/javascript" src="../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Recipes</b></button></h3>
+    <br>
+</div>
+</body>
+</html>

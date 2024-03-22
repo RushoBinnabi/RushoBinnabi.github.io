@@ -1,0 +1,83 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 12/14/2023
+    Project: Website - Omelet Recipe
+-->
+
+<!-- this omelet html file contains the html for the omelet recipe. -->
+
+<!DOCTYPE html>
+<html lang="en" class="fullPage">
+<head>
+    <link rel="stylesheet" href="../styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
+    <meta charset="UTF-8">
+    <title>Omelet</title>
+    <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
+</head>
+<body class="backgroundImage fullPage">
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
+<div class="textSize">
+    <h1>Omelet</h1>
+    <h3>Yields: 1 Serving</h3>
+    <script type="text/javascript" src="../script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
+    <br>
+    <br>
+</div>
+
+<!--
+   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+-->
+
+<div class="textSize">
+    <h3>Ingredients:</h3>
+    <ul>
+        <li><input type="checkbox" id="omeletEggs" name="omeletEggs" value=""><label for="omeletEggs" class="strikethrough">2 to 3 eggs.</label></li>
+        <br><li><input type="checkbox" id="omeletPotato" name="omeletPotato" value=""><label for="omeletPotato" class="strikethrough">1 small potato, diced</label> </li>
+        <br><li><input type="checkbox" id="omeletTomato" name="omeletTomato" value=""><label for="omeletTomato" class="strikethrough">1 small tomato, diced</label> </li>
+        <br><li><input type="checkbox" id="omeletOnion" name="omeletOnion" value=""><label for="omeletOnion" class="strikethrough">1 small onion, diced</label></li>
+        <br><li><input type="checkbox" id="omeletMushroom" name="omeletMushroom" value=""><label for="omeletMushroom" class="strikethrough">2 mushrooms, diced</label></li>
+        <br><li><input type="checkbox" id="omeletSalt" name="omeletSalt" value=""><label for="omeletSalt" class="strikethrough">1/2 tsp of salt</label></li>
+        <br><li><input type="checkbox" id="omeletBlackPepper" name="omeletBlackPepper" value=""><label for="omeletBlackPepper" class="strikethrough">1/2 tsp of black pepper</label></li>
+        <br><li><input type="checkbox" id="omeletPaprika" name="omeletPaprika" value=""><label for="omeletPaprika" class="strikethrough">1/4 tsp of paprika</label></li>
+        <br><li><input type="checkbox" id="omeletGarlicPowder" name="omeletGarlicPowder" value=""><label for="omeletGarlicPowder" class="strikethrough">1/4 tsp of garlic powder</label></li>
+        <br><li><input type="checkbox" id="omeletCuminPowder" name="omeletCuminPowder" value=""><label for="omeletCuminPowder" class="strikethrough">1/4 tsp of cumin powder</label></li>
+        <br><li><input type="checkbox" id="omeletCheese" name="omeletCheese" value=""><label for="omeletCheese" class="strikethrough">Cheese (Optional)</label></li>
+        <br><li><input type="checkbox" id="omeletMeat" name="omeletMeat" value=""><label for="omeletMeat" class="strikethrough">Small chunks of meat (Optional)</label></li>
+        <br><li><input type="checkbox" id="omeletOil" name="omeletOil" value=""><label for="omeletOil" class="strikethrough">Oil, as needed</label></li>
+    </ul>
+</div>
+
+<!--
+   this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
+-->
+
+<div class="textSize">
+    <br><h3>Steps:</h3>
+    <ol class="textAlignment">
+        <li><input type="checkbox" id="omeletStep1" name="omeletStep1" value=""><label for="omeletStep1" class="strikethrough">Into a medium-ish bowl, crack the eggs.</label></li>
+        <br><li><input type="checkbox" id="omeletStep2" name="omeletStep2" value=""><label for="omeletStep2" class="strikethrough">Add the tomatoes, onion, potato, mushroom along
+        <br> with the seasonings, cheese and meat, if desired. Mix <br> until combined.</label></li>
+        <br><li><input type="checkbox" id="omeletStep3" name="omeletStep3" value=""><label for="omeletStep3" class="strikethrough">Heat pan with some oil and toss in the combined egg mixture.</label></li>
+        <br><li><input type="checkbox" id="omeletStep4" name="omeletStep4" value=""><label for="omeletStep4" class="strikethrough">Cook on a low heat until the edges have set and the <br> potatoes
+        have become soft and are cooked through. <br> Serve while warm.</label></li>
+    </ol>
+</div>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
+
+<div class="buttons middleButtons">
+    <br>
+    <h3><script type="text/javascript" src="../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Home</b></button></h3>
+    <h3><script type="text/javascript" src="../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Recipes</b></button></h3>
+    <br>
+</div>
+</body>
+</html>

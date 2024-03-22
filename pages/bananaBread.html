@@ -1,0 +1,101 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 12/14/2023
+    Project: Website - Banana Bread Recipe
+-->
+
+<!-- this bananaBread html file contains the html for the banana bread recipe. -->
+
+<!DOCTYPE html>
+<html lang="en" class="fullPage">
+<head>
+    <link rel="stylesheet" href="../styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
+    <meta charset="UTF-8">
+    <title>Banana Bread</title>
+    <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
+</head>
+<body class="backgroundImage fullPage">
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
+<div class="textSize">
+    <h1>Banana Bread</h1>
+    <h3>Yields: 1 Loaf</h3>
+    <script type="text/javascript" src="../script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
+    <br>
+    <br>
+</div>
+
+<!--
+   this ingredients div container has checkboxes set up so that users can check off ingredients and their measurements as they have them.
+-->
+
+<div class="textSize">
+    <h3>Ingredients:</h3>
+    <ul>
+        <li><input type="checkbox" id="amountOfFlourForBananaBread" name="amountOfFlourForBananaBread" value=""><label for="amountOfFlourForBananaBread" class="strikethrough">All-Purpose Flour: 1 1/2 Cups</label></li>
+        <br><li><input type="checkbox" id="amountOfSaltForBananaBread" name="amountOfSaltForBananaBread" value=""><label for="amountOfSaltForBananaBread" class="strikethrough">Salt: 1/2 tsp</label></li>
+        <br><li><input type="checkbox" id="amountOfSugarForBananaBread" name="amountOfSugarForBananaBread" value=""><label for="amountOfSugarForBananaBread" class="strikethrough">Sugar: 3/4 Cup</label></li>
+        <br><li><input type="checkbox" id="amountOfEggsForBananaBread" name="amountOfEggsForBananaBread" value=""><label for="amountOfEggsForBananaBread" class="strikethrough">Eggs: 2</label></li>
+        <br><li><input type="checkbox" id="amountOfVanillaExtractForBananaBread" name="amountOfVanillaExtractForBananaBread" value=""> <label for="amountOfVanillaExtractForBananaBread" class="strikethrough">
+                Vanilla Extract: 1 tsp</label></li>
+        <br><li><input type="checkbox" id="amountOfButterBananaBread" name="amountOfButterBananaBread" value=""><label for="amountOfButterBananaBread" class="strikethrough">
+                Softened Butter: 1 stick</label></li>
+        <br><li><input type="checkbox" id="amountOfBakingSodaForBananaBread" name="amountOfBakingSodaForBananaBread" value=""><label for="amountOfBakingSodaForBananaBread" class="strikethrough">
+                Baking Soda: 1 tsp</label></li>
+        <br><li><input type="checkbox" id="numberOfBananasForBananaBread" name="numberOfBananasForBananaBread" value=""><label for="numberOfBananasForBananaBread" class="strikethrough">
+                Ripe Bananas: 3</label></li>
+        <br><li><input type="checkbox" id="toppingBananaBread" name="toppingBananaBread" value=""><label for="toppingBananaBread" class="strikethrough">
+                Optional for topping: Feel free to add your own topping</label></li>
+    </ul>
+</div>
+
+<!--
+   this steps div container has checkboxes set up so that users can check off the steps to making the recipe as they do them.
+-->
+
+<div class="textSize">
+    <br><h3>Steps:</h3>
+    <ol class="textAlignment">
+        <li><input type="checkbox" id="bananaBreadStep1" name="bananaBreadStep1" value=""><label for="bananaBreadStep1" class="strikethrough">Preheat oven to 350&deg;F (176&deg;C).</label></li>
+        <br><li><input type="checkbox" id="bananaBreadStep2" name="bananaBreadStep2" value=""><label for="bananaBreadStep2" class="strikethrough">Butter an 8 x 3 inch (20 x 8 cm) bread pan.</label></li>
+        <br><li><input type="checkbox" id="bananaBreadStep3" name="bananaBreadStep3" value=""><label for="bananaBreadStep3" class="strikethrough">Mash the bananas with a fork in a bowl.</label></li>
+        <br><li><input type="checkbox" id="bananaBreadStep4" name="bananaBreadStep4" value=""><label for="bananaBreadStep4" class="strikethrough">In a small bowl, mix together the flour and baking soda and set aside.</label></li>
+        <br><li><input type="checkbox" id="bananaBreadStep5" name="bananaBreadStep5" value=""><label for="bananaBreadStep5" class="strikethrough">In a large mixing bowl, cream together the softened butter,
+        salt, and sugar <br> until well combined. Add in the eggs, mashed bananas and using a plastic spatula, <br>
+        vanilla extract, and mix to combine. Add the flour and baking soda mixture and <br> continue mixing to combine. Stir in the topping.</label></li>
+        <br><li><input type="checkbox" id="bananaBreadStep6" name="bananaBreadStep6" value=""><label for="bananaBreadStep6" class="strikethrough">
+        Transfer the prepared batter to the prepared bread pan and bake for <br> 50 to 60 minutes until a toothpick comes out clean.</label></li>
+        <br><li><input type="checkbox" id="bananaBreadStep7" name="bananaBreadStep7" value=""><label for="bananaBreadStep7" class="strikethrough">Leave to cool for 20 to 30 minutes before cutting and serving.</label></li>
+    </ol>
+</div>
+
+<!--
+   this storage tips div container has some tips on how to keep the banana bread fresh.
+-->
+
+<div class="textSize">
+    <br><h3>Storage Tips:</h3>
+    <ul class="textAlignment">
+        <li>Wrap in plastic wrap and keep at room temperature or in a fridge.</li>
+        <br><li>Stays fresh for a few days if wrapped and kept at room temperature or <br>
+            up to a full week if wrapped and kept in the fridge.</li>
+    </ul>
+</div>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
+
+<div class="buttons middleButtons">
+    <br>
+    <h3><script type="text/javascript" src="../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Home</b></button></h3>
+    <h3><script type="text/javascript" src="../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Recipes</b></button></h3>
+    <br>
+</div>
+</body>
+</html>

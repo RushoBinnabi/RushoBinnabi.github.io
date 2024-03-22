@@ -1,0 +1,119 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 3/22/2024
+    Project: Website - Scotch Egg Recipe
+-->
+
+<!-- this scotchEgg html file contains the html for the scotch egg recipe. -->
+
+<!DOCTYPE html>
+<html lang="en" class="fullPage">
+<head>
+    <link rel="stylesheet" href="../styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
+    <meta charset="UTF-8">
+    <title>Scotch Egg</title>
+    <link rel="icon" href="..\icons\icon.ico"> <!-- adds browser icon. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
+</head>
+<body class="backgroundImage fullPage">
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
+<div class="textSize">
+    <h1>Scotch Egg</h1>
+    <h3>Yields: ~2 Eggs</h3>
+    <script type="text/javascript" src="../script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
+    <br>
+    <br>
+</div>
+
+<!--
+   this ingredients div container has checkboxes set up so that users can check off ingredients and their measurements as they have them.
+-->
+
+<div class="textSize">
+    <h3>Ingredients:</h3>
+    <ul>
+        <li><input type="checkbox" id="scotchEggEggs" name="scotchEggEggs" value=""><label for="scotchEggEggs" class="strikethrough">3 eggs</label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggMeat" name="scotchEggMeat" value=""><label for="scotchEggMeat" class="strikethrough">ground chicken: 1 lb</label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggPaprika" name="scotchEggPaprika" value=""><label for="scotchEggPaprika" class="strikethrough">paprika: 1 tsp</label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggGarlicPowder" name="scotchEggGarlicPowder" value=""><label for="scotchEggGarlicPowder" class="strikethrough">garlic powder: 1 tsp</label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggSalt" name="scotchEggSalt" value=""><label for="scotchEggSalt" class="strikethrough">salt: 1 tsp</label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggBlackPepper" name="scotchEggBlackPepper" value=""><label for="scotchEggBlackPepper">black pepper: 1 tsp</label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggBreadCrumbs" name="scotchEggBreadCrumbs" value=""><label for="scotchEggBreadCrumbs" class="strikethrough">bread crumbs: 1 cup</label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggFlour" name="scotchEggFlour" value=""><label for="scotchEggFlour" class="strikethrough">all-purpose flour: 1/2 cup</label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggOil" name="scotchEggOil" value=""><label for="scotchEggOil" class="strikethrough">oil: as needed</label></li>
+        <br>
+    </ul>
+</div>
+
+<!--
+   this steps div container has checkboxes set up so that users can check off the steps to making the recipe as they do them.
+-->
+
+<div class="textSize">
+    <br><h3>Steps:</h3>
+    <ol class="textAlignment">
+        <li><input type="checkbox" id="scotchEggStep1" name="scotchEggStep1" value=""><label for="scotchEggStep1" class="strikethrough">
+            Boil 2 of the eggs in some salted water for ~6 minutes. Transfer the eggs to
+            <br> a bowl of cold water to stop the cooking process. Peel the eggs and set aside.
+        </label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggStep2" name="scotchEggStep2" value=""><label for="scotchEggStep2" class="strikethrough">
+            Heat some oil until the temperature reaches around 325-375&deg;F (162-190&deg;C).
+        </label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggStep3" name="scotchEggStep3" value=""><label for="scotchEggStep3" class="strikethrough">
+            In a bowl, mix the chicken with half of the seasonings until well combined.
+        </label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggStep4" name="scotchEggStep4" value=""><label for="scotchEggStep4" class="strikethrough">
+            In two other bowls, mix the bread crumbs with the rest of the seasonings and
+            <br> beat the other egg with some milk.
+        </label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggStep5" name="scotchEggStep5" value=""><label for="scotchEggStep5" class="strikethrough">
+            Flatten down the chicken mixture over some plastic wrap. Take the eggs and
+            <br> gently wrap them around the chicken mixture. Be careful not to break the egg.
+        </label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggStep6" name="scotchEggStep6" value=""><label for="scotchEggStep6" class="strikethrough">
+            Take the eggs and <a href="https://www.theculinarypro.com/breading#:~:text=A%203-stage%20breading%20process,mixed%20with%20milk%20or%20water.">
+            panné</a> them otherwise known as coating them in the flour,
+            <br> then the eggs, and then the breadcrumbs until fully coated.
+        </label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggStep7" name="scotchEggStep6" value=""><label for="scotchEggStep7" class="strikethrough">
+            Fry the eggs until they are golden brown.
+        </label></li>
+        <br>
+        <li><input type="checkbox" id="scotchEggStep8" name="scotchEggStep8" value=""><label for="scotchEggStep8" class="strikethrough">
+            Sprinkle some salt to taste and cut in half if desired and enjoy.
+        </label></li>
+        <br>
+    </ol>
+</div>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
+
+<div class="buttons middleButtons">
+    <br>
+    <h3><script type="text/javascript" src="../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Home</b></button></h3>
+    <h3><script type="text/javascript" src="../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Recipes</b></button></h3>
+    <br>
+</div>
+</body>
+</html>

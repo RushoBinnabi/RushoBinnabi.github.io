@@ -1,0 +1,89 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 12/14/2023
+    Project: Website - Chili Oil Recipe
+-->
+
+<!-- this chiliOil html file contains the html for the chili oil recipe. -->
+
+<!DOCTYPE html>
+<html lang="en" class="fullPage">
+<head>
+    <link rel="stylesheet" href="../styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
+    <meta charset="UTF-8">
+    <title>Chili Oil</title>
+    <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
+</head>
+<body class="backgroundImage fullPage">
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
+<div class="textSize">
+    <h1>Chili Oil</h1>
+    <script type="text/javascript" src="../script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
+    <br>
+    <br>
+</div>
+
+
+<!--
+   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+-->
+
+<div class="textSize">
+    <h3>Ingredients:</h3>
+    <ul>
+        <li><input type="checkbox" id="chiliOilChiliFlakes" name="chiliOilChiliFlakes" value=""><label for="chiliOilChiliFlakes" class="strikethrough">3/4 cups of chili flakes</label></li>
+        <br>
+        <li><input type="checkbox" id="chiliOilCinnamonSticks" name="chiliOilCinnamonSticks" value=""><label for="chiliOilCinnamonSticks" class="strikethrough">2 cinnamon sticks</label> </li>
+        <br>
+        <li><input type="checkbox" id="chiliOilSzechuanPeppercorns" name="chiliOilSzechuanPeppercorns" value=""><label for="chiliOilSzechuanPeppercorns" class="strikethrough">1/2 cup of szechuan peppercorns</label></li>
+        <br>
+        <li><input type="checkbox" id="chiliOilStarAnise" name="chiliOilStarAnise" value=""><label for="chiliOilStarAnise" class="strikethrough">3 star anise</label></li>
+        <br>
+        <li><input type="checkbox" id="chiliOilSalt" name="chiliOilSalt" value=""><label for="chiliOilSalt" class="strikethrough">1 tsp of salt</label></li>
+        <br>
+        <li><input type="checkbox" id="chiliOilBlackPepper" name="chiliOilBlackPepper" value=""><label for="chiliOilBlackPepper" class="strikethrough"> 1 1/2 tsp of black pepper</label></li>
+        <br>
+        <li><input type="checkbox" id="chiliOilCLoves" name="chiliOilCloves" value=""><label for="chiliOilCLoves" class="strikethrough">1/4 cups of cloves</label></li>
+        <br>
+        <li><input type="checkbox" id="chiliOilOil" name="chiliOilOil" value=""><label for="chiliOilOil" class="strikethrough">3 cups of oil</label></li>
+    </ul>
+</div>
+<br>
+
+<!--
+   this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
+-->
+
+<div class="textSize">
+    <h3>Steps:</h3>
+    <ol class="textAlignment">
+        <li><input type="checkbox" id="chiliOilStep1" name="chiliOilStep1" value=""><label for="chiliOilStep1" class="strikethrough">
+            Put the chili flakes and szechuan peppercorns into a large, heat safe <br> bowl or jar and set aside.</label></li>
+        <br>
+        <li><input type="checkbox" id="chiliOilStep2" name="chiliOilStep2" value=""><label for="chiliOilStep2" class="strikethrough">
+            Pour the spices and aromatics along with the oil into a sauce over <br> medium to low heat and gently and periodically stir
+            until the oil <br> reaches about 225&deg;F (110&deg;C).</label></li>
+        <br>
+        <li><input type="checkbox" id="chiliOilStep3" name="chiliOilStep3" value=""><label for="chiliOilStep3" class="strikethrough">
+            Strain the infused oil into the chili flakes and szechuan peppercorns, <br> stir to combine and leave to cool.</label></li>
+    </ol>
+</div>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
+
+<div class="buttons middleButtons">
+    <br>
+    <h3><script type="text/javascript" src="../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Home</b></button></h3>
+    <h3><script type="text/javascript" src="../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Recipes</b></button></h3>
+    <br>
+</div>
+</body>
+</html>

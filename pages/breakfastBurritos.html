@@ -1,0 +1,131 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 12/14/2023
+    Project: Website - Breakfast Burritos Recipe
+-->
+
+<!-- this breakfastBurritos html file contains the html for the breakfast burritos recipe. -->
+
+<!DOCTYPE html>
+<html lang="en" class="fullPage">
+<head>
+    <link rel="stylesheet" href="../styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
+    <meta charset="UTF-8">
+    <title>Breakfast Burritos</title>
+    <link rel="icon" href="icons\icon.ico"> <!-- adds browser icon. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
+</head>
+<body class="backgroundImage fullPage">
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
+<div class="textSize">
+    <h1>Breakfast Burritos</h1>
+    <h3>Yields: ~12 Burritos</h3>
+    <script type="text/javascript" src="../script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
+    <br>
+    <br>
+</div>
+
+<!--
+   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+-->
+
+<div class="textSize">
+    <h3>Ingredients:</h3>
+    <ul>
+        <li><input type="checkbox" id="breadTypeBreakfastBurritos" name="breadTypeBreakfastBurritos" value=""><label for="breadTypeBreakfastBurritos" class="strikethrough">12 tortillas or flatbread</label></li>
+        <br>
+        <li><input type="checkbox" id="tomatoBreakfastBurritos" name="tomatoBreakfastBurritos" value=""><label for="tomatoBreakfastBurritos" class="strikethrough">1/2 tomato</label></li>
+        <br>
+        <li><input type="checkbox" id="onionBreakfastBurritos" name="onionBreakfastBurritos" value=""><label for="onionBreakfastBurritos" class="strikethrough">1/2 red onion</label></li>
+        <br>
+        <li><input type="checkbox" id="groundBeefBreakfastBurritos" name="groundBeefBreakfastBurritos" value=""><label for="groundBeefBreakfastBurritos" class="strikethrough">1 1/4 cups of ground beef</label></li>
+        <br>
+        <li><input type="checkbox" id="spinachBreakfastBurritos" name="spinachBreakfastBurritos" value=""><label for="spinachBreakfastBurritos" class="strikethrough">1 cup of spinach</label></li>
+        <br>
+        <li><input type="checkbox" id="eggsBreakfastBurritos" name="eggsBreakfastBurritos" value=""><label for="eggsBreakfastBurritos" class="strikethrough">4 eggs</label></li>
+        <br>
+        <li><input type="checkbox" id="saltBreakfastBurritos" name="saltBreakfastBurritos" value=""><label for="saltBreakfastBurritos" class="strikethrough">1 tsp of salt</label></li>
+        <br>
+        <li><input type="checkbox" id="blackPepperBreakfastBurritos" name="blackPepperBreakfastBurritos" value=""><label for="blackPepperBreakfastBurritos" class="strikethrough">1 tsp of black pepper</label></li>
+        <br>
+        <li><input type="checkbox" id="garlicPowderBreakfastBurritos" name="garlicPowderBreakfastBurritos" value=""><label for="garlicPowderBreakfastBurritos" class="strikethrough">1 tsp of garlic powder</label></li>
+        <br>
+        <li><input type="checkbox" id="paprikaBreakfastBurritos" name="paprikaBreakfastBurritos" value=""><label for="paprikaBreakfastBurritos" class="strikethrough">1 tsp of paprika</label></li>
+        <br>
+        <li><input type="checkbox" id="oreganoBreakfastBurritos" name="oreganoBreakfastBurritos" value=""><label for="oreganoBreakfastBurritos" class="strikethrough">1 tsp of oregano</label></li>
+        <br>
+        <li><input type="checkbox" id="oilBreakfastBurritos" name="oilBreakfastBurritos" value=""><label for="oilBreakfastBurritos" class="strikethrough">Oil, as needed</label></li>
+    </ul>
+</div>
+<br>
+
+<!--
+   this steps div container has checkboxes set up so that users can check off the steps to making the recipe as they do them.
+-->
+
+<div class="textSize">
+    <h3>Steps:</h3>
+    <ol class="textAlignment">
+        <li><input type="checkbox" id="breakfastBurritosStep1" name="breakfastBurritosStep1" value=""><label for="breakfastBurritosStep1" class="strikethrough">Fry the tortillas or flatbread until golden brown. Lay onto a sheet pan to cool.</label></li>
+        <br>
+        <li><input type="checkbox" id="breakfastBurritosStep2" name="breakfastBurritosStep2" value=""><label for="breakfastBurritosStep2" class="strikethrough">In a large pan, sauté the ground beef with some oil and 1/4 of the seasonings.</label></li>
+        <br>
+        <li><input type="checkbox" id="breakfastBurritosStep3" name="breakfastBurritosStep3" value=""><label for="breakfastBurritosStep3" class="strikethrough">
+            Remove the beef from the pan and put it to a bowl. Then dice the tomato, onion, <br> and potato and put them into a bowl and set aside.</label></li>
+        <br>
+        <li><input type="checkbox" id="breakfastBurritosStep4" name="breakfastBurritosStep4" value=""><label for="breakfastBurritosStep4" class="strikethrough">
+            Cook the potatoes with 1/4 of the seasonings until cooked through and soft.</label></li>
+        <br>
+        <li><input type="checkbox" id="breakfastBurritosStep5" name="breakfastBurritosStep5" value=""><label for="breakfastBurritosStep5" class="strikethrough">
+            Add back the diced onion and tomato with the potatoes and sauté for 5 minutes.</label></li>
+        <br>
+        <li><input type="checkbox" id="breakfastBurritosStep6" name="breakfastBurritosStep6" value=""><label for="breakfastBurritosStep6">
+            Add back the ground beef into the pan and cook for 5 to 7 minutes.</label></li>
+        <br>
+        <li><input type="checkbox" id="breakfastBurritosStep7" name="breakfastBurritosStep7" value="">
+            <label for="breakfastBurritosStep7" class="strikethrough">Create a well in the middle of the pan. Beat the eggs with some salt and pepper <br>
+                and pour it into the pan and using a spatula, making sure to draw the eggs towards <br>
+                the center, scrambling them with the rest of the seasonings. Cool completely.</label></li>
+        <br>
+        <li><input type="checkbox" id="breakfastBurritosStep8" name="breakfastBurritosStep8" value=""><label for="breakfastBurritosStep8">
+            Take some of the filling and put them onto the tortillas or flat bread, making <br>
+            sure to not overfill. Gently fold them and tuck in the sides and place them <br>
+            back onto the sheet pan as you go.</label></li>
+        <br>
+        <li><input type="checkbox" id="breakfastBurritosStep9" name="breakfastBurritosStep9" value=""><label for="breakfastBurritosStep9" class="strikethrough">
+            Put them into the freezer for 1 hour to set.</label></li>
+        <br>
+        <li><input type="checkbox" id="breakfastBurritosStep10" name="breakfastBurritosStep10" value=""><label for="breakfastBurritosStep10">
+            After 1 hour, transfer them into bags and store them in the freezer.</label></li>
+    </ol>
+</div>
+<br>
+
+<!--
+   this storage tips div container has some tips on how to keep the breakfast burritos fresh.
+-->
+
+<div class="textSize">
+    <h3>Thawing Tips:</h3>
+    <ul>
+        <li>Take a damp paper towel and wrap the burrito in it and microwave for 1:30-2 minutes.</li>
+    </ul>
+</div>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
+
+<div class="buttons middleButtons">
+    <br>
+    <h3><script type="text/javascript" src="../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Home</b></button></h3>
+    <h3><script type="text/javascript" src="../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Recipes</b></button></h3>
+    <br>
+</div>
+</body>
+</html>
