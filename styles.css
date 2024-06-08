@@ -1,7 +1,5 @@
 .backgroundImage {
-    background-image: url("background/finalBackground.png");
-    background-repeat: no-repeat;
-    object-fit: cover;
+    background-image: url("background/ivory-off-white-paper-texture.jpg");
 }
 
 .fullPage {
@@ -11,8 +9,6 @@
 
 .homepageImage {
     background-image: url("background/ivory-off-white-paper-texture.jpg");
-    background-repeat: no-repeat;
-    object-fit: cover;
 }
 
 .buttons {
@@ -31,7 +27,7 @@
     border-radius: 5px;
     width: auto;
     height: auto;
-    background-image: url("background/ivory-off-white-paper-texture.jpg");
+    background-color: silver;
 }
 
 .images {
@@ -121,6 +117,7 @@ input[type=checkbox]:checked + label.strikethrough {
 
 .buttonPadding {
     padding: 5px;
+    margin-right: 12px;
 }
 
 .centeredHeadings {
