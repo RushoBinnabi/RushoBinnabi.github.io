@@ -29,7 +29,7 @@ function recipes(event) {
 function homepage(event) {
     let change = confirm("Recipe checklist may not be saved. Continue?");
     if (change) {
-        location.href='../index.html';
+        location.href='../../index.html';
     }
     else {
         event.preventDefault();
