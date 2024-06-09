@@ -14,7 +14,7 @@
 function recipes(event) {
     let change = confirm("Recipe checklist may not be saved. Continue?");
     if (change) {
-        location.href='recipes.html';
+        location.href='recipesPage1.html';
     }
     else {
         event.preventDefault();
@@ -66,5 +66,5 @@ function goToRecipesPage2() {
  */
 
 function goToRecipes1stPage() {
-    location.href='recipes.html';
+    location.href='recipesPage1.html';
 }

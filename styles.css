@@ -88,12 +88,6 @@ a:hover + .boxPreview,.boxPreview:hover{
     padding-top: 14px;
 }
 
-.solidBackground {
-    background: rgba(185, 153, 118, 0.8);
-    width: fit-content;
-    height: fit-content;
-}
-
 .quoteFontSize {
     font-size: 18px;
 }
