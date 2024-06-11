@@ -1,5 +1,5 @@
 .backgroundImage {
-    background-image: url("background/ivory-off-white-paper-texture.jpg");
+    background: #B09B8C;
 }
 
 .fullPage {
@@ -8,7 +8,7 @@
 }
 
 .homepageImage {
-    background-image: url("background/ivory-off-white-paper-texture.jpg");
+    background: #B09B8C;
 }
 
 .buttons {
