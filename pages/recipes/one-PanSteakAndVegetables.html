@@ -1,0 +1,158 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 6/9/2024
+    Project: Website - Steak Recipe
+-->
+
+<!-- this steak html file contains the html for the steak recipe. -->
+
+<!DOCTYPE html>
+<html lang="en" class="fullPage">
+<head>
+    <meta charset="UTF-8">
+    <title>One-Pan Steak and Vegetables</title>
+    <link rel="icon" href="..\..\icons\newicon.svg"> <!-- adds browser icon. -->
+    <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
+</head>
+<body class="backgroundImage fullPage">
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
+<div class="textSize">
+    <h1>One-Pan Steak and Vegetables</h1>
+    <h3>Yields: 1 serving</h3>
+    <script type="text/javascript" src="../../script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
+    <br>
+    <br>
+</div>
+
+<!--
+   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+-->
+
+<div class="textSize">
+    <h3>Ingredients:</h3>
+    <h4>For the Steak and Vegetables:</h4>
+    <ul>
+        <li>
+            <input type="checkbox" id="steakAndVegetablesSteak" name="steakAndVegetablesSteak" value=""><label for="steakAndVegetablesSteak" class="strikethrough">Any cut of Steak: 1</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakAndVegetablesSalt" name="steakAndVegetablesSalt" value=""><label for="steakAndVegetablesSalt" class="strikethrough">Salt: 2 tsp</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakAndVegetablesBlackPepper" name="steakAndVegetablesBlackPepper" value=""><label for="steakAndVegetablesBlackPepper" class="strikethrough">Black Pepper: 2 tsp</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakAndVegetablesGarlicPowder" name="steakAndVegetablesGarlicPowder" value=""><label for="steakAndVegetablesGarlicPowder" class="strikethrough">Garlic Powder: 2 tsp</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakAndVegetablesOil" name="steakAndVegetablesOil" value=""><label for="steakAndVegetablesOil" class="strikethrough">Oil: 4 tbsp</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakAndVegetablesMushrooms" name="steakAndVegetablesMushrooms" value=""><label for="steakAndVegetablesMushrooms" class="strikethrough">Mushrooms: 4</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakAndVegetablesOnions" name="steakAndVegetablesOnions" value=""><label for="steakAndVegetablesOnions" class="strikethrough">Onion: 1/2</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakAndVegetablesPeppers" name="steakAndVegetablesPeppers" value=""><label for="steakAndVegetablesPeppers" class="strikethrough">Bell Peppers: 1</label>
+        </li>
+    </ul>
+    <h4>For the sauce:</h4>
+    <ul>
+        <li>
+            <input type="checkbox" id="steakSauceSoySauce" name="steakSauceSoySauce" value=""><label for="steakSauceSoySauce" class="strikethrough">Soy Sauce: 1/4 cup</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakSauceOysterSauce" name="steakSauceOysterSauce" value=""><label for="steakSauceOysterSauce" class="strikethrough">Oyster Sauce: 2 tbsp</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakSauceGarlicClove" name="steakSauceGarlicClove" value=""><label for="steakSauceGarlicClove" class="strikethrough">Garlic Clove: 1</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakSauceBlackPepper" name="steakSauceBlackPepper" value=""><label for="steakSauceBlackPepper" class="strikethrough">Black Pepper: 1/2 tsp</label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakSauceBrownSugar" name="steakSauceBrownSugar" value=""><label for="steakSauceBrownSugar" class="strikethrough">Brown Sugar: 1 tbsp</label>
+        </li>
+    </ul>
+</div>
+<br>
+
+<!--
+    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
+-->
+
+<div class="textSize">
+    <h3>Steps:</h3>
+    <ol class="textAlignment">
+        <li>
+            <input type="checkbox" id="steakStep1" name="steakStep1" value=""><label for="steakStep1" class="strikethrough">
+            Rub half of the oil and seasonings on both sides of the steak and set aside.
+        </label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakStep2" name="steakStep2" value=""><label for="steakStep2" class="strikethrough">
+            In a hot pan, cook the steak to 135&deg;F (54&deg;C) with a good sear on both sides.
+            <br> Wrap in foil and rest for 10 minutes.
+        </label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakStep3" name="steakStep3" value=""><label for="steakStep3" class="strikethrough">
+            While the steak rests, sauté the vegetables with the rest of the oil and the <br> seasonings until slightly charred.
+            Set aside.
+        </label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakStep4" name="steakStep4" value=""><label for="steakStep4" class="strikethrough">
+            Bring the sauce to a simmer in the pan until thickened slightly. Turn off <br> the heat and set aside.
+        </label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakStep5" name="steakStep5" value=""><label for="steakStep5" class="strikethrough">
+            Spread some of the sauce on the plate. Cut the steak against the grain and <br> place beside the charred vegetables.
+            Drizzle more of the sauce on top of both <br> the steak and vegetables.
+        </label>
+        </li>
+        <br>
+        <li>
+            <input type="checkbox" id="steakStep6" name="steakStep6" value=""><label for="steakStep6" class="strikethrough">
+            Enjoy.
+        </label>
+        </li>
+    </ol>
+</div>
+
+<!--
+    this buttons div class handles all the javascript functionality for redirecting pages.
+-->
+
+<div class="buttons middleButtons">
+    <br>
+    <h3><script type="text/javascript" src="../../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Home</b></button></h3>
+    <h3><script type="text/javascript" src="../../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="recipes()"><b>Recipes</b></button></h3>
+    <br>
+</div>
+
+</body>
+</html>
