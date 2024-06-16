@@ -49,8 +49,9 @@ function printPage() {
     This is separate from the homepage() function because this function is used when the user wants to redirect to the
     homepage from either the recipes or about html file.
  */
+
 function homepage2() {
-    location.href='../index.html';
+    location.href='../../index.html';
 }
 
 /*
