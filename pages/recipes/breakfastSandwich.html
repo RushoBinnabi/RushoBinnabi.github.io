@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
@@ -43,25 +48,91 @@
     <br>
 </div>
 
-
 <!--
-   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities.
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <ul>
-        <li><input type="checkbox" id="breakfastSandwichBreadType" name="breakfastSandwichBreadType" value=""><label for="breakfastSandwichBreadType" class="strikethrough">2 slices of preferred bread, toasted</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichAmountOfTomatoes" name="breakfastSandwichAmountOfTomatoes" value=""><label for="breakfastSandwichAmountOfTomatoes" class="strikethrough">1 or 2 slices of tomato</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichMushrooms" name="breakfastSandwichMushrooms" value=""><label for="breakfastSandwichMushrooms" class="strikethrough">1 sliced mushroom, sautéed</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichOnions" name="breakfastSandwichOnions" value=""><label for="breakfastSandwichOnions" class="strikethrough">1 or 2 thin slices of onion</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichAvocados" name="breakfastSandwichAvocados" value=""><label for="breakfastSandwichAvocados" class="strikethrough">1/2 of an avocado, sliced</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichSalt" name="breakfastSandwichSalt" value=""><label for="breakfastSandwichSalt" class="strikethrough">Pinch of salt</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichBlackPepper" name="breakfastSandwichBlackPepper" value=""><label for="breakfastSandwichBlackPepper" class="strikethrough">Pinch of black pepper</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichCuminPowder" name="breakfastSandwichCuminPowder" value=""><label for="breakfastSandwichCuminPowder" class="strikethrough">Pinch of cumin powder (optional)</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichEgg" name="breakfastSandwichEgg" value=""><label for="breakfastSandwichEgg" class="strikethrough">1 egg, fried</label></li>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Your preferred bread
+        </td>
+        <td>
+            2 slices, toasted
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Tomato
+        </td>
+        <td>
+            1 or 2 slices
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Mushroom
+        </td>
+        <td>
+            1, sliced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Onion
+        </td>
+        <td>
+            1 or 2 thin slices
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Avocado
+        </td>
+        <td>
+            1/2, sliced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>A pinch</td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            A pinch
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cumin Powder (optional)
+        </td>
+        <td>
+            A pinch
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Egg
+        </td>
+        <td>
+            1, fried
+        </td>
+    </tr>
+</table>
 
 <!--
    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.

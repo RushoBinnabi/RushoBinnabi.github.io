@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
@@ -44,28 +49,100 @@
 </div>
 
 <!--
-   this ingredients div container has checkboxes set up so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities.
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <ul>
-        <li><input type="checkbox" id="amountOfFlourForBananaBread" name="amountOfFlourForBananaBread" value=""><label for="amountOfFlourForBananaBread" class="strikethrough">All-Purpose Flour: 1 1/2 Cups</label></li>
-        <br><li><input type="checkbox" id="amountOfSaltForBananaBread" name="amountOfSaltForBananaBread" value=""><label for="amountOfSaltForBananaBread" class="strikethrough">Salt: 1/2 tsp</label></li>
-        <br><li><input type="checkbox" id="amountOfSugarForBananaBread" name="amountOfSugarForBananaBread" value=""><label for="amountOfSugarForBananaBread" class="strikethrough">Sugar: 3/4 Cup</label></li>
-        <br><li><input type="checkbox" id="amountOfEggsForBananaBread" name="amountOfEggsForBananaBread" value=""><label for="amountOfEggsForBananaBread" class="strikethrough">Eggs: 2</label></li>
-        <br><li><input type="checkbox" id="amountOfVanillaExtractForBananaBread" name="amountOfVanillaExtractForBananaBread" value=""> <label for="amountOfVanillaExtractForBananaBread" class="strikethrough">
-                Vanilla Extract: 1 tsp</label></li>
-        <br><li><input type="checkbox" id="amountOfButterBananaBread" name="amountOfButterBananaBread" value=""><label for="amountOfButterBananaBread" class="strikethrough">
-                Softened Butter: 1 stick</label></li>
-        <br><li><input type="checkbox" id="amountOfBakingSodaForBananaBread" name="amountOfBakingSodaForBananaBread" value=""><label for="amountOfBakingSodaForBananaBread" class="strikethrough">
-                Baking Soda: 1 tsp</label></li>
-        <br><li><input type="checkbox" id="numberOfBananasForBananaBread" name="numberOfBananasForBananaBread" value=""><label for="numberOfBananasForBananaBread" class="strikethrough">
-                Ripe Bananas: 3</label></li>
-        <br><li><input type="checkbox" id="toppingBananaBread" name="toppingBananaBread" value=""><label for="toppingBananaBread" class="strikethrough">
-                Optional for topping: Feel free to add your own topping</label></li>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Dry Ingredients:
+        </th>
+        <th>
+            Quantity:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            All-Purpose Flour
+        </td>
+        <td>
+            1 1/2 cups
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            1/2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Sugar
+        </td>
+        <td>
+            3/4 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Baking Soda
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Topping (optional)
+        </td>
+        <td>
+            Feel free to add your own
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Wet Ingredients:
+        </th>
+        <th>
+            Quantity:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Softened Butter
+        </td>
+        <td>
+            1
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Vanilla Extract
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Eggs
+        </td>
+        <td>
+            2
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Ripe Bananas
+        </td>
+        <td>
+            2
+        </td>
+    </tr>
+</table>
 
 <!--
    this steps div container has checkboxes set up so that users can check off the steps to making the recipe as they do them.

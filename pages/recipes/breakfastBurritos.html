@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
@@ -44,37 +49,116 @@
 </div>
 
 <!--
-   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities.
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <ul>
-        <li><input type="checkbox" id="breadTypeBreakfastBurritos" name="breadTypeBreakfastBurritos" value=""><label for="breadTypeBreakfastBurritos" class="strikethrough">12 tortillas or flatbread</label></li>
-        <br>
-        <li><input type="checkbox" id="tomatoBreakfastBurritos" name="tomatoBreakfastBurritos" value=""><label for="tomatoBreakfastBurritos" class="strikethrough">1/2 tomato</label></li>
-        <br>
-        <li><input type="checkbox" id="onionBreakfastBurritos" name="onionBreakfastBurritos" value=""><label for="onionBreakfastBurritos" class="strikethrough">1/2 red onion</label></li>
-        <br>
-        <li><input type="checkbox" id="groundBeefBreakfastBurritos" name="groundBeefBreakfastBurritos" value=""><label for="groundBeefBreakfastBurritos" class="strikethrough">1 1/4 cups of ground beef</label></li>
-        <br>
-        <li><input type="checkbox" id="spinachBreakfastBurritos" name="spinachBreakfastBurritos" value=""><label for="spinachBreakfastBurritos" class="strikethrough">1 cup of spinach</label></li>
-        <br>
-        <li><input type="checkbox" id="eggsBreakfastBurritos" name="eggsBreakfastBurritos" value=""><label for="eggsBreakfastBurritos" class="strikethrough">4 eggs</label></li>
-        <br>
-        <li><input type="checkbox" id="saltBreakfastBurritos" name="saltBreakfastBurritos" value=""><label for="saltBreakfastBurritos" class="strikethrough">1 tsp of salt</label></li>
-        <br>
-        <li><input type="checkbox" id="blackPepperBreakfastBurritos" name="blackPepperBreakfastBurritos" value=""><label for="blackPepperBreakfastBurritos" class="strikethrough">1 tsp of black pepper</label></li>
-        <br>
-        <li><input type="checkbox" id="garlicPowderBreakfastBurritos" name="garlicPowderBreakfastBurritos" value=""><label for="garlicPowderBreakfastBurritos" class="strikethrough">1 tsp of garlic powder</label></li>
-        <br>
-        <li><input type="checkbox" id="paprikaBreakfastBurritos" name="paprikaBreakfastBurritos" value=""><label for="paprikaBreakfastBurritos" class="strikethrough">1 tsp of paprika</label></li>
-        <br>
-        <li><input type="checkbox" id="oreganoBreakfastBurritos" name="oreganoBreakfastBurritos" value=""><label for="oreganoBreakfastBurritos" class="strikethrough">1 tsp of oregano</label></li>
-        <br>
-        <li><input type="checkbox" id="oilBreakfastBurritos" name="oilBreakfastBurritos" value=""><label for="oilBreakfastBurritos" class="strikethrough">Oil, as needed</label></li>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients:
+        </th>
+        <th>
+            Quantity:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Tortillas or Flatbread
+        </td>
+        <td>
+            12
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Tomato
+        </td>
+        <td>
+            1/2
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Red Onion
+        </td>
+        <td>
+            1/2
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Ground Beef or Chicken
+        </td>
+        <td>
+            1 pound
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Spinach
+        </td>
+        <td>
+            1 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Eggs
+        </td>
+        <td>
+            4
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper:
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Garlic Powder
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Paprika
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Oregano
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Oil
+        </td>
+        <td>
+            as needed
+        </td>
+    </tr>
+</table>
 <br>
 
 <!--
@@ -84,7 +168,8 @@
 <div class="textSize">
     <h3>Steps:</h3>
     <ol class="textAlignment">
-        <li><input type="checkbox" id="breakfastBurritosStep1" name="breakfastBurritosStep1" value=""><label for="breakfastBurritosStep1" class="strikethrough">Fry the tortillas or flatbread until golden brown. Lay onto a sheet pan to cool.</label></li>
+        <li><input type="checkbox" id="breakfastBurritosStep1" name="breakfastBurritosStep1" value=""><label for="breakfastBurritosStep1" class="strikethrough">Fry flatbread until golden brown or the tortillas until toasted and warmed <br>
+            through. Lay onto a sheet pan to cool.</label></li>
         <br>
         <li><input type="checkbox" id="breakfastBurritosStep2" name="breakfastBurritosStep2" value=""><label for="breakfastBurritosStep2" class="strikethrough">In a large pan, sauté the ground beef with some oil and 1/4 of the seasonings.</label></li>
         <br>
