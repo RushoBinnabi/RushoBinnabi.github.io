@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
@@ -42,31 +47,85 @@
     <br>
 </div>
 
-
 <!--
-   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities.
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <ul>
-        <li><input type="checkbox" id="chiliOilChiliFlakes" name="chiliOilChiliFlakes" value=""><label for="chiliOilChiliFlakes" class="strikethrough">3/4 cups of chili flakes</label></li>
-        <br>
-        <li><input type="checkbox" id="chiliOilCinnamonSticks" name="chiliOilCinnamonSticks" value=""><label for="chiliOilCinnamonSticks" class="strikethrough">2 cinnamon sticks</label> </li>
-        <br>
-        <li><input type="checkbox" id="chiliOilSzechuanPeppercorns" name="chiliOilSzechuanPeppercorns" value=""><label for="chiliOilSzechuanPeppercorns" class="strikethrough">1/2 cup of szechuan peppercorns</label></li>
-        <br>
-        <li><input type="checkbox" id="chiliOilStarAnise" name="chiliOilStarAnise" value=""><label for="chiliOilStarAnise" class="strikethrough">3 star anise</label></li>
-        <br>
-        <li><input type="checkbox" id="chiliOilSalt" name="chiliOilSalt" value=""><label for="chiliOilSalt" class="strikethrough">1 tsp of salt</label></li>
-        <br>
-        <li><input type="checkbox" id="chiliOilBlackPepper" name="chiliOilBlackPepper" value=""><label for="chiliOilBlackPepper" class="strikethrough"> 1 1/2 tsp of black pepper</label></li>
-        <br>
-        <li><input type="checkbox" id="chiliOilCLoves" name="chiliOilCloves" value=""><label for="chiliOilCLoves" class="strikethrough">1/4 cups of cloves</label></li>
-        <br>
-        <li><input type="checkbox" id="chiliOilOil" name="chiliOilOil" value=""><label for="chiliOilOil" class="strikethrough">3 cups of oil</label></li>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Chili Flakes
+        </td>
+        <td>
+            3/4 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cinnamon Sticks
+        </td>
+        <td>
+            2
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Szechuan Peppercorns
+        </td>
+        <td>
+            1/2 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Star Anise
+        </td>
+        <td>
+            3
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            1 1/2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cloves
+        </td>
+        <td>
+            1/4 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Oil
+        </td>
+        <td>
+            3 cups
+        </td>
+    </tr>
+</table>
 <br>
 
 <!--

@@ -7,7 +7,12 @@
 <!-- this eggSaladSandwich html file contains the html for the egg salad sandwich recipe. -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <title>Buttered Noodles</title>
@@ -44,31 +49,68 @@
 </div>
 
 <!--
-   this ingredients div container has checkboxes set up so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities.
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <ul>
-        <li><input type="checkbox" id="butteredNoodlesPastaNoodles" name="butteredNoodlesPastaNoodles" value="">
-            <label for="butteredNoodlesPastaNoodles">Pasta noodles of desired type: 1 cup</label></li>
-        <br>
-        <li><input type="checkbox" id="butteredNoodlesButter" name="butteredNoodlesButter" value="">
-            <label for="butteredNoodlesButter"></label>Softened Butter: 1 tbsp</li>
-        <br>
-        <li><input type="checkbox" id="butteredNoodlesSalt" name="butteredNoodlesSalt" value="">
-            <label for="butteredNoodlesSalt"></label>Salt: 1 pinch, adjust as needed</li>
-        <br>
-        <li><input type="checkbox" id="butteredNoodlesBlackPepper" name="butteredNoodlesBlackPepper" value="">
-            <label for="butteredNoodlesBlackPepper"></label>Black Pepper: 1 pinch, adjust as needed</li>
-        <br>
-        <li><input type="checkbox" id="butteredNoodlesMeat" name="butteredNoodlesMeat" value="">
-            <label for="butteredNoodlesMeat">Choice of Meat (Optional), minced: 1/4 lbs</label></li>
-        <br>
-        <li><input type="checkbox" id="butteredNoodlesOil" name="butteredNoodlesOil" value="">
-            <label for="butteredNoodlesOil">Oil: as needed</label></li>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Pasta Noodles
+        </td>
+        <td>
+            1 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Softened Butter
+        </td>
+        <td>
+            1 tbsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            1 pinch, adjust as needed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            1 pinch, adjust as needed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Choice of Meat (optional)
+        </td>
+        <td>
+            1/4 pounds, ground
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Oil
+        </td>
+        <td>
+            as needed
+        </td>
+    </tr>
+</table>
 <br>
 
 <!--

@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
@@ -43,32 +48,134 @@
     <br>
 </div>
 
-
 <!--
-   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities.
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <ul>
-        <li><input type="checkbox" id="crispyChickenRamenChickenBreast" name="crispyChickenRamenChickenBreast" value=""><label for="crispyChickenRamenChickenBreast" class="strikethrough">1 chicken breast</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenTomato" name="crispyChickenRamenTomato" value=""><label for="crispyChickenRamenTomato" class="strikethrough">1/2 tomato, diced</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenOnion" name="crispyChickenRamenOnion" value=""><label for="crispyChickenRamenOnion" class="strikethrough">1/4 onion, thinly sliced</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenMushrooms" name="crispyChickenRamenMushrooms" value=""><label for="crispyChickenRamenMushrooms" class="strikethrough">2 mushrooms, sliced</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenEggs" name="crispyChickenRamenEggs" value=""><label for="crispyChickenRamenEggs" class="strikethrough">2 eggs</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenRamen" name="crispyChickenRamenRamen" value=""><label for="crispyChickenRamenRamen" class="strikethrough">
-        <a href="https://www.doordash.com/browse/merchants/884272/products/299366?business_id=884272&dd_sic=urpc_3d248bf7-7aac-463d-9a4f-96522b953a03&gad_source=1&gclid=EAIaIQobChMIh5Lpt7PfggMV8GJHAR0tzQGyEAQYAyABEgK1nPD_BwE&gclsrc=aw.ds&kclickid=_k_EAIaIQobChMIh5Lpt7PfggMV8GJHAR0tzQGyEAQYAyABEgK1nPD_BwE_k_&ms_id=299366&o_d_id=dx_60a35b7c115f42cfb2a95d9d5d96ee23&region_id=2830558&store_id=2830558&utm_adgroup_id=&utm_campaign=CX_US_SE_LP_GO_NVT_CUSXXX_20560041960_CRSSCT_%20PL_TOT_GROCY_BAKEPANTRYSSX_EVG_ROAS_XXX_COUSA_EN_EN_X_DOOR_GO_SE_TXT_SmartShopx&utm_content=&utm_creative_id=&utm_keyword_id=&utm_medium=PLA&utm_source=Google&utm_term=">
-            1 bowl of Nissin Hot & Spicy Ramen or any kind of Ramen</a></label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenSalt" name="crispyChickenRamenSalt" value=""><label for="crispyChickenRamenSalt" class="strikethrough">1/4 tsp of salt, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenBlackPepper" name="crispyChickenRamenBlackPepper" value=""><label for="crispyChickenRamenBlackPepper" class="strikethrough">1/4 tsp of black pepper, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenCuminPowder" name="crispyChickenRamenCuminPowder" value=""><label for="crispyChickenRamenCuminPowder" class="strikethrough">1/4 tsp of cumin powder, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenPaprika" name="crispyChickenRamenPaprika" value=""><label for="crispyChickenRamenPaprika" class="strikethrough">1/4 tsp of paprika, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenGarlicPowder" name="crispyChickenRamenGarlicPowder" value=""><label for="crispyChickenRamenGarlicPowder" class="strikethrough">1/4 tsp of garlic powder, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenBreadCrumbs" name="crispyChickenRamenBreadCrumbs" value=""><label for="crispyChickenRamenBreadCrumbs" class="strikethrough">1/2 cups of bread crumbs, adjust as needed</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenLemon" name="crispyChickenRamenLemon" value=""><label for="crispyChickenRamenLemon" class="strikethrough">1/4 lemon</label></li>
-        <br><li><input type="checkbox" id="crispyChickenRamenOil" name="crispyChickenRamenOil" value=""><label for="crispyChickenRamenOil" class="strikethrough">oil, as needed</label></li>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Chicken Breast
+        </td>
+        <td>
+            1
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Tomato
+        </td>
+        <td>
+            1/2, diced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Onion
+        </td>
+        <td>
+            1/4, thinly sliced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Mushrooms
+        </td>
+        <td>
+            2, sliced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Eggs
+        </td>
+        <td>
+            2
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a target="_blank" href="https://www.doordash.com/browse/merchants/884272/products/299366?business_id=884272&dd_sic=urpc_3d248bf7-7aac-463d-9a4f-96522b953a03&gad_source=1&gclid=EAIaIQobChMIh5Lpt7PfggMV8GJHAR0tzQGyEAQYAyABEgK1nPD_BwE&gclsrc=aw.ds&kclickid=_k_EAIaIQobChMIh5Lpt7PfggMV8GJHAR0tzQGyEAQYAyABEgK1nPD_BwE_k_&ms_id=299366&o_d_id=dx_60a35b7c115f42cfb2a95d9d5d96ee23&region_id=2830558&store_id=2830558&utm_adgroup_id=&utm_campaign=CX_US_SE_LP_GO_NVT_CUSXXX_20560041960_CRSSCT_%20PL_TOT_GROCY_BAKEPANTRYSSX_EVG_ROAS_XXX_COUSA_EN_EN_X_DOOR_GO_SE_TXT_SmartShopx&utm_content=&utm_creative_id=&utm_keyword_id=&utm_medium=PLA&utm_source=Google&utm_term=">
+                Nissin Hot & Spicy Ramen or any kind of Ramen</a>
+        </td>
+        <td>
+            1
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            1 tsp, adjust as needed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            1/4 tsp, adjust as needed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cumin Powder
+        </td>
+        <td>
+            1/4 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Paprika
+        </td>
+        <td>
+            1/4 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Garlic Powder
+        </td>
+        <td>
+            1/4 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Bread Crumbs
+        </td>
+        <td>
+            1/2 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Lemon
+        </td>
+        <td>
+            1/4
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Oil
+        </td>
+        <td>
+            as needed
+        </td>
+    </tr>
+</table>
 
 <!--
    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.

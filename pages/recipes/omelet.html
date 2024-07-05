@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
@@ -44,27 +49,125 @@
 </div>
 
 <!--
-   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities.
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <ul>
-        <li><input type="checkbox" id="omeletEggs" name="omeletEggs" value=""><label for="omeletEggs" class="strikethrough">2 to 3 eggs.</label></li>
-        <br><li><input type="checkbox" id="omeletPotato" name="omeletPotato" value=""><label for="omeletPotato" class="strikethrough">1 small potato, diced</label> </li>
-        <br><li><input type="checkbox" id="omeletTomato" name="omeletTomato" value=""><label for="omeletTomato" class="strikethrough">1 small tomato, diced</label> </li>
-        <br><li><input type="checkbox" id="omeletOnion" name="omeletOnion" value=""><label for="omeletOnion" class="strikethrough">1 small onion, diced</label></li>
-        <br><li><input type="checkbox" id="omeletMushroom" name="omeletMushroom" value=""><label for="omeletMushroom" class="strikethrough">2 mushrooms, diced</label></li>
-        <br><li><input type="checkbox" id="omeletSalt" name="omeletSalt" value=""><label for="omeletSalt" class="strikethrough">1/2 tsp of salt</label></li>
-        <br><li><input type="checkbox" id="omeletBlackPepper" name="omeletBlackPepper" value=""><label for="omeletBlackPepper" class="strikethrough">1/2 tsp of black pepper</label></li>
-        <br><li><input type="checkbox" id="omeletPaprika" name="omeletPaprika" value=""><label for="omeletPaprika" class="strikethrough">1/4 tsp of paprika</label></li>
-        <br><li><input type="checkbox" id="omeletGarlicPowder" name="omeletGarlicPowder" value=""><label for="omeletGarlicPowder" class="strikethrough">1/4 tsp of garlic powder</label></li>
-        <br><li><input type="checkbox" id="omeletCuminPowder" name="omeletCuminPowder" value=""><label for="omeletCuminPowder" class="strikethrough">1/4 tsp of cumin powder</label></li>
-        <br><li><input type="checkbox" id="omeletCheese" name="omeletCheese" value=""><label for="omeletCheese" class="strikethrough">Cheese (Optional)</label></li>
-        <br><li><input type="checkbox" id="omeletMeat" name="omeletMeat" value=""><label for="omeletMeat" class="strikethrough">Small chunks of meat (Optional)</label></li>
-        <br><li><input type="checkbox" id="omeletOil" name="omeletOil" value=""><label for="omeletOil" class="strikethrough">Oil, as needed</label></li>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Eggs
+        </td>
+        <td>
+            2-3
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Small Potato
+        </td>
+        <td>
+            1, diced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Small Tomato
+        </td>
+        <td>
+            1, diced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Small Onion
+        </td>
+        <td>
+            1, diced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Mushrooms
+        </td>
+        <td>
+            2, diced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            1/2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            1/2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Paprika
+        </td>
+        <td>
+            1/4 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Garlic Powder
+        </td>
+        <td>
+            1/4 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cumin Powder
+        </td>
+        <td>
+            1/4 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cheese (optional)
+        </td>
+        <td>
+            A small handful
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Small chunks of meat (optional)
+        </td>
+        <td>
+            A small handful
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Oil
+        </td>
+        <td>
+            as needed
+        </td>
+    </tr>
+</table>
+<br>
 
 <!--
    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.

@@ -7,7 +7,12 @@
 <!-- this eggSaladSandwich html file contains the html for the egg salad sandwich recipe. -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <title>Egg Salad Sandwich</title>
@@ -44,37 +49,84 @@
 </div>
 
 <!--
-   this ingredients div container has checkboxes set up so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities.
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <ul>
-        <li><input type="checkbox" id="eggSaladSandwichEggs" name="eggSaladSandwichEggs" value="">
-            <label for="eggSaladSandwichEggs">Eggs: 1-2</label></li>
-        <br>
-        <li><input type="checkbox" id="eggSaladSandwichMayonnaise" name="eggSaladSandwichMayonnaise" value="">
-            <label for="eggSaladSandwichMayonnaise">Mayonnaise: 2-3 tbsp</label></li>
-        <br>
-        <li><input type="checkbox" id="eggSaladSandwichSalt" name="eggSaladSandwichSalt" value="">
-            <label for="eggSaladSandwichSalt">Salt: 1 pinch, adjust as needed</label></li>
-        <br>
-        <li><input type="checkbox" id="eggSaladSandwichBlackPepper" name="eggSaladSandwichBlackPepper" value="">
-            <label for="eggSaladSandwichBlackPepper">Black Pepper: 1 pinch, adjust as needed</label></li>
-        <br>
-        <li><input type="checkbox" id="eggSaladSandwichPaprika" name="eggSaladSandwichPaprika" value="">
-            <label for="eggSaladSandwichPaprika">Paprika: 1 pinch, adjust as needed</label></li>
-        <br>
-        <li><input type="checkbox" id="eggSaladSandwichBread" name="eggSaladSandwichBread" value="">
-            <label for="eggSaladSandwichBread">Bread Slices (optionally toasted): 2</label></li>
-        <br>
-        <li><input type="checkbox" id="eggSaladSandwichCucumbers" name="eggSaladSandwichCucumbers" value="">
-            <label for="eggSaladSandwichCucumbers">1/4 cup of Cucumbers</label></li>
-        <br>
-        <li><input type="checkbox" id="eggSaladSandwichOnions" name="eggSaladSandwichOnions" value="">
-            <label for="eggSaladSandwichOnions">1/4 cup of Onions</label></li>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Eggs
+        </td>
+        <td>
+            1
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Mayonnaise
+        </td>
+        <td>
+            2 tbsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            1 pinch, adjust as needed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            1 pinch, adjust as needed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Paprika
+        </td>
+        <td>
+            1 pinch, adjust as needed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Bread (optionally toasted)
+        </td>
+        <td>
+            2, sliced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cucumbers
+        </td>
+        <td>
+            2 tbsp, diced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Onion
+        </td>
+        <td>
+            2 tbsp, diced
+        </td>
+    </tr>
+</table>
 <br>
 
 <!--

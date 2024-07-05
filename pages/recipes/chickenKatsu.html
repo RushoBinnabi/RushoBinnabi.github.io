@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <title>Chicken Katsu</title>
@@ -44,68 +49,132 @@
 </div>
 
 <!--
-   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities.
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <h4>For the Chicken:</h4>
-    <ul>
-        <li>
-            <input type="checkbox" id="chickenKatsuChicken" name="chickenKatsuChicken" value=""><label for="chickenKatsuChicken" class="strikethrough">Chicken Breast: 1</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="chickenKatsuRice" name="chickenKatsuRice" value=""><label for="chickenKatsuRice" class="strikethrough">Rice: 1 serving</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="chickenKatsuSalt" name="chickenKatsuSalt" value=""><label for="chickenKatsuSalt" class="strikethrough">Salt: 1 tsp</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="chickenKatsuBlackPepper" name="chickenKatsuBlackPepper" value=""><label for="chickenKatsuBlackPepper" class="strikethrough">Black Pepper: 1 tsp</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="chickenKatsuGarlicPowder" name="chickenKatsuGarlicPowder" value=""><label for="chickenKatsuGarlicPowder" class="strikethrough">Garlic Powder: 1 tsp</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="chickenKatsuPanneEgg" name="chickenKatsuPanneEgg" value=""><label for="chickenKatsuPanneEgg" class="strikethrough">Egg: 1</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="chickenKatsuPanneFlour" name="chickenKatsuPanneFlour" value=""><label for="chickenKatsuPanneFlour" class="strikethrough">All-Purpose Flour: 1/4 cup</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="chickenKatsuPanneBreadCrumbs" name="chickenKatsuPanneBreadCrumbs" value=""><label for="chickenKatsuPanneBreadCrumbs" class="strikethrough">Bread Crumbs: 1/4 cup</label>
-        </li>
-    </ul>
-    <h4>For the sauce:</h4>
-    <ul>
-        <li>
-            <input type="checkbox" id="chickenKatsuSauceSoySauce" name="chickenKatsuSauceSoySauce" value=""><label for="chickenKatsuSauceSoySauce" class="strikethrough">Soy Sauce: 1/2 cup</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="chickenKatsuSauceGarlicClove" name="chickenKatsuSauceGarlicClove" value=""><label for="chickenKatsuSauceGarlicClove" class="strikethrough">Garlic Clove: 1</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="chickenKatsuSauceBlackPepper" name="chickenKatsuSauceBlackPepper" value=""><label for="chickenKatsuSauceBlackPepper" class="strikethrough">Black Pepper: 1/2 tsp</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="chickenKatsuSauceBrownSugar" name="chickenKatsuSauceBrownSugar" value=""><label for="chickenKatsuSauceBrownSugar" class="strikethrough">Brown Sugar: 2 tsp</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="chickenKatsuSauceLemonJuice" name="chickenKatsuSauceLemonJuice" value=""><label for="chickenKatsuSauceLemonJuice" class="strikethrough">Lemon Juice (optional): 1 tsp</label>
-        </li>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients for the Chicken:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Chicken Breast
+        </td>
+        <td>
+            1
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Rice
+        </td>
+        <td>
+            1 serving
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Garlic Powder
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Egg
+        </td>
+        <td>
+            1
+        </td>
+    </tr>
+    <tr>
+        <td>
+            All-Purpose Flour
+        </td>
+        <td>
+            1/2 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Bread Crumbs
+        </td>
+        <td>
+            1/4 cup
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Ingredients for the Sauce:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Soy Sauce
+        </td>
+        <td>
+            1/2 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Garlic Clove
+        </td>
+        <td>
+            1, crushed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            1/2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Brown Sugar
+        </td>
+        <td>
+            2 tbsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Lemon Juice (optional)
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+</table>
 <br>
 
 <!--
