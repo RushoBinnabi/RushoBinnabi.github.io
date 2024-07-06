@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print">
@@ -44,61 +49,149 @@
 </div>
 
 <!--
-   this ingredients div has checkboxes set up so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities:
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <h3>
-        For the salad:
-    </h3>
-    <ul>
-        <li><input type="checkbox" id="pastaSaladPasta" name="pastaSaladPasta" value="">
-            <label for="pastaSaladPasta" class="strikethrough">3-4 cups of your choice of pasta</label></li>
-        <br>
-        <li><input type="checkbox" id="pastaSaladTomatoes" name="pastaSaladTomatoes" value="">
-            <label for="pastaSaladTomatoes" class="strikethrough">1 whole tomato</label></li>
-        <br>
-        <li><input type="checkbox" id="pastaSaladOnions" name="pastaSaladOnions" value="">
-            <label for="pastaSaladOnions" class="strikethrough">1/2 small onion</label></li>
-        <br>
-        <li><input type="checkbox" id="pastaSaladOlives" name="pastaSaladOlives" value="">
-            <label for="pastaSaladOlives" class="strikethrough">2 cups of olives</label></li>
-        <br>
-        <li><input type="checkbox" id="pastaSaladPeppers" name="pastaSaladPeppers" value="">
-            <label for="pastaSaladPeppers" class="strikethrough">4 of your choice of peppers</label></li>
-        <br>
-        <li><input type="checkbox" id="pastaSaladCheese" name="pastaSaladCheese" value="">
-            <label for="pastaSaladCheese" class="strikethrough">A handful or two of your choice of cheese</label></li>
-        <br>
-        <li><input type="checkbox" id="pastaSaladCilantro" name="pastaSaladCilantro" value="">
-            <label for="pastaSaladCilantro" class="strikethrough">A handful of cilantro</label></li>
-        <br>
-        <li><input type="checkbox" id="pastaSaladSaltAndPepper" name="pastaSaladSaltAndPepper" value="">
-            <label for="pastaSaladSaltAndPepper" class="strikethrough">Salt and Pepper to taste</label></li>
-    </ul>
-    <br>
-    <h3>
-        For the Vinaigrette:
-    </h3>
-    <ul>
-        <li><input type="checkbox" id="pastaSaladVinaigretteOliveOil" name="pastaSaladVinaigretteOliveOil" value="">
-            <label for="pastaSaladVinaigretteOliveOil" class="strikethrough">3/4 cups of Olive Oil</label></li>
-        <br>
-        <li><input type="checkbox" id="pastaSaladVinaigretteTurmeric" name="pastaSaladVinaigretteTurmeric" value="">
-            <label for="pastaSaladVinaigretteTurmeric" class="strikethrough">1/2 tsp of Turmeric</label></li>
-        <br>
-        <li><input type="checkbox" id="pastaSaladVinaigretteSaltAndPepper" name="pastaSaladVinaigretteSaltAndPepper"
-            value=""><label for="pastaSaladVinaigretteSaltAndPepper" class="strikethrough">Salt and Pepper to taste</label></li>
-        <br>
-        <li><input type="checkbox" id="pastaSaladVinaigretteGarlic" name="pastaSaladVinaigretteGarlic" value="">
-            <label for="pastaSaladVinaigretteGarlic" class="strikethrough">4 garlic cloves</label></li>
-        <br>
-        <li><input type="checkbox" id="pastaSaladVinaigretteVinegar" name="pastaSaladVinaigretteVinegar" value="">
-            <label for="pastaSaladVinaigretteVinegar" class="strikethrough">3-4 tbsp of Vinegar</label></li>
-    </ul>
 <br>
-</div>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients for the Pasta Salad:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Choice of Pasta
+        </td>
+        <td>
+            3-4 cups
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Tomato
+        </td>
+        <td>
+            1, diced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Onion
+        </td>
+        <td>
+            1/2, sliced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Olives
+        </td>
+        <td>
+            2 cups, halved
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Choice of Peppers
+        </td>
+        <td>
+            4, sliced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cheese
+        </td>
+        <td>
+            A handful
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cilantro
+        </td>
+        <td>
+            A handful
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            to taste
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            to taste
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Ingredients for the Vinaigrette:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Olive Oil
+        </td>
+        <td>
+            1/4 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Turmeric
+        </td>
+        <td>
+            1/2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            to taste
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            to taste
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Garlic Cloves
+        </td>
+        <td>
+            3, crushed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Vinegar
+        </td>
+        <td>
+            3-4 tbsp
+        </td>
+    </tr>
+</table>
+<br>
 
 <!--
    this steps div has checkboxes set up so that users can check off the steps to making the recipe as they do them.

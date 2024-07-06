@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
@@ -44,23 +49,93 @@
 </div>
 
 <!--
-   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities:
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <ul>
-        <li><input type="checkbox" id="potatoCakesPotatoes" name="potatoCakesPotatoes" value=""><label for="potatoCakesPotatoes" class="strikethrough">2 to 3 large potatoes</label></li>
-        <br><li><input type="checkbox" id="potatoCakesBreadCrumbs" name="potatoCakesBreadCrumbs" value=""><label for="potatoCakesBreadCrumbs" class="strikethrough">1/2 cup of bread crumbs</label></li>
-        <br><li><input type="checkbox" id="potatoCakesEggs" name="potatoCakesEggs" value=""><label for="potatoCakesEggs" class="strikethrough">2 eggs</label></li>
-        <br><li><input type="checkbox" id="potatoCakesMilk" name="potatoCakesMilk" value=""><label for="potatoCakesMilk" class="strikethrough">A few tablespoons of milk</label></li>
-        <br><li><input type="checkbox" id="potatoCakesSalt" name="potatoCakesSalt" value=""><label for="potatoCakesSalt" class="strikethrough">1/2 tsp of salt</label></li>
-        <br><li><input type="checkbox" id="potatoCakesBlackPepper" name="potatoCakesBlackPepper" value=""><label for="potatoCakesBlackPepper" class="strikethrough">1 tsp of black pepper</label></li>
-        <br><li><input type="checkbox" id="potatoCakesGarlicPowder" name="potatoCakesGarlicPowder" value=""><label for="potatoCakesGarlicPowder" class="strikethrough">1/2 tsp of garlic powder</label></li>
-        <br><li><input type="checkbox" id="potatoCakesOil" name="potatoCakesOil" value=""><label for="potatoCakesOil" class="strikethrough">Oil, as needed</label></li>
-        <br><li><input type="checkbox" id="potatoCakesCilantro" name="potatoCakesCilantro" value=""><label for="potatoCakesCilantro" class="strikethrough">Cilantro, for garnishing</label></li>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Potatoes
+        </td>
+        <td>
+            2-3, large
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Bread Crumbs
+        </td>
+        <td>
+            1/2 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Eggs
+        </td>
+        <td>
+            2
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Milk
+        </td>
+        <td>
+            a few tablespoons
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            1/2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Garlic Powder
+        </td>
+        <td>
+            1/2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Oil
+        </td>
+        <td>
+            as needed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cilantro
+        </td>
+        <td>
+            a pinch
+        </td>
+    </tr>
+</table>
+<br>
 
 <!--
    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
