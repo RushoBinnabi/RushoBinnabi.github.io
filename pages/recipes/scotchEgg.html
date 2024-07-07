@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
@@ -44,32 +49,93 @@
 </div>
 
 <!--
-   this ingredients div container has checkboxes set up so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities.
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <ul>
-        <li><input type="checkbox" id="scotchEggEggs" name="scotchEggEggs" value=""><label for="scotchEggEggs" class="strikethrough">3 eggs</label></li>
-        <br>
-        <li><input type="checkbox" id="scotchEggMeat" name="scotchEggMeat" value=""><label for="scotchEggMeat" class="strikethrough">ground meat of your choice: 1 lb</label></li>
-        <br>
-        <li><input type="checkbox" id="scotchEggPaprika" name="scotchEggPaprika" value=""><label for="scotchEggPaprika" class="strikethrough">paprika: 1 tsp</label></li>
-        <br>
-        <li><input type="checkbox" id="scotchEggGarlicPowder" name="scotchEggGarlicPowder" value=""><label for="scotchEggGarlicPowder" class="strikethrough">garlic powder: 1 tsp</label></li>
-        <br>
-        <li><input type="checkbox" id="scotchEggSalt" name="scotchEggSalt" value=""><label for="scotchEggSalt" class="strikethrough">salt: 1 tsp</label></li>
-        <br>
-        <li><input type="checkbox" id="scotchEggBlackPepper" name="scotchEggBlackPepper" value=""><label for="scotchEggBlackPepper">black pepper: 1 tsp</label></li>
-        <br>
-        <li><input type="checkbox" id="scotchEggBreadCrumbs" name="scotchEggBreadCrumbs" value=""><label for="scotchEggBreadCrumbs" class="strikethrough">bread crumbs: 1 cup</label></li>
-        <br>
-        <li><input type="checkbox" id="scotchEggFlour" name="scotchEggFlour" value=""><label for="scotchEggFlour" class="strikethrough">all-purpose flour: 1/2 cup</label></li>
-        <br>
-        <li><input type="checkbox" id="scotchEggOil" name="scotchEggOil" value=""><label for="scotchEggOil" class="strikethrough">oil: as needed</label></li>
-        <br>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Eggs
+        </td>
+        <td>
+            3
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Choice of Meat
+        </td>
+        <td>
+            1 pound, ground
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Paprika
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Garlic Powder
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Bread Crumbs
+        </td>
+        <td>
+            1 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            All-Purpose
+        </td>
+        <td>
+            1/2 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Oil
+        </td>
+        <td>
+            as needed
+        </td>
+    </tr>
+</table>
+<br>
 
 <!--
    this steps div container has checkboxes set up so that users can check off the steps to making the recipe as they do them.

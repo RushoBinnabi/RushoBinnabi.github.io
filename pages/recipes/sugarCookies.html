@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
@@ -44,59 +49,141 @@
 </div>
 
 <!--
-   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities:
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <h3>For the dough:</h3>
-    <ul>
-        <li><input type="checkbox" id="amountOfButterForSugarCookies" name="amountOfButterForSugarCookies" value="">
-            <label for="amountOfButterForSugarCookies" class="strikethrough">Softened Butter: 3 stick (or 24 tbsp)</label></li>
-        <br>
-        <li><input type="checkbox" id="amountOfFlourForSugarCookies" name="amountOfFlourForSugarCookies" value="">
-            <label for="amountOfFlourForSugarCookies" class="strikethrough">All-Purpose Flour: 4 and 1/2 cups (more for shaping and dusting the dough)</label> </li>
-        <br>
-        <li><input type="checkbox" id="amountOfSugarForSugarCookies" name="amountOfSugarForSugarCookies" value="">
-            <label for="amountOfSugarForSugarCookies" class="strikethrough">Sugar: 1 1/2 cups</label></li>
-        <br>
-        <li><input type="checkbox" id="amountOfVanillaExtractForSugarCookies" name="amountOfVanillaExtractForSugarCookies" value="">
-            <label for="amountOfVanillaExtractForSugarCookies" class="strikethrough">Vanilla Extract: 1 1/2 tsp</label></li>
-        <br>
-        <li><input type="checkbox" id="amountOfEggsForSugarCookies" name="amountOfEggsForSugarCookies" value="">
-            <label for="amountOfEggsForSugarCookies" class="strikethrough">Eggs: 1 whole, 2 egg yolks</label></li>
-        <br>
-        <li><input type="checkbox" id="amountOfBakingPowderForSugarCookies" name="amountOfBakingPowderForSugarCookies" value="">
-            <label for="amountOfBakingPowderForSugarCookies" class="strikethrough">Baking Powder: 1/2 tsp</label></li>
-        <br>
-        <li><input type="checkbox" id="amountOfCreamOfTartarOrLemonJuiceForSugarCookies" name="amountOfCreamOfTartarOrLemonJuiceForSugarCookies" value="">
-            <label for="amountOfCreamOfTartarOrLemonJuiceForSugarCookies" class="strikethrough">Cream of Tartar (or Lemon Juice as a substitute): 2 tsp</label></li>
-        <br>
-        <li><input type="checkbox" id="amountOfSaltForSugarCookies" name="amountOfSaltForSugarCookies" value="">
-            <label for="amountOfSaltForSugarCookies" class="strikethrough">Salt: 1 tsp</label></li>
-    </ul>
-    <br>
-    <h3>For the glaze:</h3>
-    <ul>
-        <li><input type="checkbox" id="amountOfPowderedSugarForSugarCookiesGlaze" name="amountOfPowderedSugarForSugarCookiesGlaze" value="">
-            <label for="amountOfPowderedSugarForSugarCookiesGlaze" class="strikethrough">Powdered Sugar: 2 cups (more in small amounts if the glaze is too thin)</label></li>
-        <br>
-        <li><input type="checkbox" id="amountOfSaltForSugarCookiesGlaze" name="amountOfSaltForSugarCookiesGlaze" value="">
-            <label for="amountOfSaltForSugarCookiesGlaze" class="strikethrough">Salt: 1/2 tsp</label></li>
-        <br>
-        <li><input type="checkbox" id="amountOfWaterForSugarCookiesGlaze" name="amountOfWaterForSugarCookiesGlaze" value="">
-            <label for="amountOfWaterForSugarCookiesGlaze" class="strikethrough">Water: as needed</label></li>
-        <br>
-        <li><input type="checkbox" id="amountOfEggWhitesForSugarCookiesGlaze" name="amountOfEggWhitesForSugarCookiesGlaze" value="">
-            <label for="amountOfEggWhitesForSugarCookiesGlaze" class="strikethrough">Egg Whites: 1/4 cup</label></li>
-        <br>
-        <li><input type="checkbox" id="amountOfVanillaExtractForSugarCookiesGlaze" name="amountOfVanillaExtractForSugarCookiesGlaze" value="">
-            <label for="amountOfVanillaExtractForSugarCookiesGlaze" class="strikethrough">Vanilla Extract: 1 tsp</label></li>
-        <br>
-        <li><input type="checkbox" id="amountOfFoodColoringForSugarCookiesGlaze" name="amountOfFoodColoringForSugarCookiesGlaze" value="">
-            <label for="amountOfFoodColoringForSugarCookiesGlaze" class="strikethrough">Food Coloring of your choice</label></li>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients for the Cookies:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Butter
+        </td>
+        <td>
+            3 sticks (24 tbsp)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            All-Purpose Flour
+        </td>
+        <td>
+            4 1/2 cups (more for shaping and dusting the dough)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Sugar
+        </td>
+        <td>
+            1 1/2 cups
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Vanilla Extract
+        </td>
+        <td>
+            1 1/2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Eggs
+        </td>
+        <td>
+            1 whole, 2 yolks
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Baking Powder
+        </td>
+        <td>
+            1/2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Cream of Tartar (or Lemon Juice as a substitute)
+        </td>
+        <td>
+            2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <th>
+            Ingredients for the Glaze:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Powdered Sugar
+        </td>
+        <td>
+            2 cups (more in small amounts if the glaze is too thin)
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            1/2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Water
+        </td>
+        <td>
+            as needed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Egg Whites
+        </td>
+        <td>
+            1/4 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Vanilla Extract
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Choice of Food Colorings
+        </td>
+        <td>
+            a few drops
+        </td>
+    </tr>
+</table>
+<br>
 
 <!--
    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.

@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <meta charset="UTF-8">
     <title>Spicy Stir-Fried Ramen</title>
@@ -44,80 +49,116 @@
 </div>
 
 <!--
-   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities.
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <ul>
-        <li>
-            <input type="checkbox" id="amountOfChickenForSpicyStir-FriedRamen" name="amountOfChickenForSpicyStir" value="">
-            <label for="amountOfChickenForSpicyStir-FriedRamen" class="strikethrough">1 chicken breast, sliced into cubes</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="amountOfTomatoesForSpicyStir-FriedRamen" name="amountOfTomatoesForSpicyStir-FriedRamen" value="">
-            <label for="amountOfTomatoesForSpicyStir-FriedRamen" class="strikethrough">1/2 of a tomato, diced</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="amountOfOnionsForSpicyStir-FriedRamen" name="amountOfOnionsForSpicyStir-FriedRamen" value="">
-            <label for="amountOfOnionsForSpicyStir-FriedRamen" class="strikethrough">1/3 of onions, sliced to desired thickness</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="amountOfCornForSpicyStir-FriedRamen" name="amountOfCornForSpicyStir-FriedRamen" value="">
-            <label for="amountOfCornForSpicyStir-FriedRamen" class="strikethrough">1 corn, shucked</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="amountOfEggsForSpicyStir-FriedRamen" name="amountOfEggsForSpicyStir-FriedRamen" value="">
-            <label for="amountOfEggsForSpicyStir-FriedRamen" class="strikethrough">1 egg</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="amountOfRamenForSpicyStir-FriedRamen" name="amountOfRamenForSpicyStir-FriedRamen" value=""><label for="amountOfRamenForSpicyStir-FriedRamen" class="strikethrough">
-            <a href="https://www.walmart.com/ip/5-Packs-Samyang-Buldak-2x-Spicy-Chicken-Flavor-Ramen-Stir-Fried-Korean-Hot-Noodle-Challenge/5075501065?athcpid=5075501065&athpgid=AthenaItempage&athcgid=null&athznid=si&athieid=v0_eeMjY5LjMxLDU4MDYuNzE5OTk5OTk5OTk5LDAuMDM3MzEzNjU0OTE4NTI0NTgsMC41Xw&athstid=CS055&athguid=Z1blPmhX798iGlGaGZoMG4zjWaxHYCovK30O&athancid=5084723364&athposb=0&athena=true">
-                1 pack of Samyang Buldak 2x Spicy Chicken Flavor Ramen Stir-Fried Korean Hot Noodle or any kind of Ramen</a></label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="amountOfMushroomsForSpicyStir-FriedRamen" name="amountOfMushroomsForSpicyStir-FriedRamen" value="">
-            <label for="amountOfMushroomsForSpicyStir-FriedRamen" class="strikethrough">2 whole mushrooms, sliced to desired thickness</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="amountOfPeppersForSpicyStir-FriedRamen" name="amountOfPeppersForSpicyStir-FriedRamen" value="">
-            <label for="amountOfPeppersForSpicyStir-FriedRamen" class="strikethrough">2 small bell peppers, sliced to desired size and shape</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="amountOfOilForSpicyStir-FriedRamen" name="amountOfOilForSpicyStir-FriedRamen" value="">
-            <label for="amountOfOilForSpicyStir-FriedRamen" class="strikethrough">Oil, as needed</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="amountOfSaltForSpicyStir-FriedRamen" name="amountOfSaltForSpicyStir-FriedRamen" value="">
-            <label for="amountOfSaltForSpicyStir-FriedRamen" class="strikethrough">Salt, as needed</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="amountOfBlackPepperForSpicyStir-FriedRamen" name="amountOfBlackPepperForSpicyStir-FriedRamen" value="">
-            <label for="amountOfBlackPepperForSpicyStir-FriedRamen" class="strikethrough">Black Pepper, as needed</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="amountOfPaprikaForSpicyStir-FriedRamen" name="amountOfPaprikaForSpicyStir-FriedRamen" value="">
-            <label for="amountOfPaprikaForSpicyStir-FriedRamen" class="strikethrough">Paprika, as needed</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="amountOfGarlicPowderForSpicyStir-FriedRamen" name="amountOfGarlicPowderForSpicyStir-FriedRamen" value="">
-            <label for="amountOfGarlicPowderForSpicyStir-FriedRamen" class="strikethrough">Garlic Powder, as needed</label>
-        </li>
-    </ul>
-    <br>
-</div>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+           Ingredients:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            Chicken Breast
+        </td>
+        <td>
+            1, sliced into cubes
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Tomato
+        </td>
+        <td>
+            1/2, diced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Onion
+        </td>
+        <td>
+            1/3, thinly sliced
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Corn
+        </td>
+        <td>
+            1/4 cup
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Egg
+        </td>
+        <td>
+            1
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a target="_blank" href="https://www.walmart.com/ip/5-Packs-Samyang-Buldak-2x-Spicy-Chicken-Flavor-Ramen-Stir-Fried-Korean-Hot-Noodle-Challenge/5075501065?athcpid=5075501065&athpgid=AthenaItempage&athcgid=null&athznid=si&athieid=v0_eeMjY5LjMxLDU4MDYuNzE5OTk5OTk5OTk5LDAuMDM3MzEzNjU0OTE4NTI0NTgsMC41Xw&athstid=CS055&athguid=Z1blPmhX798iGlGaGZoMG4zjWaxHYCovK30O&athancid=5084723364&athposb=0&athena=true">
+                Samyang Buldak 2x Spicy Chicken Flavor Ramen Stir-Fried Korean Hot Noodle or any kind of Ramen</a>
+        </td>
+        <td>
+            1
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Mushrooms
+        </td>
+        <td>
+            2, sliced to desired thickness
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Bell Peppers
+        </td>
+        <td>
+            2, sliced to desired size and shape
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Oil
+        </td>
+        <td>
+            as needed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Salt
+        </td>
+        <td>
+            as needed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Black Pepper
+        </td>
+        <td>
+            as needed
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Garlic Powder
+        </td>
+        <td>
+            as needed
+        </td>
+    </tr>
+</table>
 
 <!--
    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
@@ -135,8 +176,7 @@
         <li>
             <input type="checkbox" id="spicyStir-FriedRamenStep2" name="spicyStir-FriedRamenStep2" value="">
             <label for="spicyStir-FriedRamenStep2" class="strikethrough">In a large pan, sauté the onions, peppers,
-                corn and tomatoes until they have softened. <br> Sprinkle in some of the salt, black pepper, paprika
-                and garlic powder and stir to combine.</label>
+                corn and tomatoes until they have softened. Sprinkle in <br> some of the seasoning and stir to combine.</label>
         </li>
         <br>
         <li>

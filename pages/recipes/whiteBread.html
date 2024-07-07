@@ -8,6 +8,11 @@
 
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
 <head>
     <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
     <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
@@ -43,23 +48,69 @@
     <br>
 </div>
 
-
 <!--
-   this ingredients div container has checkboxes setup so that users can check off ingredients and their measurements as they have them.
+    this table has the ingredients and their quantities.
 -->
 
-<div class="textSize">
-    <h3>Ingredients:</h3>
-    <ul>
-        <li><input type="checkbox" id="whiteBreadFlour" name="whiteBreadFlour" value=""><label for="whiteBreadFlour" class="strikethrough">All-Purpose or Bread Flour: 3 1/2 Cups</label></li>
-        <br><li><input type="checkbox" id="whiteBreadSalt" name="whiteBreadSalt" value=""><label for="whiteBreadSalt" class="strikethrough">Salt: 1/4 tsp</label></li>
-        <br><li><input type="checkbox" id="whiteBreadSugar" name="whiteBreadSugar" value=""><label for="whiteBreadSugar" class="strikethrough">Sugar: 1 tsp</label></li>
-        <br><li><input type="checkbox" id="whiteBreadWaterOrMilk" name="whiteBreadWaterOrMilk" value=""><label for="whiteBreadWaterOrMilk" class="strikethrough">Water or Milk: 3/4 Cup</label></li>
-        <br><li><input type="checkbox" id="whiteBreadYeast" name="whiteBreadYeast" value=""><label for="whiteBreadYeast" class="strikethrough">Dry or Instant Yeast: 1 packet or 1 to 1 1/2 tsp</label></li>
-        <br><li><input type="checkbox" id="whiteBreadEgg" name="whiteBreadEgg" value=""><label for="whiteBreadEgg" class="strikethrough">Egg: 1</label></li>
-        <br><li><input type="checkbox" id="whiteBreadEggwash" name="whiteBreadEggwash" value=""><label for="whiteBreadEggwash" class="strikethrough">Egg Wash (Optional): 1 Beaten Egg and a Splash of Milk</label></li>
-    </ul>
-</div>
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>
+            Ingredients:
+        </th>
+        <th>
+            Quantities:
+        </th>
+    </tr>
+    <tr>
+        <td>
+            All-Purpose or Bread Flour
+        </td>
+        <td>
+            3 1/2 cups
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Sugar
+        </td>
+        <td>
+            1 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Water or Milk
+        </td>
+        <td>
+            1 1/2 cups
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Dry or Instant Yeast
+        </td>
+        <td>
+            1 packet or 1 to 1 1/2 tsp
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Eggs
+        </td>
+        <td>
+            1 whole and 1 yolk
+        </td>
+    </tr>
+    <tr>
+        <td>
+            Egg Wash (optional)
+        </td>
+        <td>
+            1 beaten egg and some milk
+        </td>
+    </tr>
+</table>
 
 <!--
    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
@@ -78,23 +129,12 @@
         <br>
         <li>
             <input type="checkbox" id="whiteBreadStep3" name="whiteBreadStep3" value=""><label for="whiteBreadStep3" class="strikethrough">
-            If using dry yeast, put the yeast into a cup filled with 3/4 of the way
-            with <br> either warm water or milk with a pinch of sugar and leave covered on
-            the side for 10-15 <br> minutes and allow to bloom. After it has bloomed or
-            if using instant yeast, combine <br> yeast, flour, salt, eggs, and milk or
-            water in a large bowl until the dough starts to come together.</label>
-        </li>
-        <br>
-        <li>
-            <input type="checkbox" id="whiteBreadStep4" name="whiteBreadStep4" value=""><label for="whiteBreadStep4" class="strikethrough">
-            Transfer the dough to a lightly floured surface and knead for 10 minutes or until
-            the dough <br> starts to form a smooth ball. Adjust with more milk or water as needed.</label>
+            Combine the yeast, flour, eggs, and milk or water in a large bowl until the dough starts to <br> come together.</label>
         </li>
         <br>
         <li>
             <input type="checkbox" id="whiteBreadStep5" name="whiteBreadStep5" value=""><label for="whiteBreadStep5" class="strikethrough">
-            Put the kneaded dough into a bowl, making sure to brush the dough and the bowl
-            with 1-2 tbsp <br> of oil, cover, and leave to proof for an hour.</label>
+            Brush the dough and the bowl with 1-2 tbsp of oil, cover, and leave to proof for an hour or two.</label>
         </li>
         <br>
         <li>
