@@ -55,14 +55,6 @@ function homepage2() {
 }
 
 /*
-    this goToRecipesPage2() function redirects the webpage to the 2nd page of recipes.
- */
-
-function goToRecipesPage2() {
-    location.href='recipesPage2.html';
-}
-
-/*
     this goToRecipes1stPage() function redirects the webpage to the 1st page of recipes.
  */
 
