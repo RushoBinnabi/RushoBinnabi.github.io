@@ -18,6 +18,6 @@ Open a web browser of your choice and copy/paste or click the following link:
       - ![before_recipes_page_1.png](pictures/updatePictures/before_recipes_page_1.png)
     - Page 2:
       - ![before_recipes_page_2.png](pictures/updatePictures/before_recipes_page_2.png)
-  - After:
-      - ![after_recipes_page.png](pictures/updatePictures/after_recipes_page.png)
+- After:
+    - ![after_recipes_page.png](pictures/updatePictures/after_recipes_page.png)
 #### - The picture for the Potato Cakes recipe will be added later.
