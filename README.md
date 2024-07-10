@@ -2,7 +2,9 @@
 
 This project is a digital website archive I'm building that contains all my recipes, redirects to my GitHub repositories, and a bunch of other stuff.
 
-This project is in continuous progress.
+It is in continuous progress.
+
+It is built ideally for Desktop.
 
 ## How to run the website:
 
