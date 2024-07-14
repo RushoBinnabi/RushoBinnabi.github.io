@@ -18,7 +18,7 @@
     <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
     <meta charset="UTF-8">
     <title>Breakfast Sandwich</title>
-    <link rel="icon" href="..\..\icons\newIcon.svg"> <!-- adds browser icon. -->
+    <link rel="icon" href="../../icons/newIcon.svg"> <!-- adds browser icon. -->
     <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
 </head>
 <body class="backgroundImage fullPage">
@@ -31,9 +31,11 @@
 <br>
 <br>
 <div class="navbar-center">
-    <a style="margin: 15px" target="_blank" href="recipesPage1.html">Recipes</a>
-    <a style="margin: 15px" target="_blank" href="https://github.com/RushoBinnabi">GitHub</a>
-    <a style="margin: 15px" target="_blank" href="../about.html">About</a>
+    <a style="margin: 15px" href="../../index.html">Home</a>
+    <a style="margin: 15px" href="recipesPage1.html">Recipes</a>
+    <a style="margin: 15px" href="https://github.com/RushoBinnabi">GitHub</a>
+    <a style="margin: 15px" href="../about.html">About</a>
+    <a style="margin: 15px" href="../whatsNext.html">What's Next?</a>
 </div>
 
 <!--
@@ -55,82 +57,44 @@
 <br>
 <table class="ingredientTableArrangement">
     <tr>
-        <th>
-            Ingredients:
-        </th>
-        <th>
-            Quantities:
-        </th>
+        <th>Ingredients:</th>
+        <th>Quantities:</th>
     </tr>
     <tr>
-        <td>
-            Your preferred bread
-        </td>
-        <td>
-            2 slices, toasted
-        </td>
+        <td>Your preferred bread</td>
+        <td>2 slices, toasted</td>
     </tr>
     <tr>
-        <td>
-            Tomato
-        </td>
-        <td>
-            1 or 2 slices
-        </td>
+        <td>Tomato</td>
+        <td>1 or 2 slices</td>
     </tr>
     <tr>
-        <td>
-            Mushroom
-        </td>
-        <td>
-            1, sliced
-        </td>
+        <td>Mushroom</td>
+        <td>1, sliced</td>
     </tr>
     <tr>
-        <td>
-            Onion
-        </td>
-        <td>
-            1 or 2 thin slices
-        </td>
+        <td>Onion</td>
+        <td>1 or 2 thin slices</td>
     </tr>
     <tr>
-        <td>
-            Avocado
-        </td>
-        <td>
-            1/2, sliced
-        </td>
+        <td>Avocado</td>
+        <td>1/2, sliced</td>
     </tr>
     <tr>
-        <td>
-            Salt
-        </td>
+        <td>Salt</td>
         <td>A pinch</td>
     </tr>
     <tr>
-        <td>
-            Black Pepper
-        </td>
-        <td>
-            A pinch
-        </td>
+        <td>Black Pepper</td>
+        <td>A pinch</td>
     </tr>
     <tr>
-        <td>
-            Cumin Powder (optional)
-        </td>
-        <td>
-            A pinch
-        </td>
+        <td>Cumin Powder (optional)</td>
+        <td>A pinch</td>
     </tr>
     <tr>
-        <td>
-            Egg
-        </td>
-        <td>
-            1, fried
-        </td>
+        <td>Egg</td>
+        <td>1, fried</td>
     </tr>
 </table>
 
@@ -141,23 +105,12 @@
 <div class="textSize">
     <br><h3>Steps:</h3>
     <ol class="textAlignment">
-        <li><input type="checkbox" id="breakfastSandwichStep1" name="breakfastSandwichStep1" value=""><label for="breakfastSandwichStep1" class="strikethrough">Top the bottom half of the sandwich with the fried egg.</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichStep2" name="breakfastSandwichStep2" value=""><label for="breakfastSandwichStep2" class="strikethrough">
-        Put the sliced avocado on top of the egg, making sure to <br> put the pinch of salt, pepper, and cumin on top of the avocado.</label></li>
-        <br><li><input type="checkbox" id="breakfastSandwichStep3" name="breakfastSandwichStep3" value=""><label for="breakfastSandwichStep3" class="strikethrough">
-        Put the sliced mushrooms on top of the avocado followed by slices <br> of tomato and onion on top of the mushrooms and finish with the top <br> half of the sandwich.</label></li>
+        <li>Top the bottom half of the sandwich with the fried egg.</li>
+        <br><li>Put the sliced avocado on top of the egg, making sure to <br> put the pinch of salt, pepper, and cumin on top of the avocado.</li>
+        <br><li>Put the sliced mushrooms on top of the avocado followed by slices <br> of tomato and onion on top of the mushrooms and finish with
+        the top <br> half of the sandwich.</li>
     </ol>
 </div>
 
-<!--
-    this buttons div class handles all the javascript functionality for redirecting pages.
--->
-
-<div class="buttons middleButtons">
-    <br>
-    <h3><script type="text/javascript" src="../../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToHomepage" onclick="homepage()"><b>Home</b></button></h3>
-    <h3><script type="text/javascript" src="../../script.js"></script><button class="mainButtonBorder buttonPadding" id="backToRecipes" onclick="goToRecipesPage1()"><b>Recipes</b></button></h3>
-    <br>
-</div>
 </body>
 </html>
