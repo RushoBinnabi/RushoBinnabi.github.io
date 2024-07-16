@@ -32,3 +32,4 @@ Open a web browser of your choice and copy/paste or click the following link:
    - ![beforeWhiteBread.png](pictures/updatePictures/beforeWhiteBread.png)
  - After:
    - ![afterWhiteBread.png](pictures/updatePictures/afterWhiteBread.png)
+#### - Removed the ability for links from the navbar to open in another tab.
