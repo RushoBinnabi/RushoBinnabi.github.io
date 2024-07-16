@@ -13,13 +13,22 @@ Open a web browser of your choice and copy/paste or click the following link:
 	https://rushobinnabi.github.io
 ---
 
-# Version 2.1.0 Updates:
-#### - Updated the recipes to be contained and spread out within a single page (for now): 
-- Before:
-    - Page 1:
-      - ![before_recipes_page_1.png](pictures/updatePictures/before_recipes_page_1.png)
-    - Page 2:
-      - ![before_recipes_page_2.png](pictures/updatePictures/before_recipes_page_2.png)
-- After:
-    - ![after_recipes_page.png](pictures/updatePictures/after_recipes_page.png)
-#### - The picture for the Potato Cakes recipe will be added later.
+# Version 2.2.0 Updates:
+#### - Removed the buttons at the bottom of the recipe pages and updated the navbar to include the homepage:
+ - Before:
+   - ![buttonsAtTheBottomOfThePages.png](pictures/updatePictures/buttonsAtTheBottomOfThePages.png)
+ - After:
+   - ![navBar.png](pictures/updatePictures/navBar.png)
+#### - Added a "What's Next?" page and button to the navbar to show what kind of things might be coming to the website:
+  - ![navBar.png](pictures/updatePictures/navBar.png)
+#### - Removed the ability to check off the steps to the recipes:
+ - Before:
+   - ![beforeSteps.png](pictures/updatePictures/beforeSteps.png)
+ - After:
+   - ![afterSteps.png](pictures/updatePictures/afterSteps.png)
+#### - Fixed the links to the browser tab icons.
+#### - Updated the White Bread recipe:
+ - Before:
+   - ![beforeWhiteBread.png](pictures/updatePictures/beforeWhiteBread.png)
+ - After:
+   - ![afterWhiteBread.png](pictures/updatePictures/afterWhiteBread.png)
