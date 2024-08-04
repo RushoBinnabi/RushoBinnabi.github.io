@@ -1,0 +1,111 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 8/4/2024
+    Project: Website - BBQ Spice Rub Recipe
+-->
+
+<!-- this bbqSpiceRub html file contains the html for the bbq spice rub recipe. -->
+
+<!DOCTYPE html>
+<html lang="en" class="fullPage">
+<style>
+    table, th, td {
+        border:1px solid black;
+    }
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>BBQ Spice Rub</title>
+    <link rel="icon" href="../../icons/newIcon.svg"> <!-- adds browser icon. -->
+    <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
+</head>
+<body class="backgroundImage fullPage">
+
+<!--
+    this navbar div class handles all the functionality for redirecting pages using a navbar.
+-->
+
+<br>
+<br>
+<br>
+<div class="navbar-center">
+    <a style="margin: 15px" href="../../index.html">Home</a>
+    <a style="margin: 15px" href="recipesPage1.html">Recipes</a>
+    <a style="margin: 15px" href="https://github.com/RushoBinnabi">GitHub</a>
+    <a style="margin: 15px" href="../about.html">About</a>
+    <a style="margin: 15px" href="../whatsNext.html">What's Next?</a>
+</div>
+
+<!--
+    this div container has the heading for the recipe.
+-->
+
+<div class="textSize">
+    <h1>BBQ Spice Rub</h1>
+    <h3>Yields: 1 serving</h3>
+    <script type="text/javascript" src="../../script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
+    <br>
+    <br>
+</div>
+
+<!--
+    this table has the ingredients and their quantities.
+-->
+
+<br>
+<table class="ingredientTableArrangement">
+    <tr>
+        <th>Ingredients</th>
+        <th>Quantities</th>
+    </tr>
+    <tr>
+        <td>Salt</td>
+        <td>1 tbsp</td>
+    </tr>
+    <tr>
+        <td>Black Pepper</td>
+        <td>1 tbsp</td>
+    </tr>
+    <tr>
+        <td>Paprika</td>
+        <td>1 tbsp</td>
+    </tr>
+    <tr>
+        <td>Garlic Powder</td>
+        <td>1 tbsp</td>
+    </tr>
+    <tr>
+        <td>Onion Powder</td>
+        <td>1 tbsp</td>
+    </tr>
+    <tr>
+        <td>Brown Sugar</td>
+        <td>1/2 cup</td>
+    </tr>
+    <tr>
+        <td>Chili Powder</td>
+        <td>1 tbsp</td>
+    </tr>
+</table>
+<br>
+
+<!--
+    this steps div container has checkboxes set up so that users can check off the steps to making this recipe as they do them.
+-->
+
+<div class="textSize">
+    <h3>Steps:</h3>
+    <ol class="textAlignment">
+        <li>
+            In a bowl, mix together all the ingredients until combined.
+        </li>
+        <br>
+        <li>
+            Use as needed.
+        </li>
+    </ol>
+</div>
+
+</body>

@@ -13,5 +13,9 @@ Open a web browser of your choice and copy/paste or click the following link:
 	https://rushobinnabi.github.io
 ---
 
-# Version 2.2.1 Updates:
-#### - Added the picture for the Potato Cakes recipe.
+# Version 2.3.0 Updates:
+#### - Added two new recipes:
+ - Seasoned and Battered Fries.
+ - BBQ Spice Rub.
+
+#### - General Bug Fixes and Improvements.
