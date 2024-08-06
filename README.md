@@ -13,9 +13,5 @@ Open a web browser of your choice and copy/paste or click the following link:
 	https://rushobinnabi.github.io
 ---
 
-# Version 2.3.0 Updates:
-#### - Added two new recipes:
- - Seasoned and Battered Fries.
- - BBQ Spice Rub.
-
-#### - General Bug Fixes and Improvements.
+# Version 2.3.1 Updates:
+#### - Fixed one of the steps for the Seasoned and Battered Fries recipe.
