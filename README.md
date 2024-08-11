@@ -13,5 +13,7 @@ Open a web browser of your choice and copy/paste or click the following link:
 	https://rushobinnabi.github.io
 ---
 
-# Version 2.3.1 Updates:
-#### - Fixed one of the steps for the Seasoned and Battered Fries recipe.
+# Version 2.3.2 Updates:
+#### - Recipes:
+- Added buttons at the bottom of the page to navigate to other recipe pages:
+  - ![recipePageNavigationButtons.png](pictures/updatePictures/recipePageNavigationButtons.png)
