@@ -4,13 +4,14 @@
     Project: Website - JavaScript file
  */
 
-// this JavaScript file handles all the redirects for the website.
+// this JavaScript file handles all the redirects and some of the functionality for the website.
 
 /*
     this goToRecipesPage1() function redirects the webpage to the goToRecipesPage1 html file when the appropriate button is pressed.
     And when the page is being redirected, it asks the user to confirm their actions. If they say yes, it redirects the
     webpage to the goToRecipesPage1 html file and if they say no, it stays on the current page.
  */
+
 function goToRecipesPage1(event) {
     let change = confirm("Recipe checklist may not be saved. Continue?");
     if (change) {
