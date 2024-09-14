@@ -13,7 +13,10 @@ Open a web browser of your choice and copy/paste or click the following link:
 	https://rushobinnabi.github.io
 ---
 
-# Version 2.3.2 Updates:
+# Version 2.4.0 Updates:
 #### - Recipes:
-- Added buttons at the bottom of the page to navigate to other recipe pages:
-  - ![recipePageNavigationButtons.png](pictures/updatePictures/recipePageNavigationButtons.png)
+- Added a recipe for Chimichurri.
+- Added a recipe for Mashed Potatoes.
+- Adjusted the recipe for the steak and vegetables.
+
+#### - General bug fixes and improvements.
