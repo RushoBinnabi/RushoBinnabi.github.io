@@ -1,3 +1,11 @@
+<!--
+    Name: Rusho Binnabi
+    Date: 09/14/2024
+    Project: Website - Chimichurri Recipe
+-->
+
+<!-- this chimichurri html file contains the html for the chimichurri recipe. -->
+
 <!DOCTYPE html>
 <html lang="en" class="fullPage">
 <style>
@@ -6,14 +14,18 @@
     }
 </style>
 <head>
-    <link rel="stylesheet" href="../../styles.css">
-    <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print">
+    <link rel="stylesheet" href="../../styles.css"> <!-- adds style using external css file. -->
+    <link rel="stylesheet" type="text/css" href="../../hideButtons.css" media="print"> <!-- hides the buttons when trying to either print the page or saving it. -->
     <meta charset="UTF-8">
     <title>Chimichurri</title>
-    <link rel="icon" href="../../icons/newIcon.svg">
-    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes">
+    <link rel="icon" href="../../icons/newIcon.svg"> <!-- adds browser icon. -->
+    <meta name="viewport" content="width=device-width, height-device-height, initial-scale=1, maximum-scale=10, minimum-scale=0, user-scalable=yes"> <!-- fits the webpage to the screen. -->
 </head>
 <body class="backgroundImage fullPage">
+
+<!--
+    this navbar div class handles all the functionality for redirecting pages using a navbar.
+-->
 
 <br>
 <br>
@@ -25,12 +37,20 @@
     <a style="margin: 15px" href="../about.html">About</a>
 </div>
 
+<!--
+    this div container has the heading for the recipe.
+-->
+
 <div class="textSize">
     <h1>Chimichurri</h1>
     <script type="text/javascript" src="../../script.js"></script><button type="button" class="mainButtonBorder buttonPadding" onclick="printPage()"><b>Save Recipe</b></button>
     <br>
     <br>
 </div>
+
+<!--
+    this table has the ingredients and their quantities.
+-->
 
 <br>
 <table class="ingredientTableArrangement">
@@ -107,6 +127,10 @@
         </td>
     </tr>
 </table>
+
+<!--
+   this steps div container has checkboxes set up so that users can check off the steps to making the recipe as they do them.
+-->
 
 <div class="textSize">
     <br><h3>Steps:</h3>
