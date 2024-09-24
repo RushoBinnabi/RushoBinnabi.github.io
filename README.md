@@ -13,10 +13,8 @@ Open a web browser of your choice and copy/paste or click the following link:
 	https://rushobinnabi.github.io
 ---
 
-# Version 2.4.0 Updates:
+# Version 2.5.0 Updates:
 #### - Recipes:
-- Added a recipe for Chimichurri.
-- Added a recipe for Mashed Potatoes.
-- Adjusted the recipe for the steak and vegetables.
+- Added Tomato Soup recipe.
 
 #### - General bug fixes and improvements.
