@@ -13,8 +13,8 @@ Open a web browser of your choice and copy/paste or click the following link:
 	https://rushobinnabi.github.io
 ---
 
-# Version 2.5.0 Updates:
+# Version 2.5.1 Updates:
 #### - Recipes:
-- Added Tomato Soup recipe.
+- Fixed the title for the tomato soup recipe.
 
 #### - General bug fixes and improvements.
