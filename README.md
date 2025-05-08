@@ -10,11 +10,12 @@ It is built ideally for Desktop.
 
 Open a web browser of your choice and copy/paste or click the following link:
 
-	https://rushobinnabi.github.io
+	https://storage.googleapis.com/rushobinnabi/index.html
 ---
 
-# Version 2.5.1 Updates:
+# Version 2.6.0 Updates:
 #### - Recipes:
-- Fixed the title for the tomato soup recipe.
+- Updated the navbar and about page.
 
 #### - General bug fixes and improvements.
+#### - The website has been migrated to Google Cloud Services.
